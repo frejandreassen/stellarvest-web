@@ -17,7 +17,7 @@ export default function Header() {
 
   useEffect(() => {
     if (videoRef.current) {
-      videoRef.current.playbackRate = 0.5; // Adjust playback speed if needed
+      // videoRef.current.playbackRate = 0.5; // Adjust playback speed if needed
     }
   }, [])
 
