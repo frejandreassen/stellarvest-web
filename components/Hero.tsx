@@ -17,7 +17,19 @@ export default function Hero() {
 
   useEffect(() => {
     if (videoRef.current) {
-      // videoRef.current.playbackRate = 0.5; // Adjust playback speed if needed
+      // Attempt to play the video
+      const playPromise = videoRef.current.play();
+
+      if (playPromise !== undefined) {
+        playPromise.then(() => {
+          // Autoplay started
+          console.log('Autoplay started');
+        }).catch(error => {
+          // Autoplay was prevented
+          console.log('Autoplay prevented:', error);
+          // You could display a play button here if needed
+        });
+      }
     }
   }, [])
 
@@ -26,10 +38,10 @@ export default function Hero() {
       <div className="absolute inset-0 z-0">
         <video
           ref={videoRef}
-          autoPlay
           loop
           muted
           playsInline
+          preload="auto"
           poster='/trucks-on-bridge.jpeg'
           className="w-full h-full object-cover"
         >
@@ -38,12 +50,12 @@ export default function Hero() {
         </video>
         <div className="absolute inset-0 bg-black opacity-50"></div>
       </div>
-      
+
       <div className="relative z-10 h-full">
         <header className="absolute inset-x-0 top-0 z-50">
           <nav className="flex items-center justify-between p-6 lg:px-8">
             <div className="flex lg:flex-1">
-              <a href="#" className="-m-1.5 p-1.5">
+              <a href="/" className="-m-1.5 p-1.5">
                 <span className="sr-only">StellarVest Asset Management</span>
                 <img
                   className="h-12 w-auto"

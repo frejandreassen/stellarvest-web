@@ -19,7 +19,7 @@ export default function Header(){
         <header className="">
           <nav className="flex items-center justify-between p-6 lg:px-8">
             <div className="flex lg:flex-1">
-              <a href="#" className="-m-1.5 p-1.5">
+              <a href="/" className="-m-1.5 p-1.5">
                 <span className="sr-only">StellarVest Asset Management</span>
                 <img
                   className="h-12 w-auto"
