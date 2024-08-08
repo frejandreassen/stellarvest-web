@@ -54,7 +54,7 @@ export default function Header(){
                 <a href="#" className="-m-1.5 p-1.5">
                   <span className="sr-only">StellarVest Asset Management</span>
                   <img
-                    className="h-8 w-auto"
+                    className="h-12 w-auto"
                     src="/logo-w2.png"
                     alt=""
                   />
@@ -75,20 +75,14 @@ export default function Header(){
                       <a
                         key={item.name}
                         href={item.href}
+                        onClick={() => setMobileMenuOpen(false)}
                         className="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-400/10"
                       >
                         {item.name}
                       </a>
                     ))}
                   </div>
-                  <div className="py-6">
-                    <a
-                      href="#"
-                      className="-mx-3 block rounded-lg py-2.5 px-3 text-base font-semibold leading-6 text-gray-900 hover:bg-gray-400/10"
-                    >
-                      Entrar
-                    </a>
-                  </div>
+                  
                 </div>
               </div>
             </DialogPanel>
