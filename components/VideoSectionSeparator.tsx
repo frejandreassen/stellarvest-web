@@ -13,7 +13,7 @@ const VideoSectionSeparator = () => {
         <source src="/madrid-spain-cityscape-at-daytime-3.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
-      <div className="absolute inset-0 bg-black bg-opacity-30"></div>
+      <div className="absolute inset-0 bg-black bg-opacity-30 pointer-events-none"></div>
       {/* You can add text or other content here if needed */}
     </section>
   );
