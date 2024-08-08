@@ -5,26 +5,27 @@ import { Dialog, DialogPanel } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 
 const navigation = [
-  { name: 'Home', href: '#' },
-  { name: 'Sobre Nós', href: '#about' },
-  { name: 'Serviços', href: '#services' },
-  { name: 'Contacto', href: '#contact' },
+  { name: 'Home', href: '/' },
+  { name: 'Sobre Nós', href: '/#about' },
+  { name: 'Serviços', href: '/#services' },
+  { name: 'Contacto', href: '/#contact' },
 ]
 
 export default function Hero() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
-  const videoRef = useRef(null)
+  const videoRef = useRef<HTMLVideoElement>(null)
 
   useEffect(() => {
-    if (videoRef.current) {
+    const videoElement = videoRef.current;
+    if (videoElement) {
       // Attempt to play the video
-      const playPromise = videoRef.current.play();
+      const playPromise = videoElement.play();
 
       if (playPromise !== undefined) {
         playPromise.then(() => {
           // Autoplay started
           console.log('Autoplay started');
-        }).catch(error => {
+        }).catch((error: unknown) => {
           // Autoplay was prevented
           console.log('Autoplay prevented:', error);
           // You could display a play button here if needed
