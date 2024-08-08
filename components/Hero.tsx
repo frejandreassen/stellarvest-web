@@ -30,6 +30,8 @@ export default function Hero() {
           loop
           muted
           playsInline
+          disablePictureInPicture
+          controlsList="nodownload nofullscreen noremoteplayback"
           poster='/trucks-on-bridge.jpeg'
           className="w-full h-full object-cover"
         >
