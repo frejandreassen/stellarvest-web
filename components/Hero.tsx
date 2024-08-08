@@ -13,11 +13,24 @@ const navigation = [
 
 export default function Hero() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
-  const videoRef = useRef(null)
+  const videoRef = useRef<HTMLVideoElement>(null)
 
   useEffect(() => {
-    if (videoRef.current) {
-      // videoRef.current.playbackRate = 0.5; // Adjust playback speed if needed
+    const videoElement = videoRef.current;
+    if (videoElement) {
+      // Attempt to play the video
+      const playPromise = videoElement.play();
+
+      if (playPromise !== undefined) {
+        playPromise.then(() => {
+          // Autoplay started
+          console.log('Autoplay started');
+        }).catch((error: unknown) => {
+          // Autoplay was prevented
+          console.log('Autoplay prevented:', error);
+          // You could display a play button here if needed
+        });
+      }
     }
   }, [])
 
@@ -26,12 +39,10 @@ export default function Hero() {
       <div className="absolute inset-0 z-0">
         <video
           ref={videoRef}
-          autoPlay
           loop
           muted
           playsInline
-          disablePictureInPicture
-          controlsList="nodownload nofullscreen noremoteplayback"
+          preload="auto"
           poster='/trucks-on-bridge.jpeg'
           className="w-full h-full object-cover"
         >
@@ -40,7 +51,6 @@ export default function Hero() {
         </video>
         <div className="absolute inset-0 bg-black opacity-50"></div>
       </div>
-      
       <div className="relative z-10 h-full">
         <header className="absolute inset-x-0 top-0 z-50">
           <nav className="flex items-center justify-between p-6 lg:px-8">
