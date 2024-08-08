@@ -5,35 +5,35 @@ const services = [
     name: 'Gestão de Créditos',
     description:
       'Experiência em gestão de crédito de Individuals, Corporates and SME, secured e unsecured. Estratégias amigáveis e judiciais com vista à recuperação. Reestruturação de dívidas e outras soluções que melhor sirvam o cliente.',
-    href: '#',
+    href: '/credit',
     icon: CreditCardIcon,
   },
   {
     name: 'Gestão de Ativos Imobiliários',
     description:
       'Regularização técnica e comercialização de ativos singulares e de retalho. Desenvolvimento e transformação de ativos singulares – portfolios e one by one: terrenos, edifícios e imóveis inacabados. Asset Management de ativos singulares – portfolios e one by one.',
-    href: '#',
+    href: '/real-estate',
     icon: BuildingOffice2Icon,
   },
   {
     name: 'Advisory',
     description:
       'Due diligence de portfólios NPL, PL e de REOs (buyer side e seller side). Avaliações de ativos imobiliários. Criação de modelo financeiro/business plans com vista à recuperação de ativos.',
-    href: '#',
+    href: '/advisory',
     icon: AcademicCapIcon,
   },
   {
     name: 'Servicing / Serviços Corporativos',
     description:
       'Suporte administrativo às áreas de negócio. Property management - Gestão de arrendamentos, condomínios e manutenção dos imóveis. Regularização, gestão judicial de imóveis ocupados e contratação.',
-    href: '#',
+    href: '/servicing',
     icon: BriefcaseIcon,
   },
   {
     name: 'STC - Veículo de Securitização',
     description:
       'Serviços completos de securitização. Configuração e gestão de securitizações. Maximização de valor para originadores e investidores.',
-    href: '#',
+    href: '/securitization',
     icon: ShieldCheckIcon,
   },
 ]

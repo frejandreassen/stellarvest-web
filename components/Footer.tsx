@@ -1,22 +1,22 @@
 'use client'
 const footerNavigation = {
   solutions: [
-    { name: 'Gestão de Créditos', href: '#' },
-    { name: 'Gestão de Ativos Imobiliários', href: '#' },
-    { name: 'Advisory', href: '#' },
-    { name: 'Servicing / Serviços Corporativos', href: '#' },
-    { name: 'STC - Veículo de Securitização', href: '#' },
+    { name: 'Gestão de Créditos', href: '/credit' },
+    { name: 'Gestão de Ativos Imobiliários', href: '/real-estate' },
+    { name: 'Advisory', href: '/advisory' },
+    { name: 'Servicing / Serviços Corporativos', href: '/servicing' },
+    { name: 'STC - Veículo de Securitização', href: '/securitization' },
   ],
   support: [
-    { name: 'Informação Legal', href: '#' },
-    { name: 'Política de Cookies', href: '#' },
-    { name: 'Política de Privacidade', href: '#' },
-    { name: 'Whistleblowing', href: '#' },
+    { name: 'Informação Legal', href: '/legal' },
+    { name: 'Política de Cookies', href: '/cookies' },
+    { name: 'Política de Privacidade', href: '/privacy' },
+    { name: 'Whistleblowing', href: '/whistleblowing' },
   ],
   company: [
-    { name: 'Sobre Nós', href: '#about' },
-    { name: 'Serviços', href: '#services' },
-    { name: 'Contacto', href: '#contact' },
+    { name: 'Sobre Nós', href: '/#about' },
+    { name: 'Serviços', href: '/#services' },
+    { name: 'Contacto', href: '/#contact' },
   ],
   legal: [
     { name: 'Claim', href: '#' },
@@ -73,7 +73,7 @@ export default function Footer() {
                   ))}
                 </ul>
               </div>
-              <div className="mt-10 md:mt-0">
+              {/* <div className="mt-10 md:mt-0">
                 <h3 className="text-sm font-semibold leading-6 text-gray-900">Legal</h3>
                 <ul role="list" className="mt-6 space-y-4">
                   {footerNavigation.legal.map((item) => (
@@ -84,7 +84,7 @@ export default function Footer() {
                     </li>
                   ))}
                 </ul>
-              </div>
+              </div> */}
             </div>
           </div>
           <div className="mt-10 xl:mt-0">

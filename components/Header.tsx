@@ -5,10 +5,10 @@ import { Dialog, DialogPanel } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 
 const navigation = [
-    { name: 'Home', href: '#' },
-    { name: 'Sobre Nós', href: '#about' },
-    { name: 'Serviços', href: '#services' },
-    { name: 'Contacto', href: '#contact' },
+    { name: 'Home', href: '/' },
+    { name: 'Sobre Nós', href: '/#about' },
+    { name: 'Serviços', href: '/#services' },
+    { name: 'Contacto', href: '/#contact' },
   ]
 
   
@@ -16,13 +16,13 @@ export default function Header(){
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
     return (
-        <header className="absolute inset-x-0 top-0 z-50">
+        <header className="">
           <nav className="flex items-center justify-between p-6 lg:px-8">
             <div className="flex lg:flex-1">
               <a href="#" className="-m-1.5 p-1.5">
                 <span className="sr-only">StellarVest Asset Management</span>
                 <img
-                  className="h-8 w-auto"
+                  className="h-12 w-auto"
                   src="/logo-w2.png"
                   alt=""
                 />
