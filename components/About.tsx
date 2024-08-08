@@ -1,44 +1,11 @@
-'use client'
+import React from 'react';
 
-const timeline = [
-  {
-    name: 'Fundação da empresa',
-    description:
-      'A StellarVest AM foi criada com o objetivo de maximizar o valor dos ativos, proporcionando aos nossos clientes uma abordagem integrada e eficiente.',
-    date: '2021',
-    dateTime: '2021',
-  },
-  {
-    name: 'Ligação com a Albatris',
-    description:
-      'A StellarVest AM, uma empresa detida pela Albatris, oferece soluções completas de gestão de ativos.',
-    date: '2022',
-    dateTime: '2022',
-  },
-  {
-    name: 'Crescimento e Inovação',
-    description:
-      'Com uma abordagem estratégica e inovadora, a StellarVest AM destaca-se pela sua capacidade de análise, desenvolvimento estratégico, venda e pós-venda.',
-    date: '2023',
-    dateTime: '2023',
-  },
-  {
-    name: 'Reconhecimento no mercado',
-    description:
-      'Nossa missão é proporcionar soluções especializadas em gestão de ativos, garantindo o máximo retorno para nossos clientes.',
-    date: '2024',
-    dateTime: '2024',
-  },
-]
-
-const stats = [
-    { id: 1, name: 'Transactions every 24 hours', value: '44 million' },
-    { id: 2, name: 'Assets under holding', value: '$119 trillion' },
-    { id: 3, name: 'New users annually', value: '46,000' },
-  ]
-  
-  
-  
+const kpis = [
+  { id: 1, name: 'ASSETS UNDER MANAGEMENT - NPLs', value: '€ 340 million', subValue: '# 3,662' },
+  { id: 2, name: 'ASSETS UNDER MANAGEMENT - Real Estate', value: '€ 255 million', subValue: '# 791' },
+  { id: 3, name: 'TOTAL COLLECTIONS - NPLs', value: '€ 215 million' },
+  { id: 4, name: 'TOTAL COLLECTIONS - REOs', value: '€ 710 million' },
+];
 
 export default function About() {
   return (
@@ -53,11 +20,11 @@ export default function About() {
           <div className="mx-auto max-w-7xl px-6 py-32 sm:py-40 lg:px-8">
             <div className="mx-auto max-w-2xl lg:mx-0 lg:grid lg:max-w-none lg:grid-cols-2 lg:gap-x-16 lg:gap-y-6 xl:grid-cols-1 xl:grid-rows-1 xl:gap-x-8">
               <h1 className="max-w-2xl text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl lg:col-span-2 xl:col-auto">
-                Sobre Nós
+                Bem-vindo à StellarVest Asset Management
               </h1>
               <div className="mt-6 max-w-xl lg:mt-0 xl:col-end-1 xl:row-start-1">
                 <p className="text-lg leading-8 text-gray-600">
-                  A StellarVest AM, uma empresa detida pela Albatris, é especialista na gestão de ativos complexos, oferecendo um serviço 360º que abrange todas as fases da gestão de ativos. Com uma abordagem estratégica e inovadora, destacamo-nos pela nossa capacidade de análise, desenvolvimento estratégico, venda e pós-venda.
+                  A StellarVest Asset Management é especialista na gestão de ativos complexos, oferecendo um serviço 360º que abrange todas as fases da gestão de ativos. Com uma abordagem estratégica e inovadora, a StellarVest Asset Management destaca-se pela sua capacidade de análise, desenvolvimento estratégico, venda e pós-venda.
                 </p>
               </div>
               <img
@@ -70,42 +37,34 @@ export default function About() {
           <div className="absolute inset-x-0 bottom-0 -z-10 h-24 bg-gradient-to-t from-white sm:h-32" />
         </div>
 
-        {/* Timeline section */}
-        <div className="mx-auto -mt-8 max-w-7xl px-6 lg:px-8">
-          <div className="mx-auto grid max-w-2xl grid-cols-1 gap-8 overflow-hidden lg:mx-0 lg:max-w-none lg:grid-cols-4">
-            {timeline.map((item) => (
-              <div key={item.name}>
-                <time
-                  dateTime={item.dateTime}
-                  className="flex items-center text-sm font-semibold leading-6 text-primary"
-                >
-                  <svg viewBox="0 0 4 4" aria-hidden="true" className="mr-4 h-1 w-1 flex-none">
-                    <circle r={2} cx={2} cy={2} fill="currentColor" />
-                  </svg>
-                  {item.date}
-                  <div
-                    aria-hidden="true"
-                    className="absolute -ml-2 h-px w-screen -translate-x-full bg-gray-900/10 sm:-ml-4 lg:static lg:-mr-6 lg:ml-8 lg:w-auto lg:flex-auto lg:translate-x-0"
-                  />
-                </time>
-                <p className="mt-6 text-lg font-semibold leading-8 tracking-tight text-gray-900">{item.name}</p>
-                <p className="mt-1 text-base leading-7 text-gray-600">{item.description}</p>
-              </div>
-            ))}
+        {/* Mission and Vision section */}
+        <div className="mx-auto mt-32 max-w-7xl px-6 sm:mt-40 lg:px-8">
+          <div className="mx-auto max-w-2xl lg:mx-0">
+            <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+              Missão e Visão
+            </h2>
+            <h3 className="mt-6 text-2xl font-semibold text-gray-900">Missão</h3>
+            <p className="mt-3 text-base leading-7 text-gray-600">
+              A nossa missão é proporcionar soluções especializadas em gestão de ativos, garantindo o máximo retorno para os nossos clientes. Comprometemo-nos a oferecer serviços integrados e personalizados, contemplando todas as fases da gestão de ativos num único parceiro.
+            </p>
+            <h3 className="mt-6 text-2xl font-semibold text-gray-900">Visão</h3>
+            <p className="mt-3 text-base leading-7 text-gray-600">
+              A nossa visão é ser reconhecida como a primeira escolha na gestão de ativos complexos, oferecendo uma abordagem completa e inovadora para maximizar o potencial valor dos ativos dos nossos clientes.
+            </p>
           </div>
         </div>
 
-        {/* Content section */}
+        {/* Quem Somos section with images */}
         <div className="mt-32 overflow-hidden sm:mt-40">
           <div className="mx-auto max-w-7xl px-6 lg:flex lg:px-8">
             <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-12 gap-y-16 lg:mx-0 lg:min-w-full lg:max-w-none lg:flex-none lg:gap-y-8">
               <div className="lg:col-end-1 lg:w-full lg:max-w-lg lg:pb-8">
                 <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Quem Somos</h2>
-                <p className="mt-6 text-xl leading-8 text-gray-600">
+                <p className="mt-6 text-base leading-7 text-gray-600">
                   A StellarVest Asset Management foi criada com o objetivo de maximizar o valor dos ativos, proporcionando aos nossos clientes uma abordagem integrada e eficiente. A nossa experiência e competências abrangem desde a análise e pensamento estratégico até ao desenvolvimento, venda e pós-venda de ativos.
                 </p>
                 <p className="mt-6 text-base leading-7 text-gray-600">
-                  Gerimos os ativos de A a Z, com um mindset focado em potenciar ao máximo a valorização dos ativos.
+                  Gerimos os ativos de A a Z, com um <i>mindset</i> focado em potenciar ao máximo a valorização dos ativos.
                 </p>
               </div>
               <div className="flex flex-wrap items-start justify-end gap-6 sm:gap-8 lg:contents">
@@ -144,38 +103,44 @@ export default function About() {
           </div>
         </div>
 
-        {/* Stats */}
+        {/* Why choose StellarVest section */}
         <div className="mx-auto mt-32 max-w-7xl px-6 sm:mt-40 lg:px-8">
           <div className="mx-auto max-w-2xl lg:mx-0">
             <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-              Nossa Missão e Visão
+              Porque escolher a StellarVest Asset Management?
             </h2>
             <p className="mt-6 text-base leading-7 text-gray-600">
-              Nossa missão é proporcionar soluções especializadas em gestão de ativos, garantindo o máximo retorno para nossos clientes. Comprometemo-nos a oferecer serviços integrados e personalizados, contemplando todas as fases da gestão de ativos num único parceiro.
+              Escolher a StellarVest Asset Management é optar por um parceiro comprometido com o sucesso e a valorização máxima dos seus ativos. A nossa abordagem personalizada e integrada, aliada aos valores de compromisso, integridade, inovação, parceria e responsabilidade, garantem um serviço de excelência e confiança.
             </p>
             <p className="mt-6 text-base leading-7 text-gray-600">
-              Nossa visão é ser reconhecida como a primeira escolha na gestão de ativos complexos, oferecendo uma abordagem completa e inovadora para maximizar o potencial valor dos ativos dos nossos clientes.
+              Estamos prontos para ser o seu parceiro de confiança na gestão de ativos complexos, proporcionando soluções inovadoras e eficazes para maximizar o valor dos seus investimentos.
             </p>
           </div>
         </div>
 
-
-    <div className="bg-white py-24 sm:py-32">
-      <div className="mx-auto max-w-7xl px-6 lg:px-8">
-        <dl className="grid grid-cols-1 gap-x-8 gap-y-16 text-center lg:grid-cols-3">
-          {stats.map((stat) => (
-            <div key={stat.id} className="mx-auto flex max-w-xs flex-col gap-y-4">
-              <dt className="text-base leading-7 text-gray-600">{stat.name}</dt>
-              <dd className="order-first text-3xl font-semibold tracking-tight text-gray-900 sm:text-5xl">
-                {stat.value}
-              </dd>
-            </div>
-          ))}
-        </dl>
-      </div>
-    </div>
+        {/* KPIs section */}
+        <div className="bg-white py-24 sm:py-32">
+          <div className="mx-auto max-w-7xl px-6 lg:px-8">
+            <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl mb-16 text-center">
+              KPI's
+            </h2>
+            <dl className="grid grid-cols-1 gap-x-8 gap-y-16 text-center lg:grid-cols-4">
+              {kpis.map((kpi) => (
+                <div key={kpi.id} className="mx-auto flex max-w-xs flex-col gap-y-4">
+                  <dt className="text-base leading-7 text-gray-600">{kpi.name}</dt>
+                  <dd className="order-first text-3xl font-semibold tracking-tight text-gray-900 sm:text-5xl">
+                    {kpi.value}
+                  </dd>
+                  {kpi.subValue && (
+                    <dd className="text-sm font-medium text-gray-500">{kpi.subValue}</dd>
+                  )}
+                </div>
+              ))}
+            </dl>
+          </div>
+        </div>
 
       </main>
     </div>
-  )
+  );
 }

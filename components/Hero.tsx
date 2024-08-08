@@ -135,8 +135,8 @@ export default function Hero() {
               <h1 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">
                 Bem-vindo à StellarVest Asset Management
               </h1>
-              <p className="mt-6 text-lg leading-8 text-gray-300">
-                A StellarVest AM, uma empresa detida pela Albatris, é especialista na gestão de ativos complexos, oferecendo um serviço 360º que abrange todas as fases da gestão de ativos.
+              <p className="mt-6 text-2xl leading-8 text-gray-300">
+                Your Assets, Our Expertise
               </p>
               <div className="mt-10 flex items-center justify-center gap-x-6">
                 <a
