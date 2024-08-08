@@ -2,12 +2,7 @@ import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import { CreditCardIcon } from "@heroicons/react/24/solid"; // Ensure you have the appropriate icon
 
-const stats = [
-    { label: 'Founded', value: '2021' },
-    { label: 'Employees', value: '37' },
-    { label: 'Countries', value: '12' },
-    { label: 'Raised', value: '$25M' },
-]
+
 
 export default function Credit() {
     return (
@@ -86,15 +81,6 @@ export default function Credit() {
                                     </div>
                                 </div>
                             </div>
-
-                                <dl className="mt-10 grid grid-cols-2 gap-8 border-t border-gray-900/10 pt-10 sm:grid-cols-4">
-                                    {stats.map((stat, statIdx) => (
-                                        <div key={statIdx}>
-                                            <dt className="text-sm font-semibold leading-6 text-gray-600">{stat.label}</dt>
-                                            <dd className="mt-2 text-3xl font-bold leading-10 tracking-tight text-gray-900">{stat.value}</dd>
-                                        </div>
-                                    ))}
-                                </dl>
                                 <div className="mt-10 flex">
                                     <a href="/#about" className="text-base font-semibold leading-7 text-primary">
                                         Saiba mais sobre nossa empresa <span aria-hidden="true">&rarr;</span>
