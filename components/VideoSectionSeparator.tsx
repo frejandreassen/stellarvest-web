@@ -4,7 +4,7 @@ const VideoSectionSeparator = () => {
   return (
     <section className="relative w-full h-64 md:h-80 lg:h-96 overflow-hidden">
       <video
-        className="absolute top-1/2 left-0 w-full transform -translate-y-1/2 object-cover"
+        className="absolute inset-0 w-full h-full object-cover"
         autoPlay
         loop
         muted
