@@ -5,41 +5,17 @@ import { Dialog, DialogPanel } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 
 const navigation = [
-  { name: 'Home', href: '#' },
-  { name: 'Sobre Nós', href: '#about' },
-  { name: 'Serviços', href: '#services' },
-  { name: 'Contacto', href: '#contact' },
-]
+    { name: 'Home', href: '#' },
+    { name: 'Sobre Nós', href: '#about' },
+    { name: 'Serviços', href: '#services' },
+    { name: 'Contacto', href: '#contact' },
+  ]
 
-export default function Hero() {
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
-  const videoRef = useRef(null)
+  
+export default function Header(){
+    const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
-  useEffect(() => {
-    if (videoRef.current) {
-      // videoRef.current.playbackRate = 0.5; // Adjust playback speed if needed
-    }
-  }, [])
-
-  return (
-    <div className="relative h-screen">
-      <div className="absolute inset-0 z-0">
-        <video
-          ref={videoRef}
-          autoPlay
-          loop
-          muted
-          playsInline
-          poster='/trucks-on-bridge.jpeg'
-          className="w-full h-full object-cover"
-        >
-          <source src="/trucks-on-bridge.mp4" type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
-        <div className="absolute inset-0 bg-black opacity-50"></div>
-      </div>
-      
-      <div className="relative z-10 h-full">
+    return (
         <header className="absolute inset-x-0 top-0 z-50">
           <nav className="flex items-center justify-between p-6 lg:px-8">
             <div className="flex lg:flex-1">
@@ -64,7 +40,7 @@ export default function Hero() {
             </div>
             <div className="hidden lg:flex lg:gap-x-12">
               {navigation.map((item) => (
-                <a key={item.name} href={item.href} className="text-sm font-semibold leading-6 text-white">
+                <a key={item.name} href={item.href} className="text-sm font-semibold leading-6 text-primary">
                   {item.name}
                 </a>
               ))}
@@ -118,36 +94,6 @@ export default function Hero() {
             </DialogPanel>
           </Dialog>
         </header>
+    )
 
-        <div className="relative px-6 lg:px-8 flex items-center justify-center h-full">
-          <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
-            <div className="hidden sm:mb-8 sm:flex sm:justify-center">
-              <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-white ring-1 ring-white/10 hover:ring-white/20">
-                Especialista na gestão de ativos complexos
-              </div>
-            </div>
-            <div className="text-center">
-              <h1 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">
-                Bem-vindo à StellarVest Asset Management
-              </h1>
-              <p className="mt-6 text-lg leading-8 text-gray-300">
-                A StellarVest AM, uma empresa detida pela Albatris, é especialista na gestão de ativos complexos, oferecendo um serviço 360º que abrange todas as fases da gestão de ativos.
-              </p>
-              <div className="mt-10 flex items-center justify-center gap-x-6">
-                <a
-                  href="#about"
-                  className="rounded-md bg-primary px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-primary-foreground focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-                >
-                  Saber mais
-                </a>
-                <a href="#contact" className="text-sm font-semibold leading-6 text-white">
-                  Contacte-nos <span aria-hidden="true">→</span>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  )
 }
