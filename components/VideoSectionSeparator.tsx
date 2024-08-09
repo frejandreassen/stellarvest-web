@@ -9,8 +9,9 @@ const VideoSectionSeparator = () => {
         loop
         muted
         playsInline
+        poster="/lisbon_areal_drone_2.jpg"
       >
-        <source src="/madrid-spain-cityscape-at-daytime-3.mp4" type="video/mp4" />
+        <source src="/lisbon_areal_drone2.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
       <div className="absolute inset-0 bg-black bg-opacity-30 pointer-events-none"></div>

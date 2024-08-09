@@ -43,10 +43,10 @@ export default function Hero() {
           muted
           playsInline
           preload="auto"
-          poster='/trucks-on-bridge.jpeg'
+          poster='/lisbon_areal_image.jpeg'
           className="w-full h-full object-cover"
         >
-          <source src="/trucks-on-bridge.mp4" type="video/mp4" />
+          <source src="/lisbon_areal_drone.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
         <div className="absolute inset-0 bg-black opacity-50"></div>
