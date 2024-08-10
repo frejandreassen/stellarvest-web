@@ -43,7 +43,7 @@ export default function Hero() {
           muted
           playsInline
           preload="auto"
-          poster='/lisbon_areal_image.jpeg'
+          poster='/lisbon_areal_image.jpg'
           className="w-full h-full object-cover"
         >
           <source src="/lisbon_areal_drone.mp4" type="video/mp4" />
