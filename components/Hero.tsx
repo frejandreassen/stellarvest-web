@@ -59,7 +59,7 @@ export default function Hero() {
                 <span className="sr-only">StellarVest Asset Management</span>
                 <img
                   className="h-12 w-auto"
-                  src="/logo-w.png"
+                  src="/logo-w2.png"
                   alt=""
                 />
               </a>
@@ -91,7 +91,7 @@ export default function Hero() {
                   <span className="sr-only">StellarVest Asset Management</span>
                   <img
                     className="h-12 w-auto"
-                    src="/logo-w.png"
+                    src="/logo-w2.png"
                     alt="StellarVest logo"
                   />
                 </a>
