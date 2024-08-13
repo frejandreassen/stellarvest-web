@@ -35,7 +35,7 @@ export default function Footer() {
         <div className="border-t border-gray-900/10 pt-20 xl:grid xl:grid-cols-3 xl:gap-8">
           <div className="grid grid-cols-2 gap-8 xl:col-span-2">
             <div className="md:grid md:grid-cols-2 md:gap-8">
-              <div>
+              {/*<div>
                 <h3 className="text-sm font-semibold leading-6 text-gray-900">Soluções</h3>
                 <ul role="list" className="mt-6 space-y-4">
                   {footerNavigation.solutions.map((item) => (
@@ -46,7 +46,7 @@ export default function Footer() {
                     </li>
                   ))}
                 </ul>
-              </div>
+              </div>*/}
               <div className="mt-10 md:mt-0">
                 <h3 className="text-sm font-semibold leading-6 text-gray-900">Suporte</h3>
                 <ul role="list" className="mt-6 space-y-4">
