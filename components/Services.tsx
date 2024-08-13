@@ -82,11 +82,11 @@ export default function Services() {
                       <li key={index}>{item}</li>
                     ))}
                   </ul>
-                  {/*<p className="mt-6">
+                  {/* LD 20240813 <p className="mt-6">
                     <a href={service.href} className="text-sm font-semibold leading-6 text-primary">
                       Saiba mais <span aria-hidden="true">→</span>
                     </a>
-                  </p>*/}
+                  </p> LD 20240813 */}
                 </dd>
               </div>
             ))}
