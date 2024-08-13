@@ -8,8 +8,8 @@ const services = [
       'Estratégias amigáveis e judiciais com vista à recuperação',
       'Reestruturação de dívidas e outras soluções que melhor sirvam o cliente'
     ],
-    href: '/credit',
-    icon: CreditCardIcon,
+    //href: '/credit',
+    //icon: CreditCardIcon,
   },
   {
     name: 'Gestão de Ativos Imobiliários',
@@ -18,8 +18,8 @@ const services = [
       'Desenvolvimento e transformação de ativos singulares – portfolios e single names: terrenos, edifícios e imóveis inacabados',
       'Asset Management de ativos singulares – portfolios e single names'
     ],
-    href: '/real-estate',
-    icon: BuildingOffice2Icon,
+    //href: '/real-estate',
+    //icon: BuildingOffice2Icon,
   },
   {
     name: 'Advisory',
@@ -28,8 +28,8 @@ const services = [
       'Avaliações de ativos imobiliários',
       'Criação de modelo financeiro/business plans com vista à recuperação de portfolios'
     ],
-    href: '/advisory',
-    icon: AcademicCapIcon,
+    //href: '/advisory',
+    //icon: AcademicCapIcon,
   },
   {
     name: 'Servicing / Serviços Corporativos',
@@ -38,8 +38,8 @@ const services = [
       'Property management - Gestão de arrendamentos, condomínios e manutenção dos imóveis',
       'Regularização, gestão judicial de imóveis ocupados e contratação'
     ],
-    href: '/servicing',
-    icon: BriefcaseIcon,
+    //href: '/servicing',
+    //icon: BriefcaseIcon,
   },
   {
     name: 'STC - Veículo de Securitização',
@@ -48,8 +48,8 @@ const services = [
       'Configuração e gestão de securitizações',
       'Maximização de valor para originadores e investidores'
     ],
-    href: '/securitization',
-    icon: ShieldCheckIcon,
+    //href: '/securitization',
+    //icon: ShieldCheckIcon,
   },
 ]
 
