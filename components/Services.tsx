@@ -10,6 +10,8 @@ const services = [
     ],
     //href: '/credit',
     //icon: CreditCardIcon,
+    href: '/real-estate',
+    icon: '',
   },
   {
     name: 'Gestão de Ativos Imobiliários',
@@ -20,6 +22,8 @@ const services = [
     ],
     //href: '/real-estate',
     //icon: BuildingOffice2Icon,
+    href: '/real-estate',
+    icon: '',
   },
   {
     name: 'Advisory',
@@ -30,6 +34,8 @@ const services = [
     ],
     //href: '/advisory',
     //icon: AcademicCapIcon,
+    href: '/advisory',
+    icon: '',
   },
   {
     name: 'Servicing / Serviços Corporativos',
@@ -40,6 +46,8 @@ const services = [
     ],
     //href: '/servicing',
     //icon: BriefcaseIcon,
+    href: '/servicing',
+    icon: '',
   },
   {
     name: 'STC - Veículo de Securitização',
@@ -50,6 +58,8 @@ const services = [
     ],
     //href: '/securitization',
     //icon: ShieldCheckIcon,
+    href: '/securitization',
+    icon: '',
   },
 ]
 
