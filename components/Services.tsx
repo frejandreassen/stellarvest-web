@@ -7,11 +7,10 @@ const services = [
       'Experiência em gestão de crédito de Individuals, Corporates e SME, secured e unsecured',
       'Estratégias amigáveis e judiciais com vista à recuperação',
       'Reestruturação de dívidas e outras soluções que melhor sirvam o cliente'
-    ],
+    ]
+    //,
     //href: '/credit',
     //icon: CreditCardIcon,
-    href: '/real-estate',
-    icon: '',
   },
   {
     name: 'Gestão de Ativos Imobiliários',
@@ -19,11 +18,9 @@ const services = [
       'Regularização técnica e comercialização de ativos singulares e granulares',
       'Desenvolvimento e transformação de ativos singulares – portfolios e single names: terrenos, edifícios e imóveis inacabados',
       'Asset Management de ativos singulares – portfolios e single names'
-    ],
+    ]//,
     //href: '/real-estate',
     //icon: BuildingOffice2Icon,
-    href: '/real-estate',
-    icon: '',
   },
   {
     name: 'Advisory',
@@ -31,11 +28,10 @@ const services = [
       'Due diligence de portfolios NPL, PL e de REOs (buyer side e seller side)',
       'Avaliações de ativos imobiliários',
       'Criação de modelo financeiro/business plans com vista à recuperação de portfolios'
-    ],
+    ]
+    //,
     //href: '/advisory',
     //icon: AcademicCapIcon,
-    href: '/advisory',
-    icon: '',
   },
   {
     name: 'Servicing / Serviços Corporativos',
@@ -43,11 +39,11 @@ const services = [
       'Suporte administrativo às áreas de negócio',
       'Property management - Gestão de arrendamentos, condomínios e manutenção dos imóveis',
       'Regularização, gestão judicial de imóveis ocupados e contratação'
-    ],
+    ]
+    //,
     //href: '/servicing',
     //icon: BriefcaseIcon,
-    href: '/servicing',
-    icon: '',
+
   },
   {
     name: 'STC - Veículo de Securitização',
@@ -55,11 +51,10 @@ const services = [
       'Serviços completos de securitização',
       'Configuração e gestão de securitizações',
       'Maximização de valor para originadores e investidores'
-    ],
+    ]
+    //,
     //href: '/securitization',
     //icon: ShieldCheckIcon,
-    href: '/securitization',
-    icon: '',
   },
 ]
 
