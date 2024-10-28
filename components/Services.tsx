@@ -87,9 +87,6 @@ export default function Services() {
                       Saiba mais <span aria-hidden="true">→</span>
                     </a>
                   </p> LD 20240813 */}
-                  <p className="mt-6">
-                    <a href="https://realestate.stellarvest.pt/" className="text-primary"> https://realestate.stellarvest.pt/</a>
-                  </p>
                 </dd>
               </div>
             ))}
