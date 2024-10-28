@@ -23,7 +23,7 @@ export default function Header(){
                 <span className="sr-only">StellarVest Asset Management</span>
                 <img
                   className="h-12 w-auto"
-                  src="/logo-w2.png"
+                  src="/icon.png"
                   alt="StellarVest logo"
                 />
               </a>
@@ -55,7 +55,7 @@ export default function Header(){
                   <span className="sr-only">StellarVest Asset Management</span>
                   <img
                     className="h-12 w-auto"
-                    src="/logo-w2.png"
+                    src="/icon.png"
                     alt="StellarVest Logo
                     "
                   />
