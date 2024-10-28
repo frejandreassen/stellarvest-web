@@ -20,6 +20,10 @@ const services = [
     ],
     href: '/real-estate',
     icon: BuildingOffice2Icon,
+     url: {
+		BASE_URL: 'https://realestate.stellarvest.pt/',
+		AUTH_URL: 'https://realestate.stellarvest.pt/',
+	},
   },
   {
     name: 'Advisory',
