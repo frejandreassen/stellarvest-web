@@ -87,7 +87,7 @@ export default function Footer() {
               </div> */}
             </div>
           </div>
-          <div className="mt-10 xl:mt-0">
+           {/*LD 20241028 <div className="mt-10 xl:mt-0">
             <h3 className="text-sm font-semibold leading-6 text-gray-900">Subscreva a nossa newsletter</h3>
             <p className="mt-2 text-sm leading-6 text-gray-600">
               As últimas notícias, artigos e recursos, enviados para sua caixa de entrada semanalmente.
@@ -114,7 +114,7 @@ export default function Footer() {
                 </button>
               </div>
             </form>
-          </div>
+          </div>  LD 20241028*/}
         </div>
         <div className="mt-16 border-t border-gray-900/10 pt-8 sm:mt-20 md:flex md:items-center md:justify-between lg:mt-24">
           <p className="mt-8 text-xs leading-5 text-gray-500 md:mt-0">
