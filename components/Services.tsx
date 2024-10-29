@@ -8,7 +8,6 @@ const services = [
       'Estratégias amigáveis e judiciais com vista à recuperação',
       'Reestruturação de dívidas e outras soluções que melhor sirvam o cliente'
     ],
-    href: '/credit',
     icon: CreditCardIcon,
   },
   {
@@ -18,7 +17,7 @@ const services = [
       'Desenvolvimento e transformação de ativos singulares – portfolios e single names: terrenos, edifícios e imóveis inacabados',
       'Asset Management de ativos singulares – portfolios e single names'
     ],
-    href: '/real-estate',
+    href: 'https://realestate.stellarvest.pt/',
     icon: BuildingOffice2Icon,
   },
   {
@@ -28,7 +27,6 @@ const services = [
       'Avaliações de ativos imobiliários',
       'Criação de modelo financeiro/business plans com vista à recuperação de portfolios'
     ],
-    href: '/advisory',
     icon: AcademicCapIcon,
   },
   {
@@ -38,9 +36,7 @@ const services = [
       'Property management - Gestão de arrendamentos, condomínios e manutenção dos imóveis',
       'Regularização, gestão judicial de imóveis ocupados e contratação'
     ],
-    href: '/servicing',
     icon: BriefcaseIcon,
-
   },
   {
     name: 'STC - Veículo de Securitização',
@@ -49,7 +45,6 @@ const services = [
       'Configuração e gestão de securitizações',
       'Maximização de valor para originadores e investidores'
     ],
-    href: '/securitization',
     icon: ShieldCheckIcon,
   },
 ]
@@ -82,11 +77,11 @@ export default function Services() {
                       <li key={index}>{item}</li>
                     ))}
                   </ul>
-                  {/* LD 20240813 <p className="mt-6">
+                  <p className="mt-6">
                     <a href={service.href} className="text-sm font-semibold leading-6 text-primary">
-                      Saiba mais <span aria-hidden="true">→</span>
+                     href={service.href} 
                     </a>
-                  </p> LD 20240813 */}
+                  </p>
                 </dd>
               </div>
             ))}
