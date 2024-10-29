@@ -4,18 +4,18 @@ const services = [
   {
     name: 'Gestão de Créditos',
     description: [
-      'Experiência em gestão de crédito de Individuals, Corporates e SME, secured e unsecured',
-      'Estratégias amigáveis e judiciais com vista à recuperação',
-      'Reestruturação de dívidas e outras soluções que melhor sirvam o cliente'
+      'Experiência em gestão de crédito de Individuals, SME, secured e unsecured;',
+      'Estratégias amigáveis e judiciais com vista à recuperação;',
+      'Reestruturação de dívidas e outras soluções que melhor sirvam o cliente.'
     ],
     icon: CreditCardIcon,
   },
   {
     name: 'Gestão de Ativos Imobiliários',
     description: [
-      'Regularização técnica e comercialização de ativos singulares e granulares',
-      'Desenvolvimento e transformação de ativos singulares – portfolios e single names: terrenos, edifícios e imóveis inacabados',
-      'Asset Management de ativos singulares – portfolios e single names'
+      'Regularização técnica e comercialização de ativos singulares e granulares;',
+      'Desenvolvimento e transformação de ativos singulares – portfolios e single names: terrenos, edifícios e imóveis inacabados;',
+      'Asset Management de ativos singulares – portfolios e single names.'
     ],
     href: 'https://realestate.stellarvest.pt/',
     icon: BuildingOffice2Icon,
@@ -23,27 +23,27 @@ const services = [
   {
     name: 'Advisory',
     description: [
-      'Due diligence de portfolios NPL, PL e de REOs (buyer side e seller side)',
-      'Avaliações de ativos imobiliários',
-      'Criação de modelo financeiro/business plans com vista à recuperação de portfolios'
+      'Due diligence de portfolios NPL, PL e de REOs (buyer side e seller side);',
+      'Avaliações de ativos imobiliários;',
+      'Criação de modelo financeiro/business plans com vista à recuperação de portfolios.'
     ],
     icon: AcademicCapIcon,
   },
   {
     name: 'Servicing / Serviços Corporativos',
     description: [
-      'Suporte administrativo às áreas de negócio',
-      'Property management - Gestão de arrendamentos, condomínios e manutenção dos imóveis',
-      'Regularização, gestão judicial de imóveis ocupados e contratação'
+      'Suporte administrativo às áreas de negócio;',
+      'Property management - Gestão de arrendamentos, condomínios e manutenção dos imóveis;',
+      'Regularização, gestão judicial de imóveis ocupados e contratação.'
     ],
     icon: BriefcaseIcon,
   },
   {
     name: 'STC - Veículo de Securitização',
     description: [
-      'Serviços completos de securitização',
-      'Configuração e gestão de securitizações',
-      'Maximização de valor para originadores e investidores'
+      'Serviços completos de securitização;',
+      'Configuração e gestão de securitizações;',
+      'Maximização de valor para originadores e investidores.'
     ],
     icon: ShieldCheckIcon,
   },
@@ -71,7 +71,7 @@ export default function Services() {
                   </div>
                   {service.name}
                 </dt>
-                <dd className="mt-1 flex flex-auto flex-col text-base leading-7 text-gray-600">
+                <dd className="mt-1 flex flex-auto flex-col text-base text-justify leading-7 text-gray-600">
                   <ul className="list-disc pl-5 space-y-2">
                     {service.description.map((item, index) => (
                       <li key={index}>{item}</li>
