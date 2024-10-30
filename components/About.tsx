@@ -27,12 +27,12 @@ export default function About() {
                   A StellarVest Asset Management é especialista na gestão de ativos complexos, oferecendo um serviço 360º que abrange todas as fases da gestão de ativos. Com uma abordagem estratégica e inovadora, a StellarVest Asset Management destaca-se pela sua capacidade de análise, desenvolvimento estratégico, venda e pós-venda.
                 </p>
               </div>
-              <img
-                alt=""
-                src="\windows-skyscraper-business-reflect-office-corpor-2023-11-27-05-33-20-utc.png" 
-                className="mt-10 aspect-[6/5] w-full max-w-lg rounded-2xl object-cover sm:mt-16 lg:mt-0 lg:max-w-none xl:row-span-2 xl:row-end-2 xl:mt-36"
-              /> 
-            </div>
+                    <img
+                      alt=""
+                      src="\windows-skyscraper-business-reflect-office-corpor-2023-11-27-05-33-20-utc.png" 
+                      className="mt-10 aspect-[6/5] w-full max-w-lg rounded-2xl object-cover sm:mt-16 lg:mt-0 lg:max-w-none xl:row-span-2 xl:row-end-2 xl:mt-36"
+                    /> 
+              </div>
           </div>
           <div className="absolute inset-x-0 bottom-0 -z-10 h-24 bg-gradient-to-t from-white sm:h-32" />
         </div>
@@ -51,6 +51,7 @@ export default function About() {
             <p className="mt-3 text-base leading-7 text-justify text-gray-600">
               A nossa visão é ser reconhecida como a primeira escolha na gestão de ativos complexos, oferecendo uma abordagem completa e inovadora para maximizar o potencial valor dos ativos dos nossos clientes.
             </p>
+            </div>
             <div className="contents lg:col-span-2 lg:col-end-2 lg:ml-auto lg:flex lg:w-[37rem] lg:items-start lg:justify-end lg:gap-x-8">
                   <div className="order-first flex w-64 flex-none justify-end self-end lg:w-auto">
                     <img
@@ -59,7 +60,6 @@ export default function About() {
                       className="aspect-[4/3] w-[24rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover"
                     />
             </div>
-          </div>
         </div>
 
         {/* Quem Somos section with images */}
@@ -84,12 +84,12 @@ export default function About() {
                   />
                 </div>
                 <div className="contents lg:col-span-2 lg:col-end-2 lg:ml-auto lg:flex lg:w-[37rem] lg:items-start lg:justify-end lg:gap-x-8">
-                  <div className="order-first flex w-64 flex-none justify-end self-end lg:w-auto">
+                  {/* <div className="order-first flex w-64 flex-none justify-end self-end lg:w-auto">
                     <img
                       alt=""
                       src="https://images.unsplash.com/photo-1605656816944-971cd5c1407f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=768&h=604&q=80"
                       className="aspect-[4/3] w-[24rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover"
-                    />
+                    />*/}
                   </div>
                   <div className="flex w-96 flex-auto justify-end lg:w-auto lg:flex-none">
                    {/*  <img
