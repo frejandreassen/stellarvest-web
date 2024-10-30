@@ -80,7 +80,7 @@ export default function Services() {
                   </ul>
                   <p className="mt-6">
                     <a href={service.href} className="text-sm font-semibold leading-6 text-primary">
-                    {service.href} 
+                    {service.label} {service.href} 
                     </a>
                   </p>
                 </dd>
