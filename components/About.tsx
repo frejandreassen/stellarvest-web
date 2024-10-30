@@ -51,12 +51,12 @@ export default function About() {
             <p className="mt-3 text-base leading-7 text-justify text-gray-600">
               A nossa visão é ser reconhecida como a primeira escolha na gestão de ativos complexos, oferecendo uma abordagem completa e inovadora para maximizar o potencial valor dos ativos dos nossos clientes.
             </p>
-          </div>
-          <img
+            <img
                 alt=""
                 src="\business-people-analyzes-graphs-and-charts-to-exa-2023-11-27-05-32-43-utc.png"
                 className="mt-10 aspect-[6/5] w-full max-w-lg rounded-2xl object-cover sm:mt-16 lg:mt-0 lg:max-w-none xl:row-span-2 xl:row-end-2 xl:mt-36"
-          />
+            />
+          </div>
         </div>
 
         {/* Quem Somos section with images */}
