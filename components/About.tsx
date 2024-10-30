@@ -54,7 +54,7 @@ export default function About() {
             </div>
             {/*<div className="contents lg:col-span-2 lg:col-end-2 lg:ml-auto lg:flex lg:w-[37rem] lg:items-start lg:justify-end lg:gap-x-8"> */}
             <div className="flex flex-wrap items-start justify-end gap-6 sm:gap-8 lg:contents">
-                {/*   <div className="order-first flex w-64 flex-none justify-end self-end lg:w-auto"> */}
+                  {/* <div className="order-first flex w-64 flex-none justify-end self-end lg:w-auto"> */}
                     <img
                       alt=""
                       src="\business-people-analyzes-graphs-and-charts-to-exa-2023-11-27-05-32-43-utc.png"
