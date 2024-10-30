@@ -29,7 +29,7 @@ export default function About() {
               </div>
               <img
                 alt=""
-                src="\windows-skyscraper-business-reflect-office-corpor-2023-11-27-05-33-20-utc.png" width={200} height={100}
+                src="\windows-skyscraper-business-reflect-office-corpor-2023-11-27-05-33-20-utc.png" 
                 className="mt-10 aspect-[6/5] w-full max-w-lg rounded-2xl object-cover sm:mt-16 lg:mt-0 lg:max-w-none xl:row-span-2 xl:row-end-2 xl:mt-36"
               />
             </div>
@@ -54,7 +54,7 @@ export default function About() {
           </div>
           <img
                 alt=""
-                src="\business-people-analyzes-graphs-and-charts-to-exa-2023-11-27-05-32-43-utc.png"
+                src="\business-people-analyzes-graphs-and-charts-to-exa-2023-11-27-05-32-43-utc.png" width={200} height={100}
                 className="mt-10 aspect-[6/5] w-full max-w-lg rounded-2xl object-cover sm:mt-16 lg:mt-0 lg:max-w-none xl:row-span-2 xl:row-end-2 xl:mt-36"
           />
         </div>
@@ -76,7 +76,7 @@ export default function About() {
                 <div className="w-0 flex-auto lg:ml-auto lg:w-auto lg:flex-none lg:self-end">
                   <img
                     alt=""
-                    src="\business-corporate-colleagues-co-workers-job-conce-2023-11-27-04-51-00-utc.png"
+                    src="\business-corporate-colleagues-co-workers-job-conce-2023-11-27-04-51-00-utc.png&auto=format&fit=crop&w=168&h=64&q=80"
                     className="aspect-[7/5] w-[37rem] max-w-none rounded-2xl bg-gray-50 object-cover"
                   />
                 </div>
