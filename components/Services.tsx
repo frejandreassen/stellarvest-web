@@ -79,8 +79,11 @@ export default function Services() {
                     ))}
                   </ul>
                   <p className="mt-6">
+                    <a href={service.label} "text-lg leading-8 text-gray-600">
+                    {service.label} {service.label} 
+                  <p className="mt-6">
                     <a href={service.href} className="text-sm font-semibold leading-6 text-primary">
-                    {service.label} {service.href} 
+                    {service.href} 
                     </a>
                   </p>
                 </dd>
