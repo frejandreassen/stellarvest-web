@@ -19,7 +19,7 @@ const services = [
     ],
     href: 'https://realestate.stellarvest.pt/',
     icon: BuildingOffice2Icon,
-    label:'Para aceder aos imóveis que temos para comercialização, clique '
+    label:'Para aceder aos imóveis que temos para comercialização, clique no '
   },
   {
     name: 'Advisory',
