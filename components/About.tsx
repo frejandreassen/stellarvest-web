@@ -44,7 +44,7 @@ export default function About() {
             <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
               Missão e Visão
             </h2>
-            <div className="contents lg:col-span-2 lg:col-end-2 lg:ml-auto lg:flex lg:w-[37rem] lg:items-start lg:justify-end lg:gap-x-8"> 
+            <div className="flex flex-wrap items-start justify-end gap-6 sm:gap-8 lg:contents"> 
             <h3 className="mt-6 text-2xl font-semibold text-gray-900">Missão</h3>
               <p className="mt-3 text-base leading-7 text-justify text-gray-600">
                 A nossa missão é proporcionar soluções especializadas em gestão de ativos, garantindo o máximo retorno para os nossos clientes. Comprometemo-nos a oferecer serviços integrados e personalizados, contemplando todas as fases da gestão de ativos num único parceiro.
