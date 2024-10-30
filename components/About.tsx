@@ -53,8 +53,7 @@ export default function About() {
                 A nossa visão é ser reconhecida como a primeira escolha na gestão de ativos complexos, oferecendo uma abordagem completa e inovadora para maximizar o potencial valor dos ativos dos nossos clientes.
               </p>
               <div className="contents lg:col-span-2 lg:col-end-2 lg:ml-auto lg:flex lg:w-[37rem] lg:items-start lg:justify-center lg:gap-x-8"> 
-              <div className="flex flex-wrap items-start justify-center
-                gap-6 sm:gap-8 lg:contents"> 
+              <div className="flex flex-wrap items-start justify-center gap-6 sm:gap-8 lg:contents"> 
                 <img
                         alt=""
                         src="\business-people-analyzes-graphs-and-charts-to-exa-2023-11-27-05-32-43-utc.png"
