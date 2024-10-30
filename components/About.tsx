@@ -58,6 +58,7 @@ export default function About() {
                         className="aspect-[4/3] w-[24rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover"
                       />
               </div>
+             </div>
           </div>
             {/*<div className="contents lg:col-span-2 lg:col-end-2 lg:ml-auto lg:flex lg:w-[37rem] lg:items-start lg:justify-end lg:gap-x-8"> 
             <div className="flex flex-wrap items-start justify-end gap-6 sm:gap-8 lg:contents">
@@ -67,8 +68,8 @@ export default function About() {
                         src="\business-people-analyzes-graphs-and-charts-to-exa-2023-11-27-05-32-43-utc.png"
                         className="aspect-[4/3] w-[24rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover"
                       />
-                    </div> */
-            </div>
+                    </div> 
+            </div>*/
         {/* Quem Somos section with images */}
         <div className="mt-32 overflow-hidden sm:mt-40">
           <div className="mx-auto max-w-7xl px-6 lg:flex lg:px-8">
