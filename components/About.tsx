@@ -1,3 +1,4 @@
+
 import React from 'react';
 
 const kpis = [
@@ -31,7 +32,7 @@ export default function About() {
                     <img
                       alt=""
                       src="\windows-skyscraper-business-reflect-office-corpor-2023-11-27-05-33-20-utc.png" 
-                      className="mt-10 aspect-[6/5] w-full max-w-lg rounded-2xl object-cover sm:mt-16 lg:mt-0 lg:max-w-none xl:row-span-2 xl:row-end-2 xl:mt-36"
+                      className="mt-10 aspect-[4/3] w-full max-w-lg rounded-2xl object-cover sm:mt-16 lg:mt-0 lg:max-w-none xl:row-span-2 xl:row-end-2 xl:mt-36"
                     /> 
               </div>
           </div>
@@ -39,39 +40,28 @@ export default function About() {
         </div>
 
         {/* Mission and Vision section */}
-        <div className="mx-auto mt-32 max-w-7xl px-6 sm:mt-40 lg:px-8">
-          <div className="mx-auto max-w-2xl lg:mx-0">
-            <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-              Missão e Visão
-            </h2>
-            <h3 className="mt-6 text-2xl font-semibold text-gray-900">Missão</h3>
-              <p className="mt-3 text-base leading-7 text-justify text-gray-600">
-                A nossa missão é proporcionar soluções especializadas em gestão de ativos, garantindo o máximo retorno para os nossos clientes. Comprometemo-nos a oferecer serviços integrados e personalizados, contemplando todas as fases da gestão de ativos num único parceiro.
-              </p>
-            <h3 className="mt-6 text-2xl font-semibold text-gray-900">Visão</h3>
-              <p className="mt-3 text-base leading-7 text-justify text-gray-600">
-                A nossa visão é ser reconhecida como a primeira escolha na gestão de ativos complexos, oferecendo uma abordagem completa e inovadora para maximizar o potencial valor dos ativos dos nossos clientes.
-              </p>
-              <div className="contents lg:col-span-2 lg:col-end-2 lg:ml-auto lg:flex lg:w-[37rem] lg:items-start lg:justify-center lg:gap-x-8"> 
-              <div className="flex flex-wrap items-start justify-center gap-6 sm:gap-8 lg:contents"> 
-                <img
-                        alt=""
-                        src="\business-people-analyzes-graphs-and-charts-to-exa-2023-11-27-05-32-43-utc.png"
-                        className="aspect-[4/3] w-[24rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover"
-                />
-                </div> 
+       <div className="mx-auto max-w-7xl px-6 py-32 sm:py-40 lg:px-8">
+            <div className="mx-auto max-w-2xl lg:mx-0 lg:grid lg:max-w-none lg:grid-cols-2 lg:gap-x-16 lg:gap-y-6 xl:grid-cols-1 xl:grid-rows-1 xl:gap-x-8">
+              <div className="mt-6 max-w-xl lg:mt-0 xl:col-end-1 xl:row-start-1">
+                <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+                  Missão e Visão
+                </h2>
+                <h3 className="mt-6 text-2xl font-semibold text-gray-900">Missão</h3>
+                  <p className="mt-3 text-base leading-7 text-justify text-gray-600">
+                    A nossa missão é proporcionar soluções especializadas em gestão de ativos, garantindo o máximo retorno para os nossos clientes. Comprometemo-nos a oferecer serviços integrados e personalizados, contemplando todas as fases da gestão de ativos num único parceiro.
+                  </p>
+                <h3 className="mt-6 text-2xl font-semibold text-gray-900">Visão</h3>
+                  <p className="mt-3 text-base leading-7 text-justify text-gray-600">
+                    A nossa visão é ser reconhecida como a primeira escolha na gestão de ativos complexos, oferecendo uma abordagem completa e inovadora para maximizar o potencial valor dos ativos dos nossos clientes.
+                  </p>
+                </div>
+                  <img
+                          alt=""
+                          src="\business-people-analyzes-graphs-and-charts-to-exa-2023-11-27-05-32-43-utc.png"
+                          className="aspect-[4/3] w-[24rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover"
+                  />
+                 
           </div>
-          </div>
-          {/*  <div className="contents lg:col-span-2 lg:col-end-2 lg:ml-auto lg:flex lg:w-[37rem] lg:items-start lg:justify-end lg:gap-x-8"> 
-            <div className="flex flex-wrap items-start justify-end gap-6 sm:gap-8 lg:contents">
-                   <div className="order-first flex w-64 flex-none justify-end self-end lg:w-auto"> 
-                      <img
-                        alt=""
-                        src="\business-people-analyzes-graphs-and-charts-to-exa-2023-11-27-05-32-43-utc.png"
-                        className="aspect-[4/3] w-[24rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover"
-                      />
-                    </div> 
-            </div>*/}
         {/* Quem Somos section with images */}
         <div className="mt-32 overflow-hidden sm:mt-40">
           <div className="mx-auto max-w-7xl px-6 lg:flex lg:px-8">
@@ -93,28 +83,6 @@ export default function About() {
                     className="aspect-[7/5] w-[37rem] max-w-none rounded-2xl bg-gray-50 object-cover"
                   />
                 </div>
-                <div className="contents lg:col-span-2 lg:col-end-2 lg:ml-auto lg:flex lg:w-[37rem] lg:items-start lg:justify-end lg:gap-x-8">
-                  {/* <div className="order-first flex w-64 flex-none justify-end self-end lg:w-auto">
-                    <img
-                      alt=""
-                      src="https://images.unsplash.com/photo-1605656816944-971cd5c1407f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=768&h=604&q=80"
-                      className="aspect-[4/3] w-[24rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover"
-                    />*/}
-                  </div>
-                  <div className="flex w-96 flex-auto justify-end lg:w-auto lg:flex-none">
-                   {/*  <img
-                      alt=""
-                      src="https://images.unsplash.com/photo-1568992687947-868a62a9f521?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1152&h=842&q=80"
-                      className="aspect-[7/5] w-[37rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover"
-                    /> */}
-                  </div>
-                  <div className="hidden sm:block sm:w-0 sm:flex-auto lg:w-auto lg:flex-none">
-                   {/*  <img
-                      alt=""
-                      src="https://images.unsplash.com/photo-1612872087720-bb876e2e67d1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=768&h=604&q=80"
-                      className="aspect-[4/3] w-[24rem] max-w-none rounded-2xl bg-gray-50 object-cover"
-                    /> */}
-                  </div>
                 </div>
               </div>
             </div>
