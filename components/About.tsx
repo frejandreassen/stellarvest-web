@@ -69,7 +69,7 @@ export default function About() {
                         className="aspect-[4/3] w-[24rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover"
                       />
                     </div> 
-            </div>*/
+            </div>*/}
         {/* Quem Somos section with images */}
         <div className="mt-32 overflow-hidden sm:mt-40">
           <div className="mx-auto max-w-7xl px-6 lg:flex lg:px-8">
