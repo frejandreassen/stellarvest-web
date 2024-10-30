@@ -39,7 +39,8 @@ export default function About() {
 
         {/* Mission and Vision section */}
         <div className="mx-auto mt-32 max-w-7xl px-6 sm:mt-40 lg:px-8">
-          <div className="mx-auto max-w-2xl lg:mx-0">
+          {/* <div className="mx-auto max-w-2xl lg:mx-0">*/}
+          <div className="mx-auto max-w-2xl lg:mx-0 lg:grid lg:max-w-none lg:grid-cols-2 lg:gap-x-16 lg:gap-y-6 xl:grid-cols-1 xl:grid-rows-1 xl:gap-x-8">
             <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
               Missão e Visão
             </h2>
@@ -51,6 +52,8 @@ export default function About() {
             <p className="mt-3 text-base leading-7 text-justify text-gray-600">
               A nossa visão é ser reconhecida como a primeira escolha na gestão de ativos complexos, oferecendo uma abordagem completa e inovadora para maximizar o potencial valor dos ativos dos nossos clientes.
             </p>
+            </div>
+            {/*<div className="contents lg:col-span-2 lg:col-end-2 lg:ml-auto lg:flex lg:w-[37rem] lg:items-start lg:justify-end lg:gap-x-8"> */}
             <div className="flex flex-wrap items-start justify-end gap-6 sm:gap-8 lg:contents">
                   <div className="order-first flex w-64 flex-none justify-end self-end lg:w-auto">
                     <img
@@ -59,8 +62,6 @@ export default function About() {
                       className="aspect-[4/3] w-[24rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover"
                     />
               </div>
-            </div>
-            {/*<div className="contents lg:col-span-2 lg:col-end-2 lg:ml-auto lg:flex lg:w-[37rem] lg:items-start lg:justify-end lg:gap-x-8"> */}
         </div>
 
         {/* Quem Somos section with images */}
