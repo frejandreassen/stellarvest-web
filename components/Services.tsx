@@ -81,6 +81,8 @@ export default function Services() {
                   <p className="mt-6">
                     <a href={service.label} className="text-lg leading-6 text-gray-600">
                     {service.label} {service.label} 
+                    </a>
+                  </p>
                   <p className="mt-6">
                     <a href={service.href} className="text-sm font-semibold leading-6 text-primary">
                     {service.href} 
