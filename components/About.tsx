@@ -29,7 +29,7 @@ export default function About() {
               </div>
               <img
                 alt=""
-                src="\windows-skyscraper-business-reflect-office-corpor-2023-11-27-05-33-20-utc.png"
+                src="\windows-skyscraper-business-reflect-office-corpor-2023-11-27-05-33-20-utc.png" width={768} height={640}
                 className="mt-10 aspect-[6/5] w-full max-w-lg rounded-2xl object-cover sm:mt-16 lg:mt-0 lg:max-w-none xl:row-span-2 xl:row-end-2 xl:mt-36"
               />
             </div>
@@ -54,7 +54,7 @@ export default function About() {
           </div>
           <img
                 alt=""
-                src="\business-people-analyzes-graphs-and-charts-to-exa-2023-11-27-05-32-43-utc.png&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=768&h=604&q=80"
+                src="\business-people-analyzes-graphs-and-charts-to-exa-2023-11-27-05-32-43-utc.png"
                 className="mt-10 aspect-[6/5] w-full max-w-lg rounded-2xl object-cover sm:mt-16 lg:mt-0 lg:max-w-none xl:row-span-2 xl:row-end-2 xl:mt-36"
           />
         </div>
