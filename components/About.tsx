@@ -44,25 +44,25 @@ export default function About() {
               Missão e Visão
             </h2>
             <h3 className="mt-6 text-2xl font-semibold text-gray-900">Missão</h3>
-            <p className="mt-3 text-base leading-7 text-justify text-gray-600">
-              A nossa missão é proporcionar soluções especializadas em gestão de ativos, garantindo o máximo retorno para os nossos clientes. Comprometemo-nos a oferecer serviços integrados e personalizados, contemplando todas as fases da gestão de ativos num único parceiro.
-            </p>
+              <p className="mt-3 text-base leading-7 text-justify text-gray-600">
+                A nossa missão é proporcionar soluções especializadas em gestão de ativos, garantindo o máximo retorno para os nossos clientes. Comprometemo-nos a oferecer serviços integrados e personalizados, contemplando todas as fases da gestão de ativos num único parceiro.
+              </p>
             <h3 className="mt-6 text-2xl font-semibold text-gray-900">Visão</h3>
-            <p className="mt-3 text-base leading-7 text-justify text-gray-600">
-              A nossa visão é ser reconhecida como a primeira escolha na gestão de ativos complexos, oferecendo uma abordagem completa e inovadora para maximizar o potencial valor dos ativos dos nossos clientes.
-            </p>
-            </div>
+              <p className="mt-3 text-base leading-7 text-justify text-gray-600">
+                A nossa visão é ser reconhecida como a primeira escolha na gestão de ativos complexos, oferecendo uma abordagem completa e inovadora para maximizar o potencial valor dos ativos dos nossos clientes.
+              </p>
+          </div>
             {/*<div className="contents lg:col-span-2 lg:col-end-2 lg:ml-auto lg:flex lg:w-[37rem] lg:items-start lg:justify-end lg:gap-x-8"> */}
             <div className="flex flex-wrap items-start justify-end gap-6 sm:gap-8 lg:contents">
                    <div className="order-first flex w-64 flex-none justify-end self-end lg:w-auto"> 
-                    <img
-                      alt=""
-                      src="\business-people-analyzes-graphs-and-charts-to-exa-2023-11-27-05-32-43-utc.png"
-                      className="aspect-[4/3] w-[24rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover"
-                    />
-             </div>
-        </div>
-
+                      <img
+                        alt=""
+                        src="\business-people-analyzes-graphs-and-charts-to-exa-2023-11-27-05-32-43-utc.png"
+                        className="aspect-[4/3] w-[24rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover"
+                      />
+                   </div>
+            </div>
+       </div>
         {/* Quem Somos section with images */}
         <div className="mt-32 overflow-hidden sm:mt-40">
           <div className="mx-auto max-w-7xl px-6 lg:flex lg:px-8">
