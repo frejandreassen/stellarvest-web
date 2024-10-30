@@ -26,6 +26,7 @@ export default function About() {
                 <p className="text-lg leading-8 text-justify text-gray-600">
                   A StellarVest Asset Management é especialista na gestão de ativos complexos, oferecendo um serviço 360º que abrange todas as fases da gestão de ativos. Com uma abordagem estratégica e inovadora, a StellarVest Asset Management destaca-se pela sua capacidade de análise, desenvolvimento estratégico, venda e pós-venda.
                 </p>
+              
               </div>
                     <img
                       alt=""
@@ -51,6 +52,7 @@ export default function About() {
               <p className="mt-3 text-base leading-7 text-justify text-gray-600">
                 A nossa visão é ser reconhecida como a primeira escolha na gestão de ativos complexos, oferecendo uma abordagem completa e inovadora para maximizar o potencial valor dos ativos dos nossos clientes.
               </p>
+              <div className="contents lg:col-span-2 lg:col-end-2 lg:ml-auto lg:flex lg:w-[37rem] lg:items-start lg:justify-end lg:gap-x-8"> 
               <div className="order-first flex w-64 flex-none justify-end self-end lg:w-auto"> 
                       <img
                         alt=""
@@ -59,8 +61,8 @@ export default function About() {
                       />
               </div>
              </div>
-          {/*</div>
-            <div className="contents lg:col-span-2 lg:col-end-2 lg:ml-auto lg:flex lg:w-[37rem] lg:items-start lg:justify-end lg:gap-x-8"> 
+          </div>
+          {/*  <div className="contents lg:col-span-2 lg:col-end-2 lg:ml-auto lg:flex lg:w-[37rem] lg:items-start lg:justify-end lg:gap-x-8"> 
             <div className="flex flex-wrap items-start justify-end gap-6 sm:gap-8 lg:contents">
                    <div className="order-first flex w-64 flex-none justify-end self-end lg:w-auto"> 
                       <img
