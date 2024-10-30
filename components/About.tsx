@@ -52,6 +52,11 @@ export default function About() {
               A nossa visão é ser reconhecida como a primeira escolha na gestão de ativos complexos, oferecendo uma abordagem completa e inovadora para maximizar o potencial valor dos ativos dos nossos clientes.
             </p>
           </div>
+          <img
+                alt=""
+                src="\business-people-analyzes-graphs-and-charts-to-exa-2023-11-27-05-32-43-utc.png"
+                className="mt-10 aspect-[6/5] w-full max-w-lg rounded-2xl object-cover sm:mt-16 lg:mt-0 lg:max-w-none xl:row-span-2 xl:row-end-2 xl:mt-36"
+          />
         </div>
 
         {/* Quem Somos section with images */}
@@ -84,18 +89,18 @@ export default function About() {
                     />
                   </div>
                   <div className="flex w-96 flex-auto justify-end lg:w-auto lg:flex-none">
-                    <img
+                   {/*  <img
                       alt=""
                       src="https://images.unsplash.com/photo-1568992687947-868a62a9f521?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1152&h=842&q=80"
                       className="aspect-[7/5] w-[37rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover"
-                    />
+                    /> */}
                   </div>
                   <div className="hidden sm:block sm:w-0 sm:flex-auto lg:w-auto lg:flex-none">
-                    <img
+                   {/*  <img
                       alt=""
                       src="https://images.unsplash.com/photo-1612872087720-bb876e2e67d1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=768&h=604&q=80"
                       className="aspect-[4/3] w-[24rem] max-w-none rounded-2xl bg-gray-50 object-cover"
-                    />
+                    /> */}
                   </div>
                 </div>
               </div>
