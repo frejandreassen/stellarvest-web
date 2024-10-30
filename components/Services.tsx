@@ -79,7 +79,7 @@ export default function Services() {
                   </ul>
                   <p className="mt-6">
                     <a href={service.href} className="text-sm font-semibold leading-6 text-primary">
-                     {service.href} 
+                    Para aceder aos imóveis que temos para comercialização, clique {service.href} 
                     </a>
                   </p>
                 </dd>
