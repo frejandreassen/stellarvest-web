@@ -57,7 +57,7 @@ export default function About() {
                 </div>
                   <img
                           alt=""
-                          src="\business-people-analyzes-graphs-and-charts-to-exa-2023-11-27-05-32-43-utc.png"
+                          src="\business-corporate-colleagues-co-workers-job-conce-2023-11-27-04-51-00-utc.png"
                           className="aspect-[4/3] w-[24rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover"
                   />
                  
@@ -79,7 +79,7 @@ export default function About() {
                 <div className="w-0 flex-auto lg:ml-auto lg:w-auto lg:flex-none lg:self-end">
                   <img
                     alt=""
-                    src="\business-corporate-colleagues-co-workers-job-conce-2023-11-27-04-51-00-utc.png"
+                    src="\email-client-list-woman-hand-on-the-computer-lapt-2023-11-27-04-52-42-utc.png"
                     className="aspect-[7/5] w-[37rem] max-w-none rounded-2xl bg-gray-50 object-cover"
                   />
                 </div>
