@@ -19,6 +19,7 @@ const services = [
     ],
     href: 'https://realestate.stellarvest.pt/',
     icon: BuildingOffice2Icon,
+    label:'Para aceder aos imóveis que temos para comercialização, clique'
   },
   {
     name: 'Advisory',
@@ -79,7 +80,7 @@ export default function Services() {
                   </ul>
                   <p className="mt-6">
                     <a href={service.href} className="text-sm font-semibold leading-6 text-primary">
-                    <span aria-hidden="true">Para aceder aos imóveis que temos para comercialização, clique→</span> {service.href} 
+                    {service.href} 
                     </a>
                   </p>
                 </dd>
