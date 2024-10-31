@@ -30,7 +30,7 @@ export default function About() {
               </div>
                     <img
                       alt=""
-                      src="\windows-skyscraper-business-reflect-office-corpor-2023-11-27-05-33-20-utc.png" 
+                      src="\corporate-finance-business-office-cityscape-skylin-2024-07-03-15-35-29-utc (1).mov" 
                       className="mt-10 aspect-[4/3] w-full max-w-lg rounded-2xl object-cover sm:mt-16 lg:mt-0 lg:max-w-none xl:row-span-2 xl:row-end-2 xl:mt-36"
                     /> 
               </div>
