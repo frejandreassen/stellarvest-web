@@ -1,0 +1,139 @@
+{
+  "navigation": {
+    "home": "Home",
+    "about": "Sobre Nós",
+    "services": "Serviços",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "specialist": "Especialista na gestão de ativos complexos",
+    "welcome": "Bem-vindo à StellarVest Asset Management",
+    "tagline": "Seus Ativos, Nossa Especialidade",
+    "learnMore": "Saber mais",
+    "contactUs": "Contacte-nos"
+  },
+  "about": {
+    "welcome": "Bem-vindo à StellarVest Asset Management",
+    "intro": "A StellarVest Asset Management é especialista na gestão de ativos complexos, oferecendo um serviço 360º que abrange todas as fases da gestão de ativos. Com uma abordagem estratégica e inovadora, a StellarVest Asset Management destaca-se pela sua capacidade de análise, desenvolvimento estratégico, venda e pós-venda.",
+    "missionVision": {
+      "title": "Missão e Visão",
+      "mission": {
+        "title": "Missão",
+        "text": "A nossa missão é proporcionar soluções especializadas em gestão de ativos, garantindo o máximo retorno para os nossos clientes. Comprometemo-nos a oferecer serviços integrados e personalizados, contemplando todas as fases da gestão de ativos num único parceiro."
+      },
+      "vision": {
+        "title": "Visão",
+        "text": "A nossa visão é ser reconhecida como a primeira escolha na gestão de ativos complexos, oferecendo uma abordagem completa e inovadora para maximizar o potencial valor dos ativos dos nossos clientes."
+      }
+    },
+    "whoWeAre": {
+      "title": "Quem Somos",
+      "text1": "A StellarVest Asset Management foi criada com o objetivo de maximizar o valor dos ativos, proporcionando aos nossos clientes uma abordagem integrada e eficiente. A nossa experiência e competências abrangem desde a análise e pensamento estratégico até ao desenvolvimento, venda e pós-venda de ativos.",
+      "text2": "Gerimos os ativos de A a Z, com um mindset focado em potenciar ao máximo a valorização dos ativos."
+    },
+    "whyChoose": {
+      "title": "Porque escolher a StellarVest Asset Management?",
+      "text1": "Escolher a StellarVest Asset Management é optar por um parceiro comprometido com o sucesso e a valorização máxima dos seus ativos. A nossa abordagem personalizada e integrada, aliada aos valores de compromisso, integridade, inovação, parceria e responsabilidade, garantem um serviço de excelência e confiança.",
+      "text2": "Estamos prontos para ser o seu parceiro de confiança na gestão de ativos complexos, proporcionando soluções inovadoras e eficaces para maximizar o valor dos seus investimentos."
+    }
+  },
+  "services": {
+    "title": "Nossos Serviços",
+    "subtitle": "Oferecemos uma gama completa de serviços de gestão de ativos para atender às suas necessidades.",
+    "items": {
+      "creditManagement": {
+        "name": "Gestão de Créditos",
+        "description": [
+          "Experiência em gestão de crédito de Individuals, SME, secured e unsecured;",
+          "Estratégias amigáveis e judiciais com vista à recuperação;",
+          "Reestruturação de dívidas e outras soluções que melhor sirvam o cliente."
+        ]
+      },
+      "realEstateManagement": {
+        "name": "Gestão de Ativos Imobiliários",
+        "description": [
+          "Regularização técnica e comercialização de ativos singulares e granulares;",
+          "Desenvolvimento e transformação de ativos singulares – portfolios e single names: terrenos, edifícios e imóveis inacabados;",
+          "Asset Management de ativos singulares – portfolios e single names."
+        ],
+        "label": "Para aceder aos imóveis que temos para comercialização, clique no ",
+        "link": "Link"
+      },
+      "advisory": {
+        "name": "Advisory",
+        "description": [
+          "Due diligence de portfolios NPL, PL e de REOs (buyer side e seller side);",
+          "Avaliações de ativos imobiliários;",
+          "Criação de modelo financeiro/business plans com vista à recuperação de portfolios."
+        ]
+      },
+      "servicing": {
+        "name": "Servicing / Serviços Corporativos",
+        "description": [
+          "Suporte administrativo às áreas de negócio;",
+          "Property management - Gestão de arrendamentos, condomínios e manutenção dos imóveis;",
+          "Regularização, gestão judicial de imóveis ocupados e contratação."
+        ]
+      },
+      "stc": {
+        "name": "STC - Veículo de Securitização",
+        "description": [
+          "Serviços completos de securitização;",
+          "Configuração e gestão de securitizações;",
+          "Maximização de valor para originadores e investidores."
+        ]
+      }
+    }
+  },
+  "contact": {
+    "title": "Contactos",
+    "subtitle": "A StellarVest está disponível para as suas dúvidas, sugestões, elogios e reclamações.",
+    "contactUs": {
+      "title": "Contacte-nos",
+      "email": "info@stellarvest.pt",
+      "phone": "(+351) 216 079 074"
+    },
+    "hours": {
+      "title": "Horário de funcionamento",
+      "weekdays": "Segunda a Sexta-feira: 9h00 às 18h00",
+      "weekends": "Sábado e Domingo: Encerrados"
+    },
+    "offices": {
+      "lisbon": {
+        "title": "Sede - Escritório de Lisboa",
+        "address": "Av. da República 90, Piso 2 | 1600-206 Lisboa"
+      },
+      "porto": {
+        "title": "Escritório do Porto",
+        "building": "CEP – Centro Empresarial do Porto",
+        "address": "Rua Eng Ferreira Dias 161, Sala E308 | 4100-247 Porto"
+      }
+    }
+  },
+  "footer": {
+    "navigation": {
+      "solutions": {
+        "title": "Soluções",
+        "creditManagement": "Gestão de Créditos",
+        "realEstateManagement": "Gestão de Ativos Imobiliários",
+        "advisory": "Advisory",
+        "servicing": "Servicing / Serviços Corporativos",
+        "securitization": "STC - Veículo de Securitização"
+      },
+      "support": {
+        "title": "Suporte",
+        "legalInfo": "Informação Legal",
+        "cookies": "Política de Cookies",
+        "privacy": "Política de Privacidade",
+        "whistleblowing": "Whistleblowing"
+      },
+      "company": {
+        "title": "Empresa",
+        "about": "Sobre Nós",
+        "services": "Serviços",
+        "contact": "Contacto"
+      }
+    },
+    "copyright": "© 2024 StellarVest Asset Management, Unipessoal, Lda. Todos os direitos reservados."
+  }
+}
