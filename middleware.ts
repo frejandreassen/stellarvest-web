@@ -1,13 +1,13 @@
 import createMiddleware from "next-intl/middleware";
-import { locales } from "./app/[locale]/layout";
+import { locales, defaultLocale } from "@/config/i18n";
 
 export default createMiddleware({
   locales,
-  defaultLocale: "pt",
-  // Optionally, you can configure locale detection
-  localeDetection: true // This will check browser preferences
+  defaultLocale,
+  localeDetection: true
 });
 
+// Specify which paths should be internationalized
 export const config = {
-  matcher: ["/((?!api|_next|_vercel|.*\\..*).*)"],
+  matcher: ['/((?!api|_next|_vercel|.*\\..*).*)']
 };

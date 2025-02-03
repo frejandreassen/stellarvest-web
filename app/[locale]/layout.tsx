@@ -1,12 +1,13 @@
 import { notFound } from "next/navigation";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
+import { LOCALES } from "@/config/i18n";
 
-export const locales = ["en", "pt"];
+// You might want to export this type from i18n.config.ts instead
+type Locale = (typeof LOCALES)[number];
 
-// Generate static params for static generation
-export function generateStaticParams() {
-  return locales.map((locale) => ({ locale }));
+export async function generateStaticParams() {
+  return LOCALES.map((locale) => ({ locale }));
 }
 
 export default async function LocaleLayout({
@@ -14,13 +15,12 @@ export default async function LocaleLayout({
   params: { locale },
 }: {
   children: React.ReactNode;
-  params: { locale: string };
+  params: { locale: Locale }; // Changed from string to Locale
 }) {
-  // Validate that the incoming `locale` parameter is valid
-  if (!locales.includes(locale)) notFound();
-
-  const messages = await getMessages(locale);
-
+  if (!LOCALES.includes(locale)) notFound();
+  
+  const messages = await getMessages({ locale });
+  
   return (
     <NextIntlClientProvider messages={messages} locale={locale}>
       {children}
