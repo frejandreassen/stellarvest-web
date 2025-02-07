@@ -2,7 +2,7 @@ import { CreditCardIcon, BuildingOffice2Icon, AcademicCapIcon, BriefcaseIcon, Sh
 
 const services = [
   {
-    name: 'Gestão de Créditos',
+    name: 'Gestão de Recuperação de crédito',
     description: [
       'Experiência em gestão de crédito de Individuals, SME, secured e unsecured;',
       'Estratégias amigáveis e judiciais com vista à recuperação;',
