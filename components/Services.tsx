@@ -4,7 +4,7 @@ const services = [
   {
     name: 'Gestão de Recuperação de crédito',
     description: [
-      'Experiência em gestão de crédito de Individuals, SME, secured e unsecured;',
+      'Experiência em gestão e recuperação de todos os tipos de créditos: individuais e SME, com e sem garantia;',
       'Estratégias amigáveis e judiciais com vista à recuperação;',
       'Reestruturação de dívidas e outras soluções que melhor sirvam o cliente.'
     ],
