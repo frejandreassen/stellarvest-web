@@ -13,10 +13,10 @@ const OurNumbers = () => {
             Our Numbers
           </h2>
           <p className="mt-6 text-base leading-7 text-gray-600">
-            Since 2018, our dedication and efficient approach have enabled us to build a robust portfolio valued at over €570M 
-            REO's Sales and €181M. For us, asset management isn't just about loans or properties, it's about understanding our 
-            clients' unique needs and exceeding expectations.
-          </p>
+            Since 2018, our dedication and efficient approach have enabled us to build a robust portfolio valued at over €570M
+            REO&apos;s Sales and €181M. For us, asset management isn&apos;t just about loans or properties, it&apos;s about understanding our
+            clients&apos; unique needs and exceeding expectations.
+        </p>
         </div>
         <div className="mx-auto mt-16 flex max-w-2xl flex-col gap-8 lg:mx-0 lg:mt-20 lg:max-w-none lg:flex-row lg:items-end">
           {/* REOs Sales Card */}
