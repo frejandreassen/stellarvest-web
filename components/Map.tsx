@@ -1,7 +1,7 @@
 'use client'
 
-import React from 'react';
-import { GoogleMap, Marker, useLoadScript } from '@react-google-maps/api';
+import React, { useCallback, useEffect, useState } from 'react';
+import { GoogleMap, useLoadScript } from '@react-google-maps/api';
 
 interface MapComponentProps {
   center: {
@@ -13,32 +13,20 @@ interface MapComponentProps {
   width?: string;
 }
 
-const mapStyles = [
-  {
-    featureType: "poi",
-    elementType: "labels",
-    stylers: [{ visibility: "off" }]
-  },
-  {
-    featureType: "transit",
-    elementType: "labels",
-    stylers: [{ visibility: "off" }]
-  },
-  {
-    featureType: "road",
-    elementType: "labels",
-    stylers: [{ visibility: "off" }]
-  }
-];
+// Define libraries as a static constant outside the component
+const libraries: ("marker")[] = ["marker"];
 
-const MapComponent: React.FC<MapComponentProps> = ({ 
-  center, 
-  zoom = 15, 
-  height = "400px", 
-  width = "100%" 
+const MapComponent: React.FC<MapComponentProps> = ({
+  center,
+  zoom = 15,
+  height = "400px",
+  width = "100%"
 }) => {
+  const [advancedMarker, setAdvancedMarker] = useState<any>(null);
+  
   const { isLoaded } = useLoadScript({
-    googleMapsApiKey: process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY || ''
+    googleMapsApiKey: process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY || '',
+    libraries // Use the static libraries array
   });
 
   const mapContainerStyle: React.CSSProperties = {
@@ -46,16 +34,42 @@ const MapComponent: React.FC<MapComponentProps> = ({
     width
   };
 
+  // Remove styles when using mapId
   const options = {
-    styles: mapStyles,
     disableDefaultUI: true,
     zoomControl: true,
     mapTypeControl: false,
     scaleControl: false,
     streetViewControl: false,
     rotateControl: false,
-    fullscreenControl: false
+    fullscreenControl: false,
+    mapId: process.env.NEXT_PUBLIC_GOOGLE_MAP_ID || 'DEMO_MAP_ID'
   };
+
+  const onMapLoad = useCallback(async (map: google.maps.Map) => {
+    try {
+      const { AdvancedMarkerElement } = await google.maps.importLibrary("marker") as google.maps.MarkerLibrary;
+      
+      const marker = new AdvancedMarkerElement({
+        map,
+        position: center,
+        title: 'Location'
+      });
+      
+      setAdvancedMarker(marker);
+    } catch (error) {
+      console.error('Error loading advanced marker:', error);
+    }
+  }, [center]);
+
+  // Cleanup marker on unmount
+  useEffect(() => {
+    return () => {
+      if (advancedMarker) {
+        advancedMarker.map = null;
+      }
+    };
+  }, [advancedMarker]);
 
   if (!isLoaded) return <div>Loading...</div>;
 
@@ -65,9 +79,8 @@ const MapComponent: React.FC<MapComponentProps> = ({
       zoom={zoom}
       center={center}
       options={options}
-    >
-      <Marker position={center} />
-    </GoogleMap>
+      onLoad={onMapLoad}
+    />
   );
 };
 

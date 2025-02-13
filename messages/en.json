@@ -13,29 +13,58 @@
     "learnMore": "Learn More",
     "contactUs": "Contact Us"
   },
-  "about": {
-    "welcome": "Welcome to StellarVest Asset Management",
-    "intro": "StellarVest Asset Management specializes in complex asset management, offering a 360° service that covers all phases of asset management. With a strategic and innovative approach, StellarVest Asset Management stands out for its analysis, strategic development, sales, and after-sales capabilities.",
-    "missionVision": {
-      "title": "Mission and Vision",
-      "mission": {
-        "title": "Mission",
-        "text": "Our mission is to provide specialized asset management solutions, ensuring maximum return for our clients. We are committed to offering integrated and personalized services, covering all phases of asset management in a single partner."
+  "whatWeDo": {
+    "title": "What we do differently",
+    "subtitle": "360° service that covers all phases",
+    "description": "StellarVest Asset Management specialises in the management of complex assets. With a strategic and innovative approach, we stand out for our capacity for analysis, strategic development, sales and after-sales.",
+    "features": {
+      "realTime": {
+        "name": "Highly adapted to provide",
+        "description": "Real-time data to different audiences (Investors, Gov., FdR, EU, etc.)"
       },
-      "vision": {
-        "title": "Vision",
-        "text": "Our vision is to be recognized as the first choice in complex asset management, offering a comprehensive and innovative approach to maximize the potential value of our clients' assets."
+      "management": {
+        "name": "Experienced Management Team",
+        "description": "Combined large experience in the distressed assets"
+      },
+      "servicer": {
+        "name": "Only servicer in Portugal",
+        "description": "With experience in complex carve outs & servicing contracts (PT State)"
+      },
+      "capacity": {
+        "name": "Recognized capacity",
+        "description": "For managing complex real estate assets and very special cases of Corporate NPLs"
+      },
+      "platform": {
+        "name": "Strong real estate platform",
+        "description": "Which manages all type of REOs"
+      },
+      "aum": {
+        "name": "100% of the AUM's",
+        "description": "Are owned by non-related parties"
       }
+    }
+  },
+  "numbers": {
+    "title": "Our Numbers",
+    "description": "Since 2018, our dedication and efficient approach have enabled us to build a robust portfolio valued at over €570M REO's Sales and €181M. For us, asset management isn't just about loans or properties, it's about understanding our clients' unique needs and exceeding expectations.",
+    "since2018": "Since 2018",
+    "reos": {
+      "title": "REOs Sales",
+      "value": "€570M"
     },
-    "whoWeAre": {
-      "title": "Who We Are",
-      "text1": "StellarVest Asset Management was created with the goal of maximizing asset value, providing our clients with an integrated and efficient approach. Our experience and skills range from analysis and strategic thinking to asset development, sales, and after-sales.",
-      "text2": "We manage assets from A to Z, with a mindset focused on maximizing asset appreciation."
+    "collections": {
+      "title": "Collections",
+      "value": "€228M"
     },
-    "whyChoose": {
-      "title": "Why choose StellarVest Asset Management?",
-      "text1": "Choosing StellarVest Asset Management means choosing a partner committed to success and maximum asset appreciation. Our personalized and integrated approach, combined with values of commitment, integrity, innovation, partnership, and responsibility, ensure excellent and trustworthy service.",
-      "text2": "We are ready to be your trusted partner in complex asset management, providing innovative and effective solutions to maximize the value of your investments."
+    "assetsMgt": {
+      "title": "Assets Mgt",
+      "aum": "+€1,2B AUM",
+      "assets": "+6.000 Assets"
+    },
+    "maintenance": {
+      "title": "Building Maintenance",
+      "value": ">1100",
+      "subtitle": "CAPEX & OPEX MGT Interventions"
     }
   },
   "services": {
@@ -87,6 +116,76 @@
       }
     }
   },
+  "team": {
+    "title": "Meet our leadership",
+    "subtitle": "Our experienced team combines decades of expertise in asset management, real estate, and financial services to deliver exceptional results for our clients.",
+    "contactButton": "Talk to our management team",
+    "people": {
+      "rubenSommer": {
+        "name": "Ruben Sommer",
+        "role": "CEO",
+        "experience": "+ 30 years of experience",
+        "bio": "Experience in various prestigious financial institutions including Banif, ABN Amro Bank, Deutsche Bank Investimentos, BES Investimento, Domusvenda, Reactivv, and Albatris. Holds a Degree in Business Management."
+      },
+      "joaoRibeiro": {
+        "name": "João Ribeiro",
+        "role": "Real Estate Director",
+        "experience": "+ 25 years of experience",
+        "bio": "Extensive experience in real estate with companies like Immo Mosqueteiros PT, DIA PT, CBRE, Euro-Funding Advisory Group, Carrefour PT, and Parque Expo. Holds a Degree in Architecture and a Master in Urban Planning."
+      },
+      "pedroGuerreiro": {
+        "name": "Pedro Guerreiro",
+        "role": "CHRO & CFO",
+        "experience": "+ 25 years of experience",
+        "bio": "Background in financial services at Banif, ABN Amro Bank, Deutsche Bank Investimentos, BES Investimento, among others. Multiple qualifications including degrees in Management, Attorneyship, and postgraduate studies in HR Management and Corporate Strategy."
+      }
+    }
+  },
+  "clients": {
+    "title": "Trusted by industry leaders",
+    "subtitle": "We work with some of the most respected names in financial services and real estate.",
+    "logos": {
+      "apollo": "Apollo logo",
+      "fortress": "Fortress logo",
+      "santander": "Santander logo",
+      "lcmPartners": "LCM Partners logo",
+      "cgd": "Caixa Geral de Depósitos logo",
+      "profile": "Profile logo",
+      "titante": "Titante logo",
+      "davidsonKempner": "Davidson Kempner logo",
+      "arrowGlobal": "Arrow Global Portugal logo"
+    }
+  },
+  "contactForm": {
+    "title": "Contact Us",
+    "subtitle": "Get in touch with our team",
+    "form": {
+      "firstName": "Name",
+      "lastName": "Surname",
+      "email": "Email",
+      "phone": "Phone number",
+      "teamSelect": {
+        "label": "Who do you want to talk to today?",
+        "placeholder": "Select a team",
+        "options": {
+          "management": "Management Team",
+          "loans": "Loan's Team",
+          "advisory": "Advisory Team",
+          "legal": "Legal Team",
+          "administration": "Administration"
+        }
+      },
+      "description": "Description",
+      "terms": "I agree to the terms and conditions of the legal information",
+      "submit": "Submit",
+      "submitting": "Submitting..."
+    },
+    "messages": {
+      "success": "Thank you for your message. We will get back to you soon!",
+      "error": "There was an error submitting the form. Please try again.",
+      "recaptchaError": "Please complete the reCAPTCHA verification"
+    }
+  },
   "contact": {
     "title": "Contacts",
     "subtitle": "StellarVest is available for your questions, suggestions, compliments, and complaints.",
@@ -110,6 +209,31 @@
         "building": "CEP – Porto Business Center",
         "address": "Rua Eng Ferreira Dias 161, Room E308 | 4100-247 Porto"
       }
+    }
+  },
+  "about": {
+    "welcome": "Welcome to StellarVest Asset Management",
+    "intro": "StellarVest Asset Management specializes in complex asset management, offering a 360° service that covers all phases of asset management. With a strategic and innovative approach, StellarVest Asset Management stands out for its analysis, strategic development, sales, and after-sales capabilities.",
+    "missionVision": {
+      "title": "Mission and Vision",
+      "mission": {
+        "title": "Mission",
+        "text": "Our mission is to provide specialized asset management solutions, ensuring maximum return for our clients. We are committed to offering integrated and personalized services, covering all phases of asset management in a single partner."
+      },
+      "vision": {
+        "title": "Vision",
+        "text": "Our vision is to be recognized as the first choice in complex asset management, offering a comprehensive and innovative approach to maximize the potential value of our clients' assets."
+      }
+    },
+    "whoWeAre": {
+      "title": "Who We Are",
+      "text1": "StellarVest Asset Management was created with the goal of maximizing asset value, providing our clients with an integrated and efficient approach. Our experience and skills range from analysis and strategic thinking to asset development, sales, and after-sales.",
+      "text2": "We manage assets from A to Z, with a mindset focused on maximizing asset appreciation."
+    },
+    "whyChoose": {
+      "title": "Why choose StellarVest Asset Management?",
+      "text1": "Choosing StellarVest Asset Management means choosing a partner committed to success and maximum asset appreciation. Our personalized and integrated approach, combined with values of commitment, integrity, innovation, partnership, and responsibility, ensure excellent and trustworthy service.",
+      "text2": "We are ready to be your trusted partner in complex asset management, providing innovative and effective solutions to maximize the value of your investments."
     }
   },
   "footer": {

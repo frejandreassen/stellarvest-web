@@ -3,7 +3,8 @@
     "home": "Home",
     "about": "Sobre Nós",
     "services": "Serviços",
-    "contact": "Contacto"
+    "contact": "Contacto",
+    "login": "Entrar"
   },
   "hero": {
     "specialist": "Especialista na gestão de ativos complexos",
@@ -12,77 +13,177 @@
     "learnMore": "Saber mais",
     "contactUs": "Contacte-nos"
   },
-  "about": {
-    "welcome": "Bem-vindo à StellarVest Asset Management",
-    "intro": "A StellarVest Asset Management é especialista na gestão de ativos complexos, oferecendo um serviço 360º que abrange todas as fases da gestão de ativos. Com uma abordagem estratégica e inovadora, a StellarVest Asset Management destaca-se pela sua capacidade de análise, desenvolvimento estratégico, venda e pós-venda.",
-    "missionVision": {
-      "title": "Missão e Visão",
-      "mission": {
-        "title": "Missão",
-        "text": "A nossa missão é proporcionar soluções especializadas em gestão de ativos, garantindo o máximo retorno para os nossos clientes. Comprometemo-nos a oferecer serviços integrados e personalizados, contemplando todas as fases da gestão de ativos num único parceiro."
+  "whatWeDo": {
+    "title": "O que fazemos diferente",
+    "subtitle": "Serviço 360° que abrange todas as fases",
+    "description": "A StellarVest Asset Management é especialista na gestão de ativos complexos. Com uma abordagem estratégica e inovadora, destacamo-nos pela nossa capacidade de análise, desenvolvimento estratégico, vendas e pós-venda.",
+    "features": {
+      "realTime": {
+        "name": "Altamente adaptado para fornecer",
+        "description": "Dados em tempo real para diferentes públicos (Investidores, Gov., FdR, UE, etc.)"
       },
-      "vision": {
-        "title": "Visão",
-        "text": "A nossa visão é ser reconhecida como a primeira escolha na gestão de ativos complexos, oferecendo uma abordagem completa e inovadora para maximizar o potencial valor dos ativos dos nossos clientes."
+      "management": {
+        "name": "Equipe de Gestão Experiente",
+        "description": "Grande experiência combinada em ativos problemáticos"
+      },
+      "servicer": {
+        "name": "Único servicer em Portugal",
+        "description": "Com experiência em carve outs complexos e contratos de servicing (Estado PT)"
+      },
+      "capacity": {
+        "name": "Capacidade reconhecida",
+        "description": "Para gerir ativos imobiliários complexos e casos muito especiais de NPLs Corporativos"
+      },
+      "platform": {
+        "name": "Forte plataforma imobiliária",
+        "description": "Que gere todo tipo de REOs"
+      },
+      "aum": {
+        "name": "100% dos AUM's",
+        "description": "São propriedade de partes não relacionadas"
       }
+    }
+  },
+  "numbers": {
+    "title": "Nossos Números",
+    "description": "Desde 2018, nossa dedicação e abordagem eficiente nos permitiram construir um portfólio robusto avaliado em mais de €570M em Vendas de REO's e €181M. Para nós, a gestão de ativos não é apenas sobre empréstimos ou propriedades, é sobre entender as necessidades únicas de nossos clientes e exceder as expectativas.",
+    "since2018": "Desde 2018",
+    "reos": {
+      "title": "Vendas de REOs",
+      "value": "€570M"
     },
-    "whoWeAre": {
-      "title": "Quem Somos",
-      "text1": "A StellarVest Asset Management foi criada com o objetivo de maximizar o valor dos ativos, proporcionando aos nossos clientes uma abordagem integrada e eficiente. A nossa experiência e competências abrangem desde a análise e pensamento estratégico até ao desenvolvimento, venda e pós-venda de ativos.",
-      "text2": "Gerimos os ativos de A a Z, com um mindset focado em potenciar ao máximo a valorização dos ativos."
+    "collections": {
+      "title": "Cobranças",
+      "value": "€228M"
     },
-    "whyChoose": {
-      "title": "Porque escolher a StellarVest Asset Management?",
-      "text1": "Escolher a StellarVest Asset Management é optar por um parceiro comprometido com o sucesso e a valorização máxima dos seus ativos. A nossa abordagem personalizada e integrada, aliada aos valores de compromisso, integridade, inovação, parceria e responsabilidade, garantem um serviço de excelência e confiança.",
-      "text2": "Estamos prontos para ser o seu parceiro de confiança na gestão de ativos complexos, proporcionando soluções inovadoras e eficaces para maximizar o valor dos seus investimentos."
+    "assetsMgt": {
+      "title": "Gestão de Ativos",
+      "aum": "+€1,2B AUM",
+      "assets": "+6.000 Ativos"
+    },
+    "maintenance": {
+      "title": "Manutenção de Edifícios",
+      "value": ">1100",
+      "subtitle": "Intervenções CAPEX & OPEX MGT"
     }
   },
   "services": {
-    "title": "Nossos Serviços",
-    "subtitle": "Oferecemos uma gama completa de serviços de gestão de ativos para atender às suas necessidades.",
+    "title": "Our Services",
+    "subtitle": "We offer a complete range of asset management services to meet your needs.",
+    "findOutMore": "Find out more",
     "items": {
-      "creditManagement": {
-        "name": "Gestão de Créditos",
+      "creditRecovery": {
+        "name": "Credit Recovery Management",
         "description": [
-          "Experiência em gestão de crédito de Individuals, SME, secured e unsecured;",
-          "Estratégias amigáveis e judiciais com vista à recuperação;",
-          "Reestruturação de dívidas e outras soluções que melhor sirvam o cliente."
+          "Experience in managing Individual, SME, secured and unsecured credit",
+          "Friendly and judicial strategies for recovery",
+          "Debt restructuring and other solutions that best serve the client"
         ]
       },
       "realEstateManagement": {
-        "name": "Gestão de Ativos Imobiliários",
+        "name": "Real Estate Asset Management",
         "description": [
-          "Regularização técnica e comercialização de ativos singulares e granulares;",
-          "Desenvolvimento e transformação de ativos singulares – portfolios e single names: terrenos, edifícios e imóveis inacabados;",
-          "Asset Management de ativos singulares – portfolios e single names."
+          "Technical regularization and commercialization of singular and granular assets",
+          "Development and transformation of singular assets - portfolios and single names: land, buildings and unfinished properties",
+          "Asset Management of singular assets - portfolios and single names"
         ],
-        "label": "Para aceder aos imóveis que temos para comercialização, clique no ",
+        "label": "To access the properties we have for sale, click on the",
         "link": "Link"
       },
       "advisory": {
         "name": "Advisory",
         "description": [
-          "Due diligence de portfolios NPL, PL e de REOs (buyer side e seller side);",
-          "Avaliações de ativos imobiliários;",
-          "Criação de modelo financeiro/business plans com vista à recuperação de portfolios."
+          "Due diligence of NPL, PL and REOs portfolios (buyer side and seller side)",
+          "Real estate asset valuations",
+          "Creation of financial model/business plans for portfolio recovery"
         ]
       },
-      "servicing": {
-        "name": "Servicing / Serviços Corporativos",
+      "corporateServices": {
+        "name": "Servicing / Corporate Services",
         "description": [
-          "Suporte administrativo às áreas de negócio;",
-          "Property management - Gestão de arrendamentos, condomínios e manutenção dos imóveis;",
-          "Regularização, gestão judicial de imóveis ocupados e contratação."
+          "Administrative support to business areas",
+          "Property management - Management of leases, condominiums and property maintenance",
+          "Regularization, judicial management of occupied properties and contracting"
         ]
       },
-      "stc": {
-        "name": "STC - Veículo de Securitização",
+      "securitization": {
+        "name": "STC - Securitization Vehicle",
         "description": [
-          "Serviços completos de securitização;",
-          "Configuração e gestão de securitizações;",
-          "Maximização de valor para originadores e investidores."
+          "Complete securitization services",
+          "Configuration and management of securitizations",
+          "Value maximization for originators and investors"
         ]
       }
+    }
+  },
+  "team": {
+    "title": "Conheça nossa liderança",
+    "subtitle": "Nossa experiente equipe combina décadas de expertise em gestão de ativos, imóveis e serviços financeiros para entregar resultados excepcionais aos nossos clientes.",
+    "contactButton": "Fale com nossa equipe de gestão",
+    "people": {
+      "rubenSommer": {
+        "name": "Ruben Sommer",
+        "role": "CEO",
+        "experience": "+ 30 anos de experiência",
+        "bio": "Experiência em várias instituições financeiras prestigiadas, incluindo Banif, ABN Amro Bank, Deutsche Bank Investimentos, BES Investimento, Domusvenda, Reactivv e Albatris. Possui graduação em Gestão Empresarial."
+      },
+      "joaoRibeiro": {
+        "name": "João Ribeiro",
+        "role": "Diretor Imobiliário",
+        "experience": "+ 25 anos de experiência",
+        "bio": "Vasta experiência no setor imobiliário com empresas como Immo Mosqueteiros PT, DIA PT, CBRE, Euro-Funding Advisory Group, Carrefour PT e Parque Expo. Possui graduação em Arquitetura e Mestrado em Planejamento Urbano."
+      },
+      "pedroGuerreiro": {
+        "name": "Pedro Guerreiro",
+        "role": "CHRO & CFO",
+        "experience": "+ 25 anos de experiência",
+        "bio": "Experiência em serviços financeiros no Banif, ABN Amro Bank, Deutsche Bank Investimentos, BES Investimento, entre outros. Múltiplas qualificações incluindo graduações em Gestão, Advocacia e pós-graduação em Gestão de RH e Estratégia Corporativa."
+      }
+    }
+  },
+  "clients": {
+    "title": "Confiado por líderes do setor",
+    "subtitle": "Trabalhamos com alguns dos nomes mais respeitados em serviços financeiros e imobiliários.",
+    "logos": {
+      "apollo": "Logótipo Apollo",
+      "fortress": "Logótipo Fortress",
+      "santander": "Logótipo Santander",
+      "lcmPartners": "Logótipo LCM Partners",
+      "cgd": "Logótipo Caixa Geral de Depósitos",
+      "profile": "Logótipo Profile",
+      "titante": "Logótipo Titante",
+      "davidsonKempner": "Logótipo Davidson Kempner",
+      "arrowGlobal": "Logótipo Arrow Global Portugal"
+    }
+  },
+  "contactForm": {
+    "title": "Contacte-nos",
+    "subtitle": "Entre em contacto com a nossa equipa",
+    "form": {
+      "firstName": "Nome",
+      "lastName": "Apelido",
+      "email": "Email",
+      "phone": "Número de telefone",
+      "teamSelect": {
+        "label": "Com quem deseja falar hoje?",
+        "placeholder": "Selecione uma equipa",
+        "options": {
+          "management": "Equipa de Gestão",
+          "loans": "Equipa de Empréstimos",
+          "advisory": "Equipa de Consultoria",
+          "legal": "Equipa Jurídica",
+          "administration": "Administração"
+        }
+      },
+      "description": "Descrição",
+      "terms": "Concordo com os termos e condições da informação legal",
+      "submit": "Enviar",
+      "submitting": "A enviar..."
+    },
+    "messages": {
+      "success": "Obrigado pela sua mensagem. Entraremos em contacto em breve!",
+      "error": "Ocorreu um erro ao enviar o formulário. Por favor, tente novamente.",
+      "recaptchaError": "Por favor, complete a verificação reCAPTCHA"
     }
   },
   "contact": {
@@ -108,6 +209,31 @@
         "building": "CEP – Centro Empresarial do Porto",
         "address": "Rua Eng Ferreira Dias 161, Sala E308 | 4100-247 Porto"
       }
+    }
+  },
+  "about": {
+    "welcome": "Bem-vindo à StellarVest Asset Management",
+    "intro": "A StellarVest Asset Management é especialista na gestão de ativos complexos, oferecendo um serviço 360º que abrange todas as fases da gestão de ativos. Com uma abordagem estratégica e inovadora, a StellarVest Asset Management destaca-se pela sua capacidade de análise, desenvolvimento estratégico, venda e pós-venda.",
+    "missionVision": {
+      "title": "Missão e Visão",
+      "mission": {
+        "title": "Missão",
+        "text": "A nossa missão é proporcionar soluções especializadas em gestão de ativos, garantindo o máximo retorno para os nossos clientes. Comprometemo-nos a oferecer serviços integrados e personalizados, contemplando todas as fases da gestão de ativos num único parceiro."
+      },
+      "vision": {
+        "title": "Visão",
+        "text": "A nossa visão é ser reconhecida como a primeira escolha na gestão de ativos complexos, oferecendo uma abordagem completa e inovadora para maximizar o potencial valor dos ativos dos nossos clientes."
+      }
+    },
+    "whoWeAre": {
+      "title": "Quem Somos",
+      "text1": "A StellarVest Asset Management foi criada com o objetivo de maximizar o valor dos ativos, proporcionando aos nossos clientes uma abordagem integrada e eficiente. A nossa experiência e competências abrangem desde a análise e pensamento estratégico até ao desenvolvimento, venda e pós-venda de ativos.",
+      "text2": "Gerimos os ativos de A a Z, com um mindset focado em potenciar ao máximo a valorização dos ativos."
+    },
+    "whyChoose": {
+      "title": "Porque escolher a StellarVest Asset Management?",
+      "text1": "Escolher a StellarVest Asset Management é optar por um parceiro comprometido com o sucesso e a valorização máxima dos seus ativos. A nossa abordagem personalizada e integrada, aliada aos valores de compromisso, integridade, inovação, parceria e responsabilidade, garantem um serviço de excelência e confiança.",
+      "text2": "Estamos prontos para ser o seu parceiro de confiança na gestão de ativos complexos, proporcionando soluções inovadoras e eficaces para maximizar o valor dos seus investimentos."
     }
   },
   "footer": {

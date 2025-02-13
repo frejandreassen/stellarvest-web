@@ -1,17 +1,18 @@
-'use client'
+import React from 'react';
 import { useTranslations } from 'next-intl';
+import Link from 'next/link';
 import {
-  DocumentTextIcon,
-  BuildingOffice2Icon,
-  AcademicCapIcon,
-  WrenchScrewdriverIcon,
-  ShieldCheckIcon
-} from '@heroicons/react/24/outline';
+  FileText,
+  Building2,
+  GraduationCap,
+  Wrench,
+  Shield
+} from 'lucide-react';
 
 type ServiceItem = {
   id: string;
   icon: React.ElementType;
-  href?: string;
+  href: string;
 };
 
 export default function Services() {
@@ -20,28 +21,28 @@ export default function Services() {
   const services: ServiceItem[] = [
     {
       id: 'creditRecovery',
-      icon: DocumentTextIcon,
-      href: '#credit-recovery',
+      icon: FileText,
+      href: '/services/credit-recovery',
     },
     {
       id: 'realEstateManagement',
-      icon: BuildingOffice2Icon,
-      href: '#real-estate',
+      icon: Building2,
+      href: '/services/real-estate',
     },
     {
       id: 'advisory',
-      icon: AcademicCapIcon,
-      href: '#advisory',
+      icon: GraduationCap,
+      href: '/services/advisory',
     },
     {
       id: 'corporateServices',
-      icon: WrenchScrewdriverIcon,
-      href: '#corporate-services',
+      icon: Wrench,
+      href: '/services/corporate-services',
     },
     {
       id: 'securitization',
-      icon: ShieldCheckIcon,
-      href: '#securitization',
+      icon: Shield,
+      href: '/services/securitization',
     },
   ];
 
@@ -72,16 +73,14 @@ export default function Services() {
                       <li key={index} className="text-sm text-gray-600">{item}</li>
                     ))}
                   </ul>
-                  {service.href && (
-                    <p className="mt-6">
-                      <a
-                        href={service.href}
-                        className="inline-flex items-center rounded-md bg-primary/10 px-3 py-2 text-sm font-semibold text-primary hover:bg-primary/20 transition-colors"
-                      >
-                        {t('findOutMore')}
-                      </a>
-                    </p>
-                  )}
+                  <p className="mt-6">
+                    <Link
+                      href={service.href}
+                      className="inline-flex items-center rounded-md bg-primary/10 px-3 py-2 text-sm font-semibold text-primary hover:bg-primary/20 transition-colors"
+                    >
+                      {t('findOutMore')}
+                    </Link>
+                  </p>
                 </dd>
               </div>
             ))}

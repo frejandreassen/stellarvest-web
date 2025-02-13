@@ -3,16 +3,18 @@
 import React, { useState, useEffect } from 'react';
 import { useFormStatus } from 'react-dom';
 import { submitContact } from '@/app/actions/contact';
+import { useTranslations } from 'next-intl';
 
 function SubmitButton() {
   const { pending } = useFormStatus();
+  const t = useTranslations('contactForm');
 
   return (
     <button
       type="submit"
       disabled={pending}
       className={`block w-full rounded-md px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-text-primary transition-all duration-200
-        ${pending 
+                  ${pending 
           ? 'bg-primary/60 cursor-not-allowed' 
           : 'bg-primary hover:bg-primary/80'
         }`}
@@ -23,10 +25,10 @@ function SubmitButton() {
             <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
             <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
           </svg>
-          Submitting...
+          {t('form.submitting')}
         </span>
       ) : (
-        'Submit'
+        t('form.submit')
       )}
     </button>
   );
@@ -36,59 +38,97 @@ export default function ContactForm() {
   const [agreed, setAgreed] = useState(false);
   const [isRecaptchaLoaded, setIsRecaptchaLoaded] = useState(false);
   const [formStatus, setFormStatus] = useState<{ message: string; type: 'success' | 'error' } | null>(null);
+  const t = useTranslations('contactForm');
 
   const teams = [
-    'Management Team',
-    'Loan\'s Team',
-    'Advisory Team',
-    'Legal Team',
-    'Administration'
+    { id: 'management', value: t('form.teamSelect.options.management') },
+    { id: 'loans', value: t('form.teamSelect.options.loans') },
+    { id: 'advisory', value: t('form.teamSelect.options.advisory') },
+    { id: 'legal', value: t('form.teamSelect.options.legal') },
+    { id: 'administration', value: t('form.teamSelect.options.administration') }
   ];
 
   useEffect(() => {
-    // Load reCAPTCHA script
-    const script = document.createElement('script');
-    script.src = 'https://www.google.com/recaptcha/api.js';
-    script.async = true;
-    script.defer = true;
-    script.onload = () => setIsRecaptchaLoaded(true);
-    document.head.appendChild(script);
+    if (typeof window !== 'undefined') {
+      const script = document.createElement('script');
+      script.src = 'https://www.google.com/recaptcha/api.js';
+      script.async = true;
+      script.defer = true;
+      script.onload = () => setIsRecaptchaLoaded(true);
+      document.head.appendChild(script);
 
-    return () => {
-      document.head.removeChild(script);
-    };
+      return () => {
+        if (script.parentNode) {
+          script.parentNode.removeChild(script);
+        }
+      };
+    }
   }, []);
 
   async function handleSubmit(formData: FormData) {
-    const result = await submitContact(formData);
-    
-    if (result.success) {
-      setFormStatus({ message: result.message, type: 'success' });
-      // Reset form
-      const form = document.getElementById('contact-form') as HTMLFormElement;
-      form.reset();
-      setAgreed(false);
-      window.grecaptcha?.reset();
-    } else {
-      setFormStatus({ message: result.message, type: 'error' });
+    try {
+      const recaptchaResponse = formData.get('g-recaptcha-response');
+      if (!recaptchaResponse) {
+        setFormStatus({ message: t('messages.recaptchaError'), type: 'error' });
+        return;
+      }
+
+      const result = await submitContact(formData);
+      
+      if (result.success) {
+        setFormStatus({ message: t('messages.success'), type: 'success' });
+        const form = document.getElementById('contact-form') as HTMLFormElement;
+        form.reset();
+        setAgreed(false);
+        if (typeof window !== 'undefined' && window.grecaptcha) {
+          window.grecaptcha.reset();
+        }
+      } else {
+        setFormStatus({ 
+          message: result.message || t('messages.error'), 
+          type: 'error' 
+        });
+      }
+    } catch (error) {
+      console.error('Form submission error:', error);
+      setFormStatus({ 
+        message: t('messages.error'), 
+        type: 'error' 
+      });
     }
 
-    // Clear status after 5 seconds
-    setTimeout(() => setFormStatus(null), 5000);
+    if (formStatus?.type === 'success') {
+      setTimeout(() => setFormStatus(null), 5000);
+    }
   }
 
   return (
-    <div className="isolate bg-white px-6 py-24 sm:py-32 lg:px-8">
+    <div className="isolate bg-primary/5 px-6 py-24 sm:py-32 lg:px-8">
       <div className="mx-auto max-w-2xl text-center">
-        <h2 className="text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">Contact Us</h2>
-        <p className="mt-2 text-lg leading-8 text-gray-600">Get in touch with our team</p>
+        <h2 className="text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">{t('title')}</h2>
+        <p className="mt-2 text-lg leading-8 text-gray-600">{t('subtitle')}</p>
       </div>
 
       {formStatus && (
-        <div className={`mx-auto mt-6 max-w-xl rounded-md p-4 ${
-          formStatus.type === 'success' ? 'bg-green-50 text-green-700' : 'bg-red-50 text-red-700'
-        }`}>
-          {formStatus.message}
+        <div 
+          role="alert"
+          className={`mx-auto mt-6 max-w-xl rounded-md p-4 flex items-center justify-center ${
+            formStatus.type === 'success' 
+              ? 'bg-green-50 text-green-700 border border-green-200' 
+              : 'bg-red-50 text-red-700 border border-red-200'
+          }`}
+        >
+          {formStatus.type === 'error' && (
+            <svg className="w-5 h-5 mr-2 text-red-500" fill="currentColor" viewBox="0 0 20 20">
+              <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clipRule="evenodd" />
+            </svg>
+          )}
+          {formStatus.type === 'success' && (
+            <svg className="w-5 h-5 mr-2 text-green-500" fill="currentColor" viewBox="0 0 20 20">
+              <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+            </svg>
+          )}
+          <span className="font-medium">{formStatus.message}</span>
         </div>
       )}
 
@@ -100,7 +140,7 @@ export default function ContactForm() {
         <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
           <div>
             <label htmlFor="first-name" className="block text-sm font-semibold leading-6 text-gray-900">
-              Name
+              {t('form.firstName')}
             </label>
             <div className="mt-2.5">
               <input
@@ -115,7 +155,7 @@ export default function ContactForm() {
           </div>
           <div>
             <label htmlFor="last-name" className="block text-sm font-semibold leading-6 text-gray-900">
-              Surname
+              {t('form.lastName')}
             </label>
             <div className="mt-2.5">
               <input
@@ -130,7 +170,7 @@ export default function ContactForm() {
           </div>
           <div className="sm:col-span-2">
             <label htmlFor="email" className="block text-sm font-semibold leading-6 text-gray-900">
-              Email
+              {t('form.email')}
             </label>
             <div className="mt-2.5">
               <input
@@ -145,7 +185,7 @@ export default function ContactForm() {
           </div>
           <div className="sm:col-span-2">
             <label htmlFor="phone-number" className="block text-sm font-semibold leading-6 text-gray-900">
-              Phone number
+              {t('form.phone')}
             </label>
             <div className="mt-2.5">
               <input
@@ -160,7 +200,7 @@ export default function ContactForm() {
           </div>
           <div className="sm:col-span-2">
             <label htmlFor="team" className="block text-sm font-semibold leading-6 text-gray-900">
-              Who do you want to talk to today?
+              {t('form.teamSelect.label')}
             </label>
             <div className="mt-2.5">
               <select
@@ -169,10 +209,10 @@ export default function ContactForm() {
                 required
                 className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-inset focus:ring-text-primary sm:text-sm sm:leading-6"
               >
-                <option value="">Select a team</option>
+                <option value="">{t('form.teamSelect.placeholder')}</option>
                 {teams.map((team) => (
-                  <option key={team} value={team}>
-                    {team}
+                  <option key={team.id} value={team.id}>
+                    {team.value}
                   </option>
                 ))}
               </select>
@@ -180,7 +220,7 @@ export default function ContactForm() {
           </div>
           <div className="sm:col-span-2">
             <label htmlFor="message" className="block text-sm font-semibold leading-6 text-gray-900">
-              Description
+              {t('form.description')}
             </label>
             <div className="mt-2.5">
               <textarea
@@ -204,12 +244,11 @@ export default function ContactForm() {
                 onChange={(e) => setAgreed(e.target.checked)}
               />
               <label htmlFor="terms" className="text-sm leading-6 text-gray-600">
-                I agree to the terms and conditions of the legal information
+                {t('form.terms')}
               </label>
             </div>
           </div>
           
-          {/* reCAPTCHA container */}
           <div className="sm:col-span-2">
             <div 
               className="g-recaptcha" 
