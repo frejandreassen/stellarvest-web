@@ -29,12 +29,13 @@ export default function Hero() {
           playsInline
           preload="auto"
           poster="/lisbon_areal_image.jpg"
-          className="w-full h-full object-cover"
+          className="w-full h-full object-cover brightness-110 contrast-105"
         >
           <source src="/lisbon_areal_drone.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
-        <div className="absolute inset-0 bg-black opacity-50"></div>
+        {/* Updated gradient overlay: white to black */}
+        <div className="absolute inset-0 bg-gradient-to-b from-white via-black/40 to-black/50"></div>
       </div>
       <div className="relative z-10 h-full">
         <Header />
@@ -49,7 +50,7 @@ export default function Hero() {
               <h1 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">
                 {t('welcome')}
               </h1>
-              <p className="mt-6 text-2xl leading-8 text-gray-300">
+              <p className="mt-6 text-2xl leading-8 text-gray-200">
                 {t('tagline')}
               </p>
               <div className="mt-10 flex items-center justify-center gap-x-6">

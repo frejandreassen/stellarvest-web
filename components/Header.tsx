@@ -10,7 +10,7 @@ const navigation = [
   { nameKey: 'about', href: '/#about' },
   { nameKey: 'services', href: '/#services' },
   { nameKey: 'contact', href: '/#contact' },
-  // { nameKey: 'login', href: '/login' },
+  { nameKey: 'login', href: '/login' },
 ];
 
 export default function Header() {

@@ -1,43 +1,47 @@
 'use client'
 import { useTranslations } from 'next-intl';
-import { 
-  CreditCardIcon, 
-  BuildingOffice2Icon, 
-  AcademicCapIcon, 
-  BriefcaseIcon, 
-  ShieldCheckIcon 
-} from '@heroicons/react/24/outline'
+import {
+  DocumentTextIcon,
+  BuildingOffice2Icon,
+  AcademicCapIcon,
+  WrenchScrewdriverIcon,
+  ShieldCheckIcon
+} from '@heroicons/react/24/outline';
 
 type ServiceItem = {
   id: string;
   icon: React.ElementType;
   href?: string;
-}
+};
 
 export default function Services() {
   const t = useTranslations('services');
 
   const services: ServiceItem[] = [
     {
-      id: 'creditManagement',
-      icon: CreditCardIcon,
+      id: 'creditRecovery',
+      icon: DocumentTextIcon,
+      href: '#credit-recovery',
     },
     {
       id: 'realEstateManagement',
-      href: 'https://realestate.stellarvest.pt/',
       icon: BuildingOffice2Icon,
+      href: '#real-estate',
     },
     {
       id: 'advisory',
       icon: AcademicCapIcon,
+      href: '#advisory',
     },
     {
-      id: 'servicing',
-      icon: BriefcaseIcon,
+      id: 'corporateServices',
+      icon: WrenchScrewdriverIcon,
+      href: '#corporate-services',
     },
     {
-      id: 'stc',
+      id: 'securitization',
       icon: ShieldCheckIcon,
+      href: '#securitization',
     },
   ];
 
@@ -53,31 +57,28 @@ export default function Services() {
           </p>
         </div>
         <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">
-          <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-3">
+          <dl className="grid max-w-xl grid-cols-1 gap-x-12 gap-y-16 lg:max-w-none lg:grid-cols-3">
             {services.map((service) => (
               <div key={service.id} className="flex flex-col h-full">
-                <dt className="flex items-start gap-x-3 text-base font-semibold leading-7 text-gray-900">
-                  <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-primary shrink-0">
-                    <service.icon aria-hidden="true" className="h-6 w-6 text-white" />
+                <dt className="flex items-center gap-x-3 text-base font-semibold leading-7 text-gray-900">
+                  <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-primary/10 shrink-0">
+                    <service.icon aria-hidden="true" className="h-7 w-7 text-primary" />
                   </div>
-                  <span className="mt-2">{t(`items.${service.id}.name`)}</span>
+                  <span className="mt-1">{t(`items.${service.id}.name`)}</span>
                 </dt>
                 <dd className="mt-4 flex flex-auto flex-col text-base leading-7 text-gray-600">
-                  <ul className="flex-auto list-disc space-y-4 pl-5">
+                  <ul className="flex-auto list-disc space-y-3 pl-5">
                     {t.raw(`items.${service.id}.description`).map((item: string, index: number) => (
-                      <li key={index} className="">{item}</li>
+                      <li key={index} className="text-sm text-gray-600">{item}</li>
                     ))}
                   </ul>
                   {service.href && (
-                    <p className="mt-6 flex items-center gap-x-2">
-                      <span className="text-xs leading-6 text-gray-500">
-                        {t(`items.${service.id}.label`)}
-                      </span>
-                      <a 
-                        href={service.href} 
-                        className="text-sm font-semibold leading-6 text-primary hover:text-primary/80 transition-colors"
+                    <p className="mt-6">
+                      <a
+                        href={service.href}
+                        className="inline-flex items-center rounded-md bg-primary/10 px-3 py-2 text-sm font-semibold text-primary hover:bg-primary/20 transition-colors"
                       >
-                        {t(`items.${service.id}.link`)}
+                        {t('findOutMore')}
                       </a>
                     </p>
                   )}

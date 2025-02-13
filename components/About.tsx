@@ -111,7 +111,6 @@ export default function About() {
           </div>
         </div>
 
-        {/* KPIs section - commented out but kept for future use */}
       </main>
     </div>
   );
