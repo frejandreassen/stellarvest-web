@@ -68,50 +68,50 @@
     }
   },
   "services": {
-    "title": "Our Services",
-    "subtitle": "We offer a complete range of asset management services to meet your needs.",
-    "findOutMore": "Find out more",
+    "title": "Nossos Serviços",
+    "subtitle": "Oferecemos uma gama completa de serviços de gestão de ativos para atender às suas necessidades.",
+    "findOutMore": "Saiba mais",
     "items": {
       "creditRecovery": {
-        "name": "Credit Recovery Management",
+        "name": "Gestão de Recuperação de Crédito",
         "description": [
-          "Experience in managing Individual, SME, secured and unsecured credit",
-          "Friendly and judicial strategies for recovery",
-          "Debt restructuring and other solutions that best serve the client"
+          "Experiência na gestão de crédito Individual, PME, com e sem garantia",
+          "Estratégias amigáveis e judiciais de recuperação",
+          "Reestruturação de dívidas e outras soluções que melhor atendam ao cliente"
         ]
       },
       "realEstateManagement": {
-        "name": "Real Estate Asset Management",
+        "name": "Gestão de Ativos Imobiliários",
         "description": [
-          "Technical regularization and commercialization of singular and granular assets",
-          "Development and transformation of singular assets - portfolios and single names: land, buildings and unfinished properties",
-          "Asset Management of singular assets - portfolios and single names"
+          "Regularização técnica e comercialização de ativos singulares e granulares",
+          "Desenvolvimento e transformação de ativos singulares - carteiras e single names: terrenos, edifícios e imóveis inacabados",
+          "Gestão de Ativos singulares - carteiras e single names"
         ],
-        "label": "To access the properties we have for sale, click on the",
+        "label": "Para acessar os imóveis que temos à venda, clique no",
         "link": "Link"
       },
       "advisory": {
-        "name": "Advisory",
+        "name": "Consultoria",
         "description": [
-          "Due diligence of NPL, PL and REOs portfolios (buyer side and seller side)",
-          "Real estate asset valuations",
-          "Creation of financial model/business plans for portfolio recovery"
+          "Due diligence de carteiras NPL, PL e REOs (lado comprador e vendedor)",
+          "Avaliações de ativos imobiliários",
+          "Criação de modelo financeiro/planos de negócios para recuperação de carteira"
         ]
       },
       "corporateServices": {
-        "name": "Servicing / Corporate Services",
+        "name": "Servicing / Serviços Corporativos",
         "description": [
-          "Administrative support to business areas",
-          "Property management - Management of leases, condominiums and property maintenance",
-          "Regularization, judicial management of occupied properties and contracting"
+          "Suporte administrativo às áreas de negócio",
+          "Administração de propriedades - Gestão de locações, condomínios e manutenção de imóveis",
+          "Regularização, gestão judicial de imóveis ocupados e contratação"
         ]
       },
       "securitization": {
-        "name": "STC - Securitization Vehicle",
+        "name": "STC - Veículo de Securitização",
         "description": [
-          "Complete securitization services",
-          "Configuration and management of securitizations",
-          "Value maximization for originators and investors"
+          "Serviços completos de securitização",
+          "Configuração e gestão de securitizações",
+          "Maximização de valor para originadores e investidores"
         ]
       }
     }
