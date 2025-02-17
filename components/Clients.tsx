@@ -4,39 +4,39 @@ import { useTranslations } from 'next-intl'
 const clients = [
   {
     id: 'apollo',
-    logo: '/clients/apollo.svg',
+    logo: '/clients/apollo1.png',
   },
   {
     id: 'fortress',
-    logo: '/clients/fortress.svg',
+    logo: '/clients/fortress1.png',
   },
   {
     id: 'santander',
-    logo: '/clients/santander.svg',
+    logo: '/clients/Santander_Logotipo.png',
   },
   {
     id: 'lcmPartners',
-    logo: '/clients/lcm-partners.svg',
+    logo: '/clients/LCM Partners.png',
   },
   {
     id: 'cgd',
-    logo: '/clients/cgd.svg',
+    logo: '/clients/cgd-logo1-1.webp',
   },
   {
     id: 'profile',
-    logo: '/clients/profile.svg',
+    logo: '/clients/Logo_Profile.png',
   },
   {
-    id: 'titante',
-    logo: '/clients/titante.svg',
+    id: 'oitante',
+    logo: '/clients/Oitante.png',
   },
   {
     id: 'davidsonKempner',
-    logo: '/clients/davidson-kempner.svg',
+    logo: '/clients/davidson-kempner.png',
   },
   {
-    id: 'arrowGlobal',
-    logo: '/clients/arrow-global.svg',
+    id: 'aicep',
+    logo: '/clients/grupo-aicep-300x66-1.png',
   }
 ]
 

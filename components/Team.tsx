@@ -5,15 +5,15 @@ import Link from 'next/link'
 const people = [
   {
     id: 'rubenSommer',
-    imageUrl: '/team/ruben-sommer.jpg',
+    imageUrl: '/team/223 Ruben Sommer.png',
   },
   {
     id: 'joaoRibeiro',
-    imageUrl: '/team/joao-ribeiro.jpg',
+    imageUrl: '/team/Joֶo Ribeiro.jpg',
   },
   {
     id: 'pedroGuerreiro',
-    imageUrl: '/team/pedro-guerreiro.jpg',
+    imageUrl: '/team/Pedro Guerreiro.jpg',
   },
 ]
 
