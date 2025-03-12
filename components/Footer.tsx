@@ -1,15 +1,15 @@
 'use client'
 import { useTranslations } from 'next-intl';
+import SectionSeparator from './SectionSeparator';
 
 export default function Footer() {
   const t = useTranslations('footer');
 
   const footerNavigation = {
     solutions: [
-      { nameKey: 'creditManagement', href: '/credit' },
+      { nameKey: 'loansManagement', href: '/loans-management' },
       { nameKey: 'realEstateManagement', href: '/real-estate' },
       { nameKey: 'advisory', href: '/advisory' },
-      { nameKey: 'servicing', href: '/servicing' },
       { nameKey: 'securitization', href: '/securitization' },
     ],
     support: [
@@ -81,6 +81,7 @@ export default function Footer() {
           </p>
         </div>
       </div>
+      <SectionSeparator />
     </footer>
   )
 }

@@ -70,14 +70,17 @@
   "services": {
     "title": "Nossos Serviços",
     "subtitle": "Oferecemos uma gama completa de serviços de gestão de ativos para atender às suas necessidades.",
+    "description": "Com nossa abordagem integrada, fornecemos soluções abrangentes de gestão de ativos que cobrem todos os aspectos das suas necessidades de investimento.",
     "findOutMore": "Saiba mais",
+    "viewAllServices": "Ver Todos os Serviços",
     "items": {
-      "creditRecovery": {
-        "name": "Gestão de Recuperação de Crédito",
+      "loansManagement": {
+        "name": "Gestão de Empréstimos",
         "description": [
-          "Experiência na gestão de crédito Individual, PME, com e sem garantia",
-          "Estratégias amigáveis e judiciais de recuperação",
-          "Reestruturação de dívidas e outras soluções que melhor atendam ao cliente"
+          "Experiência em recuperação de crédito, servicing e outsourcing",
+          "Histórico comprovado em Dívida Corporativa Garantida",
+          "Estratégias personalizadas de recuperação de empréstimos",
+          "Abordagem abrangente de gestão de empréstimos"
         ]
       },
       "realEstateManagement": {
@@ -170,6 +173,7 @@
         "options": {
           "management": "Equipa de Gestão",
           "loans": "Equipa de Empréstimos",
+          "realEstate": "Equipa de Imobiliário",
           "advisory": "Equipa de Consultoria",
           "legal": "Equipa Jurídica",
           "administration": "Administração"
@@ -211,9 +215,335 @@
       }
     }
   },
+  "realEstateManagement": {
+    "title": "Gestão de Ativos Imobiliários",
+    "subtitle": "Maximizando o Valor das Propriedades",
+    "intro": "A StellarVest Asset Management oferece serviços especializados de gestão de ativos imobiliários focados em maximizar o valor dos ativos através de uma abordagem integrada e eficiente. Nossos serviços abrangentes cobrem tudo, desde análise e design estratégico até desenvolvimento, gestão, vendas e pós-vendas de ativos imobiliários, adaptados aos objetivos específicos de cada investidor.",
+    "platformText": "Nossa plataforma imobiliária está equipada para gerir todos os tipos de propriedades, com equipas internas especializadas dedicadas à transformação e gestão de ativos imobiliários complexos com restrições desafiadoras.",
+    "quote": "Maximizando o valor dos ativos com nossa abordagem integrada de gestão imobiliária.",
+    "whyStellarVest": {
+      "title": "Por que a StellarVest?",
+      "description": "A StellarVest possui uma plataforma imobiliária robusta capaz de gerir todos os tipos de propriedades. Nossas equipes internas especializadas se destacam na gestão de ativos, desenvolvimento e arrendamento de imóveis residenciais e comerciais. Temos um forte histórico na transformação e gestão de ativos imobiliários complexos e projetos, reconhecidos por nossa capacidade de lidar com restrições de licenciamento, desempenho e construção.",
+      "items": [
+        "Plataforma imobiliária robusta capaz de gerir todos os tipos de propriedades (residencial, comercial, terrenos, etc.)",
+        "Equipas internas especializadas para gestão de ativos, desenvolvimento e arrendamento",
+        "Forte histórico na transformação e gestão de ativos imobiliários complexos com restrições desafiadoras",
+        "Experiência com propriedades que têm restrições de licenciamento, desempenho e construção",
+        "Cobertura nacional em todo Portugal"
+      ]
+    },
+    "results": {
+      "title": "Nossos resultados comprovam isso",
+      "sales": "Vendas Imobiliárias (desde 2018)",
+      "salesAmount": "€580M",
+      "aum": "Ativos sob Gestão (AUM)",
+      "aumAmount": "Mais de €1.2B",
+      "assets": "Número de Ativos Geridos",
+      "assetsAmount": "Mais de 6.000",
+      "rental": "Gestão de Arrendamentos",
+      "rentalAmount": "€7M anualmente",
+      "leases": "com mais de 120 contratos",
+      "maintenance": "Manutenção de Edifícios",
+      "maintenanceAmount": "CAPEX & OPEX",
+      "maintenanceDesc": "com mais de 1.100 intervenções"
+    },
+    "approach": {
+      "title": "Nossa Abordagem demonstra",
+      "description": "Nossa metodologia está centrada na entrega de valor máximo através de um processo altamente estruturado e focado no cliente:",
+      "items": [
+        "Orientada para o Melhor Valor do Ativo",
+        "Forte plataforma imobiliária que gere todos os tipos de Propriedades",
+        "Equipes internas especializadas – gestão de ativos, desenvolvimento e arrendamento de ativos, tanto residenciais como comerciais",
+        "Forte histórico em transformação e gestão de ativos imobiliários e projetos - capacidade reconhecida para gerir ativos imobiliários complexos com restrições de licenciamento, desempenho e construção",
+        "Plataforma que fornece dados personalizados em tempo real com base nas necessidades de cada cliente"
+      ]
+    },
+    "commercializationProcess": {
+      "title": "Nosso Processo de Comercialização",
+      "description": "Nosso processo completo garante a máxima realização de valor:",
+      "phases": [
+        {
+          "title": "Onboarding & Preparação de Ativos",
+          "items": [
+            "Processo detalhado de admissão de ativos",
+            "Metodologia de avaliação inicial",
+            "Processo de regularização de documentos",
+            "Avaliação da condição técnica"
+          ]
+        },
+        {
+          "title": "Gestão de Mediadores",
+          "items": [
+            "Critérios de seleção de mediadores",
+            "Metodologia de classificação de desempenho",
+            "Política de rotação de mediadores",
+            "Mecanismos de controle de qualidade",
+            "Sistemas de acompanhamento de KPIs"
+          ]
+        },
+        {
+          "title": "Gestão de Leads",
+          "items": [
+            "Estratégias de geração de leads",
+            "Processo de qualificação",
+            "Sistema de acompanhamento",
+            "Técnicas de otimização de conversão",
+            "Protocolos de acompanhamento"
+          ]
+        },
+        {
+          "title": "Estrutura da Equipa Imobiliária",
+          "items": [
+            "Composição da equipa e áreas de especialização",
+            "Suporte especializado de call center",
+            "Capacidades de cobertura nacional",
+            "Distribuição geográfica"
+          ]
+        }
+      ]
+    },
+    "structure": {
+      "title": "Nossa Estrutura",
+      "items": [
+        "Estrutura da Equipa Comercial e gestão da rede de mediadores",
+        "Equipas internas especializadas para regularização técnica e judicial de ativos",
+        "Ferramentas de TI para gestão de portfólio (desde admissão até cobrança, manutenção)",
+        "Serviços internos de Anti-Lavagem de Dinheiro (AML)",
+        "Estratégias de alocação de ativos por tipo, localização e investidor",
+        "Expertise especial em tipos de propriedades desafiadoras (vendas urgentes, propriedade parcial, propriedades ocupadas)"
+      ]
+    },
+    "focus": {
+      "title": "Nosso Foco",
+      "items": [
+        "Metodologia de otimização do valor do ativo",
+        "Personalização orientada ao investidor",
+        "Abordagem comercial orientada por negócios",
+        "Política de publicidade e alcance estratégicos",
+        "Gestão proativa da abordagem comercial",
+        "Estratégia regular de campanhas"
+      ]
+    },
+    "servicesCapacity": {
+      "title": "Nossos serviços e capacidade imobiliária – Atividade de comercialização granular",
+      "tagline": "Seus Imóveis, Nossa Especialidade",
+      "contactUs": "Fale com nossa equipe imobiliária",
+      "process": {
+        "step1": {
+          "name": "Integração e Limpeza de Ativos",
+          "description": "Avaliação e preparação de ativos"
+        },
+        "step2": {
+          "name": "Gestão de Mediadores",
+          "description": "Coordenação e supervisão da rede"
+        },
+        "step3": {
+          "name": "Gestão de Leads",
+          "description": "Rastreamento e conversão de oportunidades"
+        },
+        "step4": {
+          "name": "Equipa Imobiliária",
+          "description": "Expertise especializada por tipo de ativo"
+        }
+      },
+      "services": [
+        "Equipa interna especializada",
+        "Fornecedores de serviços externos de cobertura nacional",
+        "Classificação por KPIs de avaliação de mediadores",
+        "Rotação de mediadores alocados",
+        "Software próprio de gestão de propriedades",
+        "Criação e originação de leads",
+        "Suporte especializado de Call Center",
+        "Equipa especializada: Dimensão e Localização"
+      ],
+      "structure": {
+        "title": "ESTRUTURA",
+        "items": [
+          "Equipa Comercial com Gestores de Ativos trabalhando em parceria com uma ampla rede de mediadores",
+          "Equipas internas especializadas em regularização de ativos – técnica e judicial",
+          "Ferramentas de TI personalizadas gerindo todo o portfólio desde a admissão até cobranças, gerindo manutenção, chaves e fecho",
+          "Serviços internos de AML",
+          "Alocação por Tipo de Ativo e localização, Investidor e/ou Portfólio",
+          "Foco especial e histórico comprovado em vendas urgentes, ativos sem propriedade total e ocupados, vendas"
+        ]
+      },
+      "focus": {
+        "title": "FOCO",
+        "items": [
+          "Orientado pelo Melhor Valor do Ativo",
+          "Orientado pelo investidor",
+          "Orientado por negócios – a melhor abordagem comercial caso a caso",
+          "Ampla política de publicidade",
+          "Abordagens comerciais proativas e gestão",
+          "Campanhas regulares e proativas"
+        ]
+      }
+    },
+    "services": {
+      "title": "Servicing & Gestão de Propriedades",
+      "description": "Na StellarVest, fornecemos soluções de servicing de alta qualidade, projetadas para otimizar a gestão de ativos e garantir operações perfeitas para nossos clientes. Nossa experiência abrange gestão de propriedades e regularização legal, permitindo que investidores e instituições financeiras se concentrem no crescimento estratégico enquanto lidamos com as complexidades do servicing de ativos.",
+      "intro": "Nossa Expertise em Servicing",
+      "propertyManagement": {
+        "title": "Serviços de Gestão de Propriedades",
+        "description": "Da gestão de arrendamentos e condomínios à manutenção de propriedades, gerimos todos os aspectos da administração imobiliária. Nossa abordagem proativa garante a satisfação dos inquilinos, a preservação do valor dos ativos e a eficiência de custos."
+      },
+      "legalManagement": {
+        "title": "Gestão Legal & de Ativos Ocupados",
+        "description": "Somos especializados na regularização e gestão judicial de propriedades ocupadas, fornecendo soluções estratégicas que garantem conformidade, mitigação de riscos e recuperação otimizada de ativos. Além disso, supervisionamos o processo de contratação, garantindo transparência e segurança jurídica em cada etapa."
+      },
+      "whyChoose": {
+        "title": "Por que escolher a StellarVest?",
+        "items": [
+          "Eficiência & Expertise – Uma equipe de profissionais dedicada a maximizar a eficácia operacional",
+          "Soluções End to End – Uma abordagem holística cobrindo todo o ciclo de vida do ativo",
+          "Gestão de Risco & Conformidade – Garantindo aderência regulatória e proteção estratégica de ativos",
+          "Abordagem Centrada no Cliente – Soluções de servicing personalizadas que se alinham com seus objetivos de negócio"
+        ]
+      },
+      "tagline": "Vamos construir juntos o futuro da gestão de ativos. Seus Ativos, Nossa Especialidade."
+    },
+    "team": {
+      "title": "Nossa Equipe de Gestão Imobiliária",
+      "description": "Nossos profissionais experientes trazem décadas de experiência combinada em gestão de ativos imobiliários.",
+      "members": [
+        {
+          "name": "JOÃO RIBEIRO",
+          "position": "DIRETOR GERAL & CHEFE DE GRUPO",
+          "description": "Especialista em gestão de ativos imobiliários com ampla experiência em otimização de portfólio e estratégias de criação de valor."
+        },
+        {
+          "name": "MÔNICA COHEN",
+          "position": "GESTORA DE PORTFÓLIO",
+          "description": "Especialista em gestão de ativos imobiliários com ampla experiência em otimização de portfólio e estratégias de criação de valor."
+        },
+        {
+          "name": "SARA LOPES",
+          "position": "GESTORA DE PORTFÓLIO",
+          "description": "Especialista em gestão de ativos imobiliários com ampla experiência em otimização de portfólio e estratégias de criação de valor."
+        }
+      ]
+    },
+    "allServices": "Ver todos os nossos serviços",
+    "contactUs": "Fale com nossa equipa imobiliária"
+  },
+  "loansManagement": {
+    "title": "Gestão de Empréstimos",
+    "subtitle": "Serviços Especializados de Gestão de Empréstimos",
+    "intro": "A StellarVest Asset Management oferece serviços abrangentes de gestão de empréstimos, com vasta experiência em recuperação de crédito, servicing e outsourcing. Gerimos todos os tipos de empréstimos, desde os performantes até aos sub-performantes e não performantes.",
+    "quote": "Serviços especializados de gestão de empréstimos, com estratégias personalizadas para maximizar a recuperação e garantir soluções focadas no cliente.",
+    "whyStellarVest": {
+      "title": "Por que a StellarVest?",
+      "items": [
+        "Histórico comprovado em Dívida Corporativa Garantida",
+        "Estratégias personalizadas de recuperação de empréstimos",
+        "Abordagem abrangente de gestão de empréstimos",
+        "Soluções focadas no cliente",
+        "Gestão integrada de ativos e jurídica"
+      ]
+    },
+    "results": {
+      "title": "Nossos Resultados",
+      "recovered": "Recuperado (desde 2018)",
+      "recoveredAmount": "€23M",
+      "aum": "Ativos sob Gestão",
+      "aumAmount": "€700M"
+    },
+    "approach": "Nossa abordagem enfatiza a recuperação de dívidas de forma eficiente e estratégica, priorizando soluções focadas no cliente e aproveitando nossa experiência em gestão integrada de ativos e jurídica. Entendemos que cada carteira de empréstimos tem requisitos únicos, e adaptamos nossos serviços de acordo.",
+    "servicesCapacity": {
+      "title": "Nossos Serviços e Capacidade de Empréstimos",
+      "process": {
+        "step1": {
+          "name": "Estratificação de Empréstimos e Design de Estratégia",
+          "description": "Análise e segmentação de portfólio"
+        },
+        "step2": {
+          "name": "Resolução Amigável",
+          "description": "Negociação e centralidade no cliente"
+        },
+        "step3": {
+          "name": "Gestão Legal e Recuperação",
+          "description": "Melhor estratégia judicial e intervenção em tribunal"
+        },
+        "step4": {
+          "name": "Corporativo e Nomes Únicos",
+          "description": "Soluções personalizadas para máximo valor agregado"
+        }
+      },
+      "services": [
+        "Análise de portfólio",
+        "Gestão de portfólio",
+        "Negociação",
+        "Acordos de pagamento",
+        "Estratégia judicial",
+        "Intervenções judiciais",
+        "Gestão especializada",
+        "Soluções personalizadas"
+      ],
+      "structure": {
+        "title": "ESTRUTURA",
+        "items": [
+          "Equipas com Gestores de Ativos e Gestores Jurídicos trabalhando em esforço simultâneo e conjunto para melhorar a recuperação",
+          "Fluxos de trabalho fluidos de resolução amigável através da negociação ou recuperação legal através dos procedimentos judiciais mais adequados",
+          "Controle preciso e gestão de dinheiro em tribunal",
+          "Ferramentas de TI personalizadas gerindo todo o portfólio desde a integração até as cobranças, gerindo acordos de pagamento, arquivos legais, vendas e retomadas",
+          "Gestão de notificações totalmente automatizada e controlada",
+          "Alocação por Tipo de Empréstimo, Investidor e/ou Portfólio",
+          "Gestores de Ativos e Jurídicos especiais designados para pastas complexas"
+        ]
+      },
+      "focus": {
+        "title": "FOCO",
+        "items": [
+          "Orientado ao desempenho",
+          "Orientado ao investidor",
+          "Abordagem holística: empréstimo, devedores/clientes, ativos",
+          "Gestão proativa de processos",
+          "Controles e relatórios online",
+          "Soluções inovadoras, além da simples liquidação",
+          "Procedimentos simples, mas eficazes"
+        ]
+      }
+    },
+    "tagline": "Seus Ativos, Nossa Especialidade",
+    "contactUs": "Fale com nossa equipe de gestão de empréstimos",
+    "allServices": "Ver todos os nossos serviços"
+  },
   "about": {
-    "welcome": "Bem-vindo à StellarVest Asset Management",
+    "title": "Sobre Nós",
     "intro": "A StellarVest Asset Management é especialista na gestão de ativos complexos, oferecendo um serviço 360º que abrange todas as fases da gestão de ativos. Com uma abordagem estratégica e inovadora, a StellarVest Asset Management destaca-se pela sua capacidade de análise, desenvolvimento estratégico, venda e pós-venda.",
+    "ourHistory": "Nossa História",
+    "timeline": {
+      "oitante": {
+        "title": "Aquisição da plataforma de servicing da Oitante",
+        "description": "A empresa começou quando adquiriu a plataforma de servicing da Oitante.",
+        "logoAlt": "Logótipo Altamira"
+      },
+      "altamira": {
+        "title": "Grupo doValue adquire a Altamira Asset Management",
+        "description": "O Grupo doValue expandiu suas operações adquirindo a Altamira Asset Management.",
+        "logoAlt": "Logótipo doValue"
+      },
+      "doValueRebranding": {
+        "title": "Rebranding da Altamira Portugal para doValue Portugal",
+        "description": "Como parte de uma estratégia global de rebranding, a Altamira Portugal tornou-se doValue Portugal.",
+        "logoAlt": "Logótipo doRealEstate"
+      },
+      "zarco": {
+        "title": "Incorporação do veículo de securitização ZARCO STC",
+        "description": "A empresa diversificou suas ofertas com a criação do veículo de securitização ZARCO STC.",
+        "logoAlt": "Logótipo ZARCO"
+      },
+      "albatris": {
+        "title": "Albatris adquire a doValue Portugal",
+        "description": "A Albatris expandiu-se para o mercado português com a aquisição da doValue Portugal.",
+        "logoAlt": "Logótipo Albatris"
+      },
+      "stellarvest": {
+        "title": "Rebranding da doValue Portugal para StellarVest",
+        "description": "A empresa completou sua transformação com rebranding para StellarVest, refletindo melhor sua missão e visão.",
+        "logoAlt": "Logótipo StellarVest"
+      }
+    },
     "missionVision": {
       "title": "Missão e Visão",
       "mission": {
@@ -230,21 +560,26 @@
       "text1": "A StellarVest Asset Management foi criada com o objetivo de maximizar o valor dos ativos, proporcionando aos nossos clientes uma abordagem integrada e eficiente. A nossa experiência e competências abrangem desde a análise e pensamento estratégico até ao desenvolvimento, venda e pós-venda de ativos.",
       "text2": "Gerimos os ativos de A a Z, com um mindset focado em potenciar ao máximo a valorização dos ativos."
     },
+    "approach": {
+      "title": "Nossa Abordagem",
+      "text1": "Utilizamos uma abordagem de processo End to End de NPL (Non-Performing Loan) e Gestão de Ativos Imobiliários (REO) que proporciona um serviço 360º, com coordenação multifuncional onde as equipas de finanças, compliance, marketing e jurídica desempenham um papel essencial ao longo de todo o processo, de forma a garantir a eficiência, a gestão de risco e a máxima recuperação de valor.",
+      "text2": "Nossa abordagem consiste em cinco etapas principais, com tarefas específicas alinhadas a diferentes funções de negócio: Empréstimos (avaliações de empréstimos, reclamações pré-ACU, avaliações de garantias), Conversão REO (estratégia de regularização, regularização documental e técnica, definição de estratégia de venda), Limpeza de Ativos e Gestão REO (desenvolvimento, seleção de corretores, definição de preços, avaliações REO, marketing, gestão de propriedades, monitorização de compliance e financeira), Publicação e Venda (publicação e promoção de ativos, pricing, ofertas comerciais, gestão de propostas, gestão de break-in e arrendamentos), e Encerramento (gestão de escrituras e promessas, gestão de documentos pós-venda)."
+    },
     "whyChoose": {
       "title": "Porque escolher a StellarVest Asset Management?",
-      "text1": "Escolher a StellarVest Asset Management é optar por um parceiro comprometido com o sucesso e a valorização máxima dos seus ativos. A nossa abordagem personalizada e integrada, aliada aos valores de compromisso, integridade, inovação, parceria e responsabilidade, garantem um serviço de excelência e confiança.",
-      "text2": "Estamos prontos para ser o seu parceiro de confiança na gestão de ativos complexos, proporcionando soluções inovadoras e eficaces para maximizar o valor dos seus investimentos."
-    }
+      "text1": "Escolher a StellarVest Asset Management é optar por um parceiro comprometido com o sucesso e valor máximo dos seus ativos. A nossa abordagem personalizada e integrada, aliada aos nossos valores de compromisso, integridade, inovação, parceria e responsabilidade, garantem um serviço de excelência e confiança.",
+      "text2": "Estamos prontos para ser o seu parceiro de confiança na gestão de ativos complexos, proporcionando soluções inovadoras e eficazes para maximizar o valor dos seus investimentos."
+    },
+    "tagline": "Seus Ativos, Nossa Especialidade"
   },
   "footer": {
     "navigation": {
       "solutions": {
         "title": "Soluções",
-        "creditManagement": "Gestão de Créditos",
+        "loansManagement": "Gestão de Empréstimos",
         "realEstateManagement": "Gestão de Ativos Imobiliários",
         "advisory": "Advisory",
-        "servicing": "Servicing / Serviços Corporativos",
-        "securitization": "STC - Veículo de Securitização"
+        "securitization": "Veículo de Securitização"
       },
       "support": {
         "title": "Suporte",

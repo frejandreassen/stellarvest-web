@@ -20,29 +20,24 @@ export default function Services() {
 
   const services: ServiceItem[] = [
     {
-      id: 'creditRecovery',
+      id: 'loansManagement',
       icon: FileText,
-      href: '/services/credit-recovery',
+      href: '/loans-management',
     },
     {
       id: 'realEstateManagement',
       icon: Building2,
-      href: '/services/real-estate',
+      href: '/real-estate',
     },
     {
       id: 'advisory',
       icon: GraduationCap,
-      href: '/services/advisory',
-    },
-    {
-      id: 'corporateServices',
-      icon: Wrench,
-      href: '/services/corporate-services',
+      href: '/advisory',
     },
     {
       id: 'securitization',
       icon: Shield,
-      href: '/services/securitization',
+      href: '/securitization',
     },
   ];
 
@@ -85,6 +80,14 @@ export default function Services() {
               </div>
             ))}
           </dl>
+          <div className="mt-16 flex justify-center">
+            <Link
+              href="/services"
+              className="inline-flex items-center rounded-md bg-primary px-4 py-3 text-sm font-semibold text-white hover:bg-primary/90 transition-colors"
+            >
+              {t('viewAllServices')}
+            </Link>
+          </div>
         </div>
       </div>
     </div>

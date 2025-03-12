@@ -34,7 +34,7 @@ function SubmitButton() {
   );
 }
 
-export default function ContactForm() {
+export default function ContactForm({ defaultTeam = '' }: { defaultTeam?: string }) {
   const [agreed, setAgreed] = useState(false);
   const [isRecaptchaLoaded, setIsRecaptchaLoaded] = useState(false);
   const [formStatus, setFormStatus] = useState<{ message: string; type: 'success' | 'error' } | null>(null);
@@ -43,6 +43,7 @@ export default function ContactForm() {
   const teams = [
     { id: 'management', value: t('form.teamSelect.options.management') },
     { id: 'loans', value: t('form.teamSelect.options.loans') },
+    { id: 'realEstate', value: t('form.teamSelect.options.realEstate') },
     { id: 'advisory', value: t('form.teamSelect.options.advisory') },
     { id: 'legal', value: t('form.teamSelect.options.legal') },
     { id: 'administration', value: t('form.teamSelect.options.administration') }
@@ -207,6 +208,7 @@ export default function ContactForm() {
                 id="team"
                 name="team"
                 required
+                defaultValue={defaultTeam}
                 className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-inset focus:ring-text-primary sm:text-sm sm:leading-6"
               >
                 <option value="">{t('form.teamSelect.placeholder')}</option>
