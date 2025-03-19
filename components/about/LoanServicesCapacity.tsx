@@ -81,7 +81,7 @@ const LoansServicesCapacity = () => {
   ];
 
   // Icon mapping for services using Lucide icons
-  const iconComponents = {
+  const iconComponents: Record<string, React.ReactNode> = {
     "Portfolio analysis": <BarChart3 className="h-8 w-8 text-primary" />,
     "Portfolio Management": <FileText className="h-8 w-8 text-primary" />,
     "Negotiation": <Users className="h-8 w-8 text-primary" />,
@@ -147,7 +147,7 @@ const LoansServicesCapacity = () => {
 
       {/* Icons row */}
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-12">
-        {services.map((service, index) => (
+        {services.map((service: string, index: number) => (
           <div key={index} className="text-center">
             <div className="bg-primary/5 hover:bg-primary/10 transition-colors p-4 rounded-lg flex flex-col items-center h-full">
               {iconComponents[service] || <CheckIcon className="h-8 w-8 text-primary" />}
@@ -163,7 +163,7 @@ const LoansServicesCapacity = () => {
         <div className="bg-primary/5 p-6 rounded-xl shadow-sm">
           <h3 className="text-xl font-semibold text-secondary mb-4">{t('structure.title') || 'STRUCTURE'}</h3>
           <ul className="space-y-3">
-            {structureItems.map((item, index) => (
+            {structureItems.map((item: string, index: number) => (
               <li key={index} className="flex items-start">
                 <CheckIcon className="h-5 w-5 text-primary mr-2 flex-shrink-0 mt-0.5" />
                 <span className="text-sm text-gray-700">{item}</span>
@@ -176,7 +176,7 @@ const LoansServicesCapacity = () => {
         <div className="bg-primary/5 p-6 rounded-xl shadow-sm">
           <h3 className="text-xl font-semibold text-secondary mb-4">{t('focus.title') || 'FOCUS'}</h3>
           <ul className="space-y-3">
-            {focusItems.map((item, index) => (
+            {focusItems.map((item: string, index: number) => (
               <li key={index} className="flex items-start">
                 <CheckIcon className="h-5 w-5 text-primary mr-2 flex-shrink-0 mt-0.5" />
                 <span className="text-sm text-gray-700">{item}</span>
@@ -190,7 +190,7 @@ const LoansServicesCapacity = () => {
       <div className="mt-12 text-center">
         <p className="italic text-primary mb-6">{loanManagement('tagline') || 'Your Assets, Our Expertise'}</p>
         <Link 
-          href="/contact" 
+          href="/services/loans-management#contact-form" 
           className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-primary hover:bg-primary/90 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary"
         >
           {loanManagement('contactUs') || 'Talk to our loan management team'}

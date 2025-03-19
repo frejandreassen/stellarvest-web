@@ -23,6 +23,7 @@ import {
   DocumentTextIcon
 } from '@heroicons/react/24/outline';
 import { ChevronDownIcon } from '@heroicons/react/20/solid';
+import Image from 'next/image';
 
 const navigation = [
   { nameKey: 'home', href: '/' },
@@ -96,10 +97,12 @@ export default function Header() {
         <div className="flex lg:flex-1">
           <a href="/" className="-m-1.5 p-1.5">
             <span className="sr-only">StellarVest Asset Management</span>
-            <img
+            <Image
               className="h-12 w-auto"
               src="/icon.png"
               alt="StellarVest logo"
+              width={48}
+              height={48}
             />
           </a>
         </div>
@@ -186,10 +189,12 @@ export default function Header() {
           <div className="flex items-center justify-between">
             <a href="/" className="-m-1.5 p-1.5">
               <span className="sr-only">StellarVest Asset Management</span>
-              <img
+              <Image
                 className="h-12 w-auto"
                 src="/icon.png"
                 alt="StellarVest Logo"
+                width={48}
+                height={48}
               />
             </a>
             <button

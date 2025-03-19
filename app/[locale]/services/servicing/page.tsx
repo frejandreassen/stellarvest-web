@@ -47,7 +47,7 @@ export default function Servicing() {
                                         <BriefcaseIcon className="h-12 w-auto text-white" />
                                         <blockquote className="mt-6 text-xl font-semibold leading-8 text-white">
                                             <p>
-                                                "Serviços corporativos eficientes, oferecendo suporte administrativo, gestão de propriedades e regularização judicial, garantindo soluções integradas para nossos clientes."
+                                                &ldquo;Serviços corporativos eficientes, oferecendo suporte administrativo, gestão de propriedades e regularização judicial, garantindo soluções integradas para nossos clientes.&rdquo;
                                             </p>
                                         </blockquote>
                                         <figcaption className="mt-6 text-sm leading-6 text-gray-300">

@@ -79,7 +79,7 @@ const RealEstateServicesCapacity = () => {
   ];
 
   // Icon mapping for services using Lucide icons
-  const iconComponents = {
+  const iconComponents: Record<string, React.ReactNode> = {
     "Specialized internal team": <Users className="h-8 w-8 text-secondary" />,
     "Nationwide external service providers": <MonitorSmartphone className="h-8 w-8 text-secondary" />,
     "Ranking KPIs Broker Valuation": <FileText className="h-8 w-8 text-secondary" />,
@@ -143,7 +143,7 @@ const RealEstateServicesCapacity = () => {
 
       {/* Icons row */}
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-12">
-        {services.map((service, index) => (
+        {services.map((service: string, index: number) => (
           <div key={index} className="text-center">
             <div className="bg-secondary/5 hover:bg-secondary/10 transition-colors p-4 rounded-lg flex flex-col items-center h-full">
               {iconComponents[service] || <CheckIcon className="h-8 w-8 text-secondary" />}
@@ -159,7 +159,7 @@ const RealEstateServicesCapacity = () => {
         <div className="bg-secondary/5 p-6 rounded-xl shadow-sm">
           <h3 className="text-xl font-semibold text-secondary mb-4">{t('structure.title') || 'STRUCTURE'}</h3>
           <ul className="space-y-3">
-            {structureItems.map((item, index) => (
+            {structureItems.map((item: string, index: number) => (
               <li key={index} className="flex items-start">
                 <CheckIcon className="h-5 w-5 text-secondary mr-2 flex-shrink-0 mt-0.5" />
                 <span className="text-sm text-gray-700">{item}</span>
@@ -172,7 +172,7 @@ const RealEstateServicesCapacity = () => {
         <div className="bg-secondary/5 p-6 rounded-xl shadow-sm">
           <h3 className="text-xl font-semibold text-secondary mb-4">{t('focus.title') || 'FOCUS'}</h3>
           <ul className="space-y-3">
-            {focusItems.map((item, index) => (
+            {focusItems.map((item: string, index: number) => (
               <li key={index} className="flex items-start">
                 <CheckIcon className="h-5 w-5 text-secondary mr-2 flex-shrink-0 mt-0.5" />
                 <span className="text-sm text-gray-700">{item}</span>
@@ -186,7 +186,7 @@ const RealEstateServicesCapacity = () => {
       <div className="mt-12 text-center">
         <p className="italic text-secondary mb-6">{t('tagline') || 'Your Real Estate, Our Expertise'}</p>
         <Link 
-          href="/contact" 
+          href="/services/real-estate#contact-form" 
           className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-secondary hover:bg-secondary/90 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-secondary"
         >
           {t('contactUs') || 'Talk to our real estate team'}

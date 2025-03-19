@@ -91,7 +91,7 @@ export default function Securitization() {
                                     {t('whyStellarVest.description')}
                                 </p>
                                 <ul className="mt-6 space-y-4 text-lg leading-8 text-gray-600">
-                                    {t.raw('whyStellarVest.items').map((item, index) => (
+                                    {t.raw('whyStellarVest.items').map((item: string, index: number) => (
                                         <li key={index} className="flex gap-x-3">
                                             <span className="text-primary">•</span> {item}
                                         </li>
@@ -128,7 +128,7 @@ export default function Securitization() {
                                     {t('approach.description')}
                                 </p>
                                 <ul className="mt-6 space-y-4 text-lg leading-8 text-gray-600">
-                                    {t.raw('approach.items').map((item, index) => (
+                                    {t.raw('approach.items').map((item: string, index: number) => (
                                         <li key={index} className="flex gap-x-3">
                                             <span className="text-primary">•</span> {item}
                                         </li>
@@ -300,7 +300,7 @@ export default function Securitization() {
                         </div>
                         <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">
                             <div className="grid grid-cols-1 gap-x-8 gap-y-10 lg:grid-cols-3">
-                                {t.raw('benefits.items').map((benefit, index) => (
+                                {t.raw('benefits.items').map((benefit: string, index: number) => (
                                     <div key={index} className="bg-white shadow-sm rounded-xl p-6 border border-gray-100">
                                         <div className="flex items-center">
                                             <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-primary/10 shrink-0 mr-4">

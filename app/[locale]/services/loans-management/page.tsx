@@ -111,7 +111,9 @@ export default function LoansManagement() {
                 </div>
                 
                 {/* Contact Form with Loan's Team pre-selected */}
-                <ContactForm defaultTeam="loans" />
+                <div id="contact-form">
+                    <ContactForm defaultTeam="loans" />
+                </div>
             </main>
             <Footer />
         </div>
