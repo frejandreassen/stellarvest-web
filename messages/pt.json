@@ -426,6 +426,54 @@
     "allServices": "Ver todos os nossos serviços",
     "contactUs": "Fale com nossa equipa imobiliária"
   },
+  "advisory": {
+    "title": "Advisory",
+    "subtitle": "Underwriting Imobiliário",
+    "intro": "A equipe de consultoria da Stellarvest pode auxiliar em projetos de underwriting de qualquer tamanho, desde um único ativo pequeno até os maiores portfólios de múltiplos inquilinos e múltiplos ativos. Podemos ajudar em qualquer etapa do seu processo de underwriting, auxiliar em várias etapas ou supervisionar e executar todo o processo para você.",
+    "scaleText": "À medida que seu portfólio ou necessidades crescem, podemos facilmente escalar e fornecer serviços, recursos e soluções adicionais de underwriting.",
+    "quote": "Serviços especializados de advisory para todas as suas necessidades de underwriting imobiliário.",
+    "servicesSection": {
+      "title": "Nossos Serviços",
+      "description": "Oferecemos uma gama completa de serviços e soluções de underwriting, incluindo:",
+      "services": [
+        "Coleta e análise de informações de propriedades",
+        "Coleta e análise de informações de mercado e submercado",
+        "Modelagem financeira",
+        "Um portfólio de modelos Excel prontos para uso",
+        "Criação de Relatórios de Resumo de Ativos (ASRs)",
+        "Realização de análises de tendências de receitas e despesas operacionais",
+        "Preparação de análises detalhadas de DCF",
+        "Análise de ativos em níveis individuais, de subportfólio ou de portfólio",
+        "Geração de relatórios detalhados ou resumidos no nível de ativo e portfólio"
+      ]
+    },
+    "tailoredApproach": {
+      "title": "Abordagem Personalizada",
+      "description": "Na Stellarvest, adotamos uma abordagem altamente personalizada para underwriting. Começamos cada tarefa de underwriting revisando e avaliando os detalhes fundamentais, mas críticos, para garantir que nosso trabalho se alinhe perfeitamente com suas necessidades e objetivos específicos, incluindo:",
+      "details": [
+        "Tipo de ativo",
+        "Classe de ativo",
+        "Tipo de transação",
+        "Objetivos do cliente",
+        "Posição do cliente na estrutura de capital",
+        "Disponibilidade de informações relevantes",
+        "Tamanho e escopo do projeto",
+        "Prazo"
+      ]
+    },
+    "team": {
+      "title": "Nossa Equipe de Advisory",
+      "subtitle": "Liderada por especialistas com profundo conhecimento dos mercados imobiliários e análise financeira",
+      "members": [
+        {
+          "name": "Rui Calado",
+          "position": "Diretor de Advisory",
+          "description": "Com ampla experiência em análise financeira imobiliária e serviços de consultoria, Rui lidera nossa equipe de underwriting e advisory com precisão e perspicácia."
+        }
+      ]
+    },
+    "contactUs": "Fale com nossa equipe de advisory"
+  },
   "loansManagement": {
     "title": "Gestão de Empréstimos",
     "subtitle": "Serviços Especializados de Gestão de Empréstimos",
@@ -508,6 +556,78 @@
     "contactUs": "Fale com nossa equipe de gestão de empréstimos",
     "allServices": "Ver todos os nossos serviços"
   },
+  "securitization": {
+    "title": "Veículo de Securitização",
+    "subtitle": "Zarco STC da StellarVest",
+    "intro": "A Zarco STC, SA foi estabelecida com o objetivo de criar valor agregado para os nossos Clientes, fornecendo uma gama completa de serviços de securitização, aprovados pela Autoridade do Mercado Português (CMVM) com uma estrutura organizacional independente bem definida, em contraste com a prática do mercado.",
+    "quote": "Adicionando valor através de serviços de securitização independentes e especializados.",
+    "whyStellarVest": {
+      "title": "Por que escolher a Zarco STC?",
+      "description": "A Zarco STC oferece vantagens distintas no panorama da securitização:",
+      "items": [
+        "Veículo independente exclusivamente dedicado à securitização com uma equipe totalmente dedicada",
+        "Garante que todos os processos, procedimentos e atividades de relatório relacionadas à gestão de securitização sejam entregues",
+        "Totalmente detida pela Stellarvest, um Grupo orientado para o serviço",
+        "Fornece garantia indiscutível de independência a cada investidor que securitiza um portfólio",
+        "Garante que todas as informações permaneçam confidenciais e não sejam compartilhadas com concorrentes",
+        "Segregação total de atividades de securitização e serviços",
+        "Trabalha com qualquer prestador de serviços escolhido pelo investidor, seja a Stellarvest ou não"
+      ]
+    },
+    "approach": {
+      "title": "Nossa Abordagem demonstra",
+      "description": "Nossa metodologia cria valor adicional através de relatórios abrangentes e gestão estratégica de informações:",
+      "items": [
+        "Relatórios ao Banco de Portugal - Reporta o status de inadimplência de seus mutuários e garantidores ao Banco de Portugal Central de Responsabilidades de Crédito e essa informação é compartilhada no sistema financeiro, influenciando a capacidade de endividamento desses devedores",
+        "Potencial de negociação e recuperação - Isso os pressiona a se engajar em negociação e proceder com o pagamento, aumentando o potencial de recuperação. Este relatório não é obrigatório para STC, mas a Zarco é um dos poucos veículos de securitização de serviços que faz tal relatório, entendendo o significativo valor agregado para seus Clientes e Investidores",
+        "Fornecedor de informações financeiras - Além disso, como provedor de informações financeiras, a Zarco tem direito a receber o mesmo nível de informações sobre seus devedores sob gestão, o que é crucial para modelos e ferramentas de tomada de decisão"
+      ]
+    },
+    "process": {
+      "title": "O Processo de Securitização",
+      "description": "Nosso processo de securitização simplificado transfere eficientemente ativos de originadores para investidores:",
+      "step1": {
+        "title": "Seleção e Preparação de Ativos",
+        "description": "Identificação de ativos adequados para securitização"
+      },
+      "step2": {
+        "title": "Estruturação e Documentação",
+        "description": "Criação do quadro legal e financeiro ideal"
+      },
+      "step3": {
+        "title": "Emissão e Liquidação",
+        "description": "Transferência eficiente de ativos e títulos"
+      },
+      "step4": {
+        "title": "Gestão Contínua e Relatórios",
+        "description": "Supervisão contínua e comunicação com investidores"
+      }
+    },
+    "benefits": {
+      "title": "Benefícios de Trabalhar com a Zarco STC",
+      "items": [
+        "Independência e confidencialidade",
+        "Conformidade regulatória e expertise em relatórios",
+        "Potencial de recuperação aprimorado através de relatórios ao Banco de Portugal",
+        "Acesso a informações financeiras cruciais do devedor",
+        "Flexibilidade para trabalhar com seu prestador de serviços preferido",
+        "Equipe experiente dedicada exclusivamente à securitização",
+        "Integração perfeita com o ecossistema financeiro mais amplo"
+      ]
+    },
+    "diagram": {
+      "title": "Fluxo de Securitização",
+      "originators": "Originadores (Bancos, Instituições Financeiras)",
+      "zarco": "Zarco STC",
+      "investors": "Investidores (Detentores de Notas)",
+      "assets": "Empréstimos/Ativos",
+      "cashflow": "Fluxo de Caixa",
+      "notes": "Notas"
+    },
+    "contactUs": "Fale com nossa equipe de securitização",
+    "allServices": "Ver todos os nossos serviços",
+    "tagline": "Sua Securitização, Nossa Expertise"
+  },
   "about": {
     "title": "Sobre Nós",
     "intro": "A StellarVest Asset Management é especialista na gestão de ativos complexos, oferecendo um serviço 360º que abrange todas as fases da gestão de ativos. Com uma abordagem estratégica e inovadora, a StellarVest Asset Management destaca-se pela sua capacidade de análise, desenvolvimento estratégico, venda e pós-venda.",
@@ -569,6 +689,32 @@
       "title": "Porque escolher a StellarVest Asset Management?",
       "text1": "Escolher a StellarVest Asset Management é optar por um parceiro comprometido com o sucesso e valor máximo dos seus ativos. A nossa abordagem personalizada e integrada, aliada aos nossos valores de compromisso, integridade, inovação, parceria e responsabilidade, garantem um serviço de excelência e confiança.",
       "text2": "Estamos prontos para ser o seu parceiro de confiança na gestão de ativos complexos, proporcionando soluções inovadoras e eficazes para maximizar o valor dos seus investimentos."
+    },
+    "workWithUs": {
+      "title": "Trabalhe connosco",
+      "intro": "Junte-se à Stellarvest – Molde o Futuro da Gestão de Investimentos. Na Stellarvest, acreditamos que o sucesso é impulsionado pela inovação, talento e ambição. Se procura um ambiente dinâmico onde possa crescer profissionalmente e causar um impacto real no setor de gestão de ativos e investimentos, este é o lugar certo para si.",
+      "whyJoin": {
+        "title": "Porquê juntar-se a nós?",
+        "items": [
+          "Crescimento Profissional & Desenvolvimento – Investimos no seu potencial através de formação, mentoria e oportunidades de progressão na carreira.",
+          "Inovação & Tecnologia – Trabalhe com ferramentas de ponta que estão a transformar o setor de gestão de ativos.",
+          "Cultura Colaborativa – Faça parte de uma equipa que valoriza a partilha de conhecimento e o trabalho em equipa.",
+          "Impacto Real – Contribua para projetos de alto impacto em finanças, imobiliário e gestão de NPL."
+        ]
+      },
+      "areas": {
+        "title": "Estamos sempre à procura dos melhores profissionais nestas áreas:",
+        "items": [
+          "Gestão de Ativos & Investimentos",
+          "Análise Financeira & Gestão de Risco",
+          "Tecnologia & Análise de Dados",
+          "Marketing & Desenvolvimento de Negócios",
+          "Compliance & Assuntos Regulatórios"
+        ]
+      },
+      "challenge": "Pronto para o Seu Próximo Desafio? Candidate-se agora e torne-se parte de uma equipa que está a redefinir o futuro da gestão de ativos!",
+      "email": "Envie o seu CV para recrutamento@stellarvest.pt",
+      "exploreMore": "ou explore as nossas oportunidades em www.stellarvest.pt."
     },
     "tagline": "Seus Ativos, Nossa Especialidade"
   },

@@ -23,6 +23,8 @@ export default function About() {
         <LoansServicesCapacity />
         <SectionSeparator />
         <RealEstateServicesCapacity />
+        <SectionSeparator />
+        <WorkWithUs />
       </main>
     </div>
   );
@@ -170,6 +172,107 @@ function WhyChooseUs() {
           </div>
         ))}
       </div> */}
+    </div>
+  );
+}
+
+// WorkWithUs component
+function WorkWithUs() {
+  const t = useTranslations('about');
+  
+  // Define the items manually since they're not being properly accessed as arrays from the translation
+  const whyJoinItems = [
+    t('workWithUs.whyJoin.items.0'),
+    t('workWithUs.whyJoin.items.1'),
+    t('workWithUs.whyJoin.items.2'),
+    t('workWithUs.whyJoin.items.3')
+  ];
+  
+  const areasItems = [
+    t('workWithUs.areas.items.0'),
+    t('workWithUs.areas.items.1'),
+    t('workWithUs.areas.items.2'),
+    t('workWithUs.areas.items.3'),
+    t('workWithUs.areas.items.4')
+  ];
+  
+  return (
+    <div className="mx-auto max-w-7xl px-6 py-24 sm:py-32 lg:px-8">
+      <div className="mx-auto max-w-7xl lg:grid lg:grid-cols-2 lg:gap-x-12 lg:gap-y-8">
+        {/* Text content on the left */}
+        <div className="lg:pr-8">
+          <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+            {t('workWithUs.title')}
+          </h2>
+          <p className="mt-6 text-lg text-gray-600">
+            {t('workWithUs.intro')}
+          </p>
+          
+          <div className="mt-10">
+            <h3 className="text-xl font-semibold text-gray-900">
+              {t('workWithUs.whyJoin.title')}
+            </h3>
+            <ul className="mt-4 space-y-4">
+              {whyJoinItems.map((item, index) => (
+                <li key={index} className="flex items-start">
+                  <div className="flex-shrink-0 mt-1">
+                    <svg className="h-5 w-5 text-primary" viewBox="0 0 20 20" fill="currentColor">
+                      <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+                    </svg>
+                  </div>
+                  <p className="ml-3 text-base text-gray-600">{item}</p>
+                </li>
+              ))}
+            </ul>
+          </div>
+          
+          <div className="mt-10">
+            <h3 className="text-xl font-semibold text-gray-900">
+              {t('workWithUs.areas.title')}
+            </h3>
+            <ul className="mt-4 space-y-4">
+              {areasItems.map((item, index) => (
+                <li key={index} className="flex items-start">
+                  <div className="flex-shrink-0 mt-1">
+                    <svg className="h-5 w-5 text-primary" viewBox="0 0 20 20" fill="currentColor">
+                      <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+                    </svg>
+                  </div>
+                  <p className="ml-3 text-base text-gray-600">{item}</p>
+                </li>
+              ))}
+            </ul>
+          </div>
+          
+          <div className="mt-10">
+            <p className="text-lg font-medium text-gray-900">
+              {t('workWithUs.challenge')}
+            </p>
+            <div className="mt-4">
+              <a
+                href="mailto:recrutamento@stellarvest.pt"
+                className="text-primary hover:text-primary-dark font-medium"
+              >
+                {t('workWithUs.email')}
+              </a>
+              <p className="mt-2 text-base text-gray-600">
+                {t('workWithUs.exploreMore')}
+              </p>
+            </div>
+          </div>
+        </div>
+        
+        {/* Image on the right */}
+        <div className="hidden lg:flex lg:items-center mt-12 lg:mt-0">
+          <div className="relative w-full h-full">
+            <img
+              src="/man-and-woman-at-conference-table.jpg"
+              alt="Professionals at a conference table"
+              className="rounded-xl shadow-xl object-cover object-center w-full h-auto max-h-[600px]"
+            />
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

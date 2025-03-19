@@ -22,22 +22,22 @@ export default function Services() {
     {
       id: 'loansManagement',
       icon: FileText,
-      href: '/loans-management',
+      href: '/services/loans-management',
     },
     {
       id: 'realEstateManagement',
       icon: Building2,
-      href: '/real-estate',
+      href: '/services/real-estate',
     },
     {
       id: 'advisory',
       icon: GraduationCap,
-      href: '/advisory',
+      href: '/services/advisory',
     },
     {
       id: 'securitization',
       icon: Shield,
-      href: '/securitization',
+      href: '/services/securitization',
     },
   ];
 

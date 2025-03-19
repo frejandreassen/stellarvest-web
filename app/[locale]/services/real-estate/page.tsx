@@ -1,5 +1,6 @@
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
+import ContactForm from "@/components/ContactForm";
 import SectionSeparator from "@/components/SectionSeparator";
 import VideoSectionSeparator from "@/components/VideoSectionSeparator";
 import { BuildingOffice2Icon, ChartBarIcon, ClipboardDocumentCheckIcon, UserGroupIcon } from "@heroicons/react/24/solid";
@@ -304,7 +305,7 @@ export default function RealEstate() {
                         </ul>
                         <div className="mt-16 flex justify-center">
                             <a
-                                href="/contact?team=realEstate"
+                                href="#contact-form"
                                 className="rounded-md bg-primary px-6 py-3 text-sm font-semibold text-white shadow-sm hover:bg-primary/90 transition-colors"
                             >
                                 {t('contactUs')}
@@ -324,24 +325,9 @@ export default function RealEstate() {
                     </div>
                 </div>
                 
-                {/* Contact Button Section */}
-                <div id="contact-form" className="bg-white py-16 sm:py-24">
-                    <div className="mx-auto max-w-7xl px-6 lg:px-8">
-                        <div className="mx-auto max-w-2xl text-center">
-                            <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">{t('contactUs')}</h2>
-                            <p className="mt-4 text-lg leading-8 text-gray-600">
-                                {t('servicesCapacity.tagline')}
-                            </p>
-                            <div className="mt-10 flex items-center justify-center gap-x-6">
-                                <a
-                                    href="/contact?team=realEstate"
-                                    className="rounded-md bg-primary px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-secondary focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary"
-                                >
-                                    {t('contactUs')}
-                                </a>
-                            </div>
-                        </div>
-                    </div>
+                {/* Contact Form with Real Estate Team pre-selected */}
+                <div id="contact-form">
+                    <ContactForm defaultTeam="realEstate" />
                 </div>
             </main>
             <Footer />

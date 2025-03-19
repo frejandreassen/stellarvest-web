@@ -7,10 +7,10 @@ export default function Footer() {
 
   const footerNavigation = {
     solutions: [
-      { nameKey: 'loansManagement', href: '/loans-management' },
-      { nameKey: 'realEstateManagement', href: '/real-estate' },
-      { nameKey: 'advisory', href: '/advisory' },
-      { nameKey: 'securitization', href: '/securitization' },
+      { nameKey: 'loansManagement', href: '/services/loans-management' },
+      { nameKey: 'realEstateManagement', href: '/services/real-estate' },
+      { nameKey: 'advisory', href: '/services/advisory' },
+      { nameKey: 'securitization', href: '/services/securitization' },
     ],
     support: [
       { nameKey: 'legalInfo', href: '/legal' },

@@ -1,21 +1,24 @@
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
-import { BriefcaseIcon } from "@heroicons/react/24/solid"; // Ensure you have the appropriate icon
+import ContactForm from "@/components/ContactForm";
+import { BanknotesIcon } from "@heroicons/react/24/solid";
+import { useTranslations } from 'next-intl';
 
-export default function Servicing() {
+export default function LoansManagement() {
+    const t = useTranslations('loansManagement');
+    
     return (
         <div>
             <Header />
             <main className="">
-
                 <div className="bg-white py-24 sm:py-32">
                     <div className="mx-auto max-w-7xl px-6 lg:px-8">
                         <div className="mx-auto grid max-w-2xl grid-cols-1 items-start gap-x-8 gap-y-16 sm:gap-y-24 lg:mx-0 lg:max-w-none lg:grid-cols-2">
                             <div className="lg:pr-4">
                                 <div className="relative overflow-hidden rounded-3xl bg-gray-900 px-6 pb-9 pt-64 shadow-2xl sm:px-12 lg:max-w-lg lg:px-8 lg:pb-8 xl:px-10 xl:pb-10">
                                     <img
-                                        alt="Credit Management"
-                                        src="https://images.unsplash.com/photo-1630569267625-157f8f9d1a7e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2669&q=80"
+                                        alt={t('title')}
+                                        src="/business-people-analyzes-graphs-and-charts-to-exa-2023-11-27-05-32-43-utc.png"
                                         className="absolute inset-0 h-full w-full object-cover brightness-125 saturate-0"
                                     />
                                     <div className="absolute inset-0 bg-gray-900 mix-blend-multiply" />
@@ -28,7 +31,7 @@ export default function Servicing() {
                                                 clipPath:
                                                     'polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)',
                                             }}
-                                            className="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-[#ff4694] to-[#776fff] opacity-40"
+                                            className="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-[#ffffff] to-[#776fff] opacity-40"
                                         />
                                     </div>
                                     <figure className="relative isolate">
@@ -44,73 +47,71 @@ export default function Servicing() {
                                             />
                                             <use x={86} href="#0ef284b8-28c2-426e-9442-8655d393522e" />
                                         </svg>
-                                        <BriefcaseIcon className="h-12 w-auto text-white" />
+                                        <BanknotesIcon className="h-12 w-auto text-white" />
                                         <blockquote className="mt-6 text-xl font-semibold leading-8 text-white">
                                             <p>
-                                                “Serviços corporativos eficientes, oferecendo suporte administrativo, gestão de propriedades e regularização judicial, garantindo soluções integradas para nossos clientes.”
+                                                {t('quote')}
                                             </p>
                                         </blockquote>
                                         <figcaption className="mt-6 text-sm leading-6 text-gray-300">
                                             <strong className="font-semibold text-white">StellarVest Asset Management</strong>
                                         </figcaption>
-
-
                                     </figure>
                                 </div>
                             </div>
                             <div>
                                 <div>
                                     <div className="text-base leading-7 text-gray-700 lg:max-w-lg">
-                                        <p className="text-base font-semibold leading-7 text-primary">Servicing / Serviços Corporativos</p>
+                                        <p className="text-base font-semibold leading-7 text-primary">{t('title')}</p>
                                         <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-                                            Expertise em Serviços Corporativos
+                                            {t('subtitle')}
                                         </h1>
                                         <div className="max-w-xl">
                                             <p className="mt-6">
-                                                Nossa expertise abrange o suporte administrativo às áreas de negócio, oferecendo uma gama completa de serviços corporativos. Realizamos gestão de propriedades, incluindo arrendamentos, condomínios e manutenção de imóveis. Além disso, oferecemos regularização e gestão judicial de imóveis ocupados e suporte em processos de contratação.
+                                                {t('intro')}
                                             </p>
+                                            <div className="mt-10">
+                                                <h3 className="text-lg font-semibold text-gray-900">{t('whyStellarVest.title')}</h3>
+                                                <ul className="mt-4 space-y-2 list-disc pl-5">
+                                                    {t.raw('whyStellarVest.items').map((item: string, index: number) => (
+                                                        <li key={index} className="text-base text-gray-600">{item}</li>
+                                                    ))}
+                                                </ul>
+                                            </div>
+                                            <div className="mt-10">
+                                                <h3 className="text-lg font-semibold text-gray-900">{t('results.title')}</h3>
+                                                <dl className="mt-5 grid grid-cols-1 gap-5 sm:grid-cols-2">
+                                                    <div className="overflow-hidden rounded-lg bg-white px-4 py-5 shadow sm:p-6">
+                                                        <dt className="truncate text-sm font-medium text-gray-500">{t('results.recovered')}</dt>
+                                                        <dd className="mt-1 text-3xl font-semibold tracking-tight text-primary">{t('results.recoveredAmount')}</dd>
+                                                    </div>
+                                                    <div className="overflow-hidden rounded-lg bg-white px-4 py-5 shadow sm:p-6">
+                                                        <dt className="truncate text-sm font-medium text-gray-500">{t('results.aum')}</dt>
+                                                        <dd className="mt-1 text-3xl font-semibold tracking-tight text-primary">{t('results.aumAmount')}</dd>
+                                                    </div>
+                                                </dl>
+                                            </div>
                                             <p className="mt-8">
-                                                Com uma abordagem integrada à gestão de propriedades, garantimos que cada cliente receba suporte contínuo e eficiente para todas as suas necessidades imobiliárias. Nossa equipe é dedicada a fornecer soluções que não apenas mantêm os imóveis em ótimo estado, mas também otimizam o valor e a funcionalidade dos mesmos.
+                                                {t('approach')}
                                             </p>
-                                            <p className="mt-8">
-                                                Aproveitamos nossa vasta experiência em regularização e gestão judicial de imóveis para resolver questões complexas de forma eficaz e eficiente. Nossos serviços de suporte administrativo são projetados para proporcionar tranquilidade aos nossos clientes, permitindo que eles se concentrem em suas atividades principais.
-                                            </p>
-                                            <p className="mt-8">
-                                                A StellarVest Asset Management está comprometida em manter os mais altos padrões de integridade e profissionalismo em todos os nossos serviços corporativos. Adaptamos continuamente nossas estratégias para atender às necessidades em evolução de nossos clientes e do mercado imobiliário.
+                                            <p className="mt-6 text-lg font-semibold text-gray-900">
+                                                {t('tagline')}
                                             </p>
                                         </div>
                                     </div>
                                 </div>
-
                                 <div className="mt-10 flex">
-                                    <a href="/#about" className="text-base font-semibold leading-7 text-primary">
-                                        Saiba mais sobre nossa empresa <span aria-hidden="true">&rarr;</span>
+                                    <a href="/services" className="text-base font-semibold leading-7 text-primary">
+                                        {t('allServices')} <span aria-hidden="true">&rarr;</span>
                                     </a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-
-                {/* Contact Button Section */}
-                <div className="bg-white py-16 sm:py-24">
-                    <div className="mx-auto max-w-7xl px-6 lg:px-8">
-                        <div className="mx-auto max-w-2xl text-center">
-                            <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Fale Conosco</h2>
-                            <p className="mt-4 text-lg leading-8 text-gray-600">
-                                Os Seus Ativos, A Nossa Especialização
-                            </p>
-                            <div className="mt-10 flex items-center justify-center gap-x-6">
-                                <a
-                                    href="/contact?team=corporateServices"
-                                    className="rounded-md bg-primary px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-secondary focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary"
-                                >
-                                    Fale com Nossa Equipe
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                
+                {/* Contact Form with Loan's Team pre-selected */}
+                <ContactForm defaultTeam="loans" />
             </main>
             <Footer />
         </div>

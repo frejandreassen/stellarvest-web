@@ -1,6 +1,7 @@
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import { AcademicCapIcon } from "@heroicons/react/24/solid";
+import ContactForm from "@/components/ContactForm";
 import { useTranslations } from 'next-intl';
 
 export default function Advisory() {
@@ -169,25 +170,8 @@ export default function Advisory() {
                     </div>
                 </div>
 
-                {/* Contact Button Section */}
-                <div className="bg-white py-16 sm:py-24">
-                    <div className="mx-auto max-w-7xl px-6 lg:px-8">
-                        <div className="mx-auto max-w-2xl text-center">
-                            <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">{t('contactUs')}</h2>
-                            <p className="mt-4 text-lg leading-8 text-gray-600">
-                                {t('tagline')}
-                            </p>
-                            <div className="mt-10 flex items-center justify-center gap-x-6">
-                                <a
-                                    href="/contact?team=advisory"
-                                    className="rounded-md bg-primary px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-secondary focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary"
-                                >
-                                    {t('contactUs')}
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                {/* Contact Form */}
+                <ContactForm defaultTeam="advisory" />
             </main>
             <Footer />
         </div>
