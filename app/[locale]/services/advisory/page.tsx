@@ -154,7 +154,7 @@ export default function Advisory() {
                                 <div key={index} className="mx-auto text-center lg:mx-0 lg:flex-auto">
                                     <div className="aspect-h-1 aspect-w-1 w-80 h-80 mx-auto overflow-hidden rounded-xl">
                                         <img 
-                                            src="/team/rui-calado.png" 
+                                            src="/team/Rui Calado - Alto.jpg" 
                                             alt={member.name} 
                                             className="h-full w-full object-cover object-center"
                                         />
