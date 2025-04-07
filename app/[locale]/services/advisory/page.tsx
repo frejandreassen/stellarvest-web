@@ -152,7 +152,7 @@ export default function Advisory() {
                         <div className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-3">
                             {t.raw('team.members').map((member: any, index: number) => (
                                 <div key={index} className="mx-auto text-center lg:mx-0 lg:flex-auto">
-                                    <div className="aspect-h-1 aspect-w-1 w-80 h-80 mx-auto overflow-hidden rounded-xl">
+                                    <div className="aspect-h-1 aspect-w-1 w-86 h-152 mx-auto overflow-hidden rounded-xl">
                                         <img 
                                             src="/team/Rui Calado - Alto.jpg" 
                                             alt={member.name} 
