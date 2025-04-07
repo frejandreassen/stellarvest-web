@@ -23,7 +23,7 @@
         "description": "Dados em tempo real para diferentes públicos (Investidores, Gov., FdR, UE, etc.)"
       },
       "management": {
-        "name": "equipa de Gestão Experiente",
+        "name": "Equipa de Gestão Experiente",
         "description": "Grande experiência combinada em ativos problemáticos"
       },
       "servicer": {
@@ -75,12 +75,12 @@
     "viewAllServices": "Ver Todos os Serviços",
     "items": {
       "loansManagement": {
-        "name": "Gestão de Empréstimos",
+        "name": "Gestão de Créditos",
         "description": [
           "Experiência em recuperação de crédito, servicing e outsourcing",
           "Histórico comprovado em Dívida Corporativa Garantida",
-          "Estratégias personalizadas de recuperação de empréstimos",
-          "Abordagem abrangente de gestão de empréstimos"
+          "Estratégias personalizadas de recuperação de créditos",
+          "Abordagem abrangente de gestão de créditos"
         ]
       },
       "realEstateManagement": {
@@ -94,7 +94,7 @@
         "link": "Link"
       },
       "advisory": {
-        "name": "Consultoria",
+        "name": "Advisory",
         "description": [
           "Due diligence de carteiras NPL, PL e REOs (lado comprador e vendedor)",
           "Avaliações de ativos imobiliários",
@@ -121,7 +121,7 @@
   },
   "team": {
     "title": "Conheça nossa liderança",
-    "subtitle": "Nossa experiente equipa combina décadas de expertise em gestão de ativos, imóveis e serviços financeiros para entregar resultados excepcionais aos nossos clientes.",
+    "subtitle": "A nossa experiente equipa combina décadas de expertise em gestão de ativos, imóveis e serviços financeiros para entregar resultados excepcionais aos nossos clientes.",
     "contactButton": "Fale com nossa equipa de gestão",
     "people": {
       "rubenSommer": {
@@ -132,7 +132,7 @@
       },
       "joaoRibeiro": {
         "name": "João Ribeiro",
-        "role": "Diretor Imobiliário",
+        "role": "Real Estate Director",
         "experience": "+ 25 anos de experiência",
         "bio": "Vasta experiência no setor imobiliário com empresas como Immo Mosqueteiros PT, DIA PT, CBRE, Euro-Funding Advisory Group, Carrefour PT e Parque Expo. Possui graduação em Arquitetura e Mestrado em Planejamento Urbano."
       },
@@ -172,9 +172,9 @@
         "placeholder": "Selecione uma equipa",
         "options": {
           "management": "Equipa de Gestão",
-          "loans": "Equipa de Empréstimos",
-          "realEstate": "Equipa de Imobiliário",
-          "advisory": "Equipa de Consultoria",
+          "loans": "Equipa de gestão de Créditos",
+          "realEstate": "Equipa de Real Estate",
+          "advisory": "Equipa de Advisory",
           "legal": "Equipa Jurídica",
           "administration": "Administração"
         }
@@ -408,23 +408,23 @@
       "members": [
         {
           "name": "JOÃO RIBEIRO",
-          "position": "DIRETOR GERAL & CHEFE DE GRUPO",
+          "position": "REAL ESTATE DIRECTOR",
           "description": "Especialista em gestão de ativos imobiliários com ampla experiência em otimização de portfólio e estratégias de criação de valor."
         },
         {
           "name": "MÔNICA COHEN",
-          "position": "GESTORA DE PORTFÓLIO",
+          "position": "PORTFOLIO MANAGER",
           "description": "Especialista em gestão de ativos imobiliários com ampla experiência em otimização de portfólio e estratégias de criação de valor."
         },
         {
           "name": "SARA LOPES",
-          "position": "GESTORA DE PORTFÓLIO",
+          "position": "PORTFOLIO MANAGER",
           "description": "Especialista em gestão de ativos imobiliários com ampla experiência em otimização de portfólio e estratégias de criação de valor."
         }
       ]
     },
     "allServices": "Ver todos os nossos serviços",
-    "contactUs": "Fale com nossa equipa imobiliária"
+    "contactUs": "Fale com nossa equipa de gestão imobiliária"
   },
   "advisory": {
     "title": "Advisory",
@@ -477,13 +477,13 @@
   "loansManagement": {
     "title": "Gestão de Créditos",
     "subtitle": "Serviços Especializados de Gestão de Créditos",
-    "intro": "A StellarVest Asset Management oferece serviços abrangentes de gestão de créditos, com vasta experiência em recuperação de crédito, servicing e outsourcing. Gerimos todos os tipos de empréstimos, desde os performantes até aos sub-performantes e não performantes.",
-    "quote": "Serviços especializados de gestão de empréstimos, com estratégias personalizadas para maximizar a recuperação e garantir soluções focadas no cliente.",
+    "intro": "A StellarVest Asset Management oferece serviços abrangentes de gestão de créditos, com vasta experiência em recuperação de crédito, servicing e outsourcing. Gerimos todos os tipos de créditos, desde os performantes até aos sub-performantes e não performantes.",
+    "quote": "Serviços especializados de gestão de créditos, com estratégias personalizadas para maximizar a recuperação e garantir soluções focadas no cliente.",
     "whyStellarVest": {
       "title": "Por que a StellarVest?",
       "items": [
         "Histórico comprovado em Dívida Corporativa Garantida",
-        "Estratégias personalizadas de recuperação de empréstimos",
+        "Estratégias personalizadas de recuperação de créditos",
         "Abordagem abrangente de gestão de empréstimos",
         "Soluções focadas no cliente",
         "Gestão integrada de ativos e jurídica"
