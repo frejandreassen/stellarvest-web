@@ -8,14 +8,14 @@
   },
   "hero": {
     "specialist": "Especialista na gestão de ativos complexos",
-    "welcome": "Bem-vinda à StellarVest Asset Management",
-    "tagline": "Seus Ativos, Nossa Especialidade",
+    "welcome": "Bem-vindo à StellarVest Asset Management",
+    "tagline": "Your Assets, Our Expertise",
     "learnMore": "Saber mais",
     "contactUs": "Contacte-nos"
   },
   "whatWeDo": {
     "title": "O que fazemos diferente",
-    "subtitle": "Serviço 360° que abrange todas as fases",
+    "subtitle": "Um serviço de 360° que abrange todas as fases",
     "description": "A StellarVest Asset Management é especialista na gestão de ativos complexos. Com uma abordagem estratégica e inovadora, destacamo-nos pela nossa capacidade de análise, desenvolvimento estratégico, vendas e pós-venda.",
     "features": {
       "realTime": {
@@ -23,11 +23,11 @@
         "description": "Dados em tempo real para diferentes públicos (Investidores, Gov., FdR, UE, etc.)"
       },
       "management": {
-        "name": "Equipe de Gestão Experiente",
+        "name": "equipa de Gestão Experiente",
         "description": "Grande experiência combinada em ativos problemáticos"
       },
       "servicer": {
-        "name": "Único servicer em Portugal",
+        "name": "O único servicer em Portugal",
         "description": "Com experiência em carve outs complexos e contratos de servicing (Estado PT)"
       },
       "capacity": {
@@ -45,7 +45,7 @@
     }
   },
   "numbers": {
-    "title": "Nossos Números",
+    "title": "O nossos números",
     "description": "Desde 2018, nossa dedicação e abordagem eficiente nos permitiram construir um portfólio robusto avaliado em mais de €570M em Vendas de REO's e €181M. Para nós, a gestão de ativos não é apenas sobre empréstimos ou propriedades, é sobre entender as necessidades únicas de nossos clientes e exceder as expectativas.",
     "since2018": "Desde 2018",
     "reos": {
@@ -121,8 +121,8 @@
   },
   "team": {
     "title": "Conheça nossa liderança",
-    "subtitle": "Nossa experiente equipe combina décadas de expertise em gestão de ativos, imóveis e serviços financeiros para entregar resultados excepcionais aos nossos clientes.",
-    "contactButton": "Fale com nossa equipe de gestão",
+    "subtitle": "Nossa experiente equipa combina décadas de expertise em gestão de ativos, imóveis e serviços financeiros para entregar resultados excepcionais aos nossos clientes.",
+    "contactButton": "Fale com nossa equipa de gestão",
     "people": {
       "rubenSommer": {
         "name": "Ruben Sommer",
@@ -223,7 +223,7 @@
     "quote": "Maximizando o valor dos ativos com nossa abordagem integrada de gestão imobiliária.",
     "whyStellarVest": {
       "title": "Por que a StellarVest?",
-      "description": "A StellarVest possui uma plataforma imobiliária robusta capaz de gerir todos os tipos de propriedades. Nossas equipes internas especializadas se destacam na gestão de ativos, desenvolvimento e arrendamento de imóveis residenciais e comerciais. Temos um forte histórico na transformação e gestão de ativos imobiliários complexos e projetos, reconhecidos por nossa capacidade de lidar com restrições de licenciamento, desempenho e construção.",
+      "description": "A StellarVest possui uma plataforma imobiliária robusta capaz de gerir todos os tipos de propriedades. Nossas equipas internas especializadas se destacam na gestão de ativos, desenvolvimento e arrendamento de imóveis residenciais e comerciais. Temos um forte histórico na transformação e gestão de ativos imobiliários complexos e projetos, reconhecidos por nossa capacidade de lidar com restrições de licenciamento, desempenho e construção.",
       "items": [
         "Plataforma imobiliária robusta capaz de gerir todos os tipos de propriedades (residencial, comercial, terrenos, etc.)",
         "Equipas internas especializadas para gestão de ativos, desenvolvimento e arrendamento",
@@ -253,7 +253,7 @@
       "items": [
         "Orientada para o Melhor Valor do Ativo",
         "Forte plataforma imobiliária que gere todos os tipos de Propriedades",
-        "Equipes internas especializadas – gestão de ativos, desenvolvimento e arrendamento de ativos, tanto residenciais como comerciais",
+        "equipas internas especializadas – gestão de ativos, desenvolvimento e arrendamento de ativos, tanto residenciais como comerciais",
         "Forte histórico em transformação e gestão de ativos imobiliários e projetos - capacidade reconhecida para gerir ativos imobiliários complexos com restrições de licenciamento, desempenho e construção",
         "Plataforma que fornece dados personalizados em tempo real com base nas necessidades de cada cliente"
       ]
@@ -326,8 +326,8 @@
     },
     "servicesCapacity": {
       "title": "Nossos serviços e capacidade imobiliária – Atividade de comercialização granular",
-      "tagline": "Seus Imóveis, Nossa Especialidade",
-      "contactUs": "Fale com nossa equipe imobiliária",
+      "tagline": "Your Assets, Our Expertise",
+      "contactUs": "Fale com nossa equipa imobiliária",
       "process": {
         "step1": {
           "name": "Integração e Limpeza de Ativos",
@@ -394,16 +394,16 @@
       "whyChoose": {
         "title": "Por que escolher a StellarVest?",
         "items": [
-          "Eficiência & Expertise – Uma equipe de profissionais dedicada a maximizar a eficácia operacional",
+          "Eficiência & Expertise – Uma equipa de profissionais dedicada a maximizar a eficácia operacional",
           "Soluções End to End – Uma abordagem holística cobrindo todo o ciclo de vida do ativo",
           "Gestão de Risco & Conformidade – Garantindo aderência regulatória e proteção estratégica de ativos",
           "Abordagem Centrada no Cliente – Soluções de servicing personalizadas que se alinham com seus objetivos de negócio"
         ]
       },
-      "tagline": "Vamos construir juntos o futuro da gestão de ativos. Seus Ativos, Nossa Especialidade."
+      "tagline": "Vamos construir juntos o futuro da gestão de ativos. Your Assets, Our Expertise."
     },
     "team": {
-      "title": "Nossa Equipe de Gestão Imobiliária",
+      "title": "Nossa equipa de Gestão Imobiliária",
       "description": "Nossos profissionais experientes trazem décadas de experiência combinada em gestão de ativos imobiliários.",
       "members": [
         {
@@ -429,7 +429,7 @@
   "advisory": {
     "title": "Advisory",
     "subtitle": "Underwriting Imobiliário",
-    "intro": "A equipe de consultoria da Stellarvest pode auxiliar em projetos de underwriting de qualquer tamanho, desde um único ativo pequeno até os maiores portfólios de múltiplos inquilinos e múltiplos ativos. Podemos ajudar em qualquer etapa do seu processo de underwriting, auxiliar em várias etapas ou supervisionar e executar todo o processo para você.",
+    "intro": "A equipa de consultoria da Stellarvest pode auxiliar em projetos de underwriting de qualquer tamanho, desde um único ativo pequeno até os maiores portfólios de múltiplos inquilinos e múltiplos ativos. Podemos ajudar em qualquer etapa do seu processo de underwriting, auxiliar em várias etapas ou supervisionar e executar todo o processo para você.",
     "scaleText": "À medida que seu portfólio ou necessidades crescem, podemos facilmente escalar e fornecer serviços, recursos e soluções adicionais de underwriting.",
     "quote": "Serviços especializados de advisory para todas as suas necessidades de underwriting imobiliário.",
     "servicesSection": {
@@ -462,22 +462,22 @@
       ]
     },
     "team": {
-      "title": "Nossa Equipe de Advisory",
+      "title": "Nossa equipa de Advisory",
       "subtitle": "Liderada por especialistas com profundo conhecimento dos mercados imobiliários e análise financeira",
       "members": [
         {
           "name": "Rui Calado",
           "position": "Diretor de Advisory",
-          "description": "Com ampla experiência em análise financeira imobiliária e serviços de consultoria, Rui lidera nossa equipe de underwriting e advisory com precisão e perspicácia."
+          "description": "Com ampla experiência em análise financeira imobiliária e serviços de consultoria, Rui lidera nossa equipa de underwriting e advisory com precisão e perspicácia."
         }
       ]
     },
-    "contactUs": "Fale com nossa equipe de advisory"
+    "contactUs": "Fale com nossa equipa de advisory"
   },
   "loansManagement": {
-    "title": "Gestão de Empréstimos",
-    "subtitle": "Serviços Especializados de Gestão de Empréstimos",
-    "intro": "A StellarVest Asset Management oferece serviços abrangentes de gestão de empréstimos, com vasta experiência em recuperação de crédito, servicing e outsourcing. Gerimos todos os tipos de empréstimos, desde os performantes até aos sub-performantes e não performantes.",
+    "title": "Gestão de Créditos",
+    "subtitle": "Serviços Especializados de Gestão de Créditos",
+    "intro": "A StellarVest Asset Management oferece serviços abrangentes de gestão de créditos, com vasta experiência em recuperação de crédito, servicing e outsourcing. Gerimos todos os tipos de empréstimos, desde os performantes até aos sub-performantes e não performantes.",
     "quote": "Serviços especializados de gestão de empréstimos, com estratégias personalizadas para maximizar a recuperação e garantir soluções focadas no cliente.",
     "whyStellarVest": {
       "title": "Por que a StellarVest?",
@@ -530,30 +530,30 @@
       "structure": {
         "title": "ESTRUTURA",
         "items": [
-          "Equipas com Gestores de Ativos e Gestores Jurídicos trabalhando em esforço simultâneo e conjunto para melhorar a recuperação",
-          "Fluxos de trabalho fluidos de resolução amigável através da negociação ou recuperação legal através dos procedimentos judiciais mais adequados",
-          "Controle preciso e gestão de dinheiro em tribunal",
-          "Ferramentas de TI personalizadas gerindo todo o portfólio desde a integração até as cobranças, gerindo acordos de pagamento, arquivos legais, vendas e retomadas",
+          "Equipas de Legal Managers e Asset Managers que trabalham em paralelo e simultâneo num esforço conjunto",
+          "Fluxos de trabalho de resolução amigável através da negociação ou recuperação legal, adotando os procedimentos judiciais mais adequados",
+          "Controlo e gestão eficazes dos montantes projectados receber amigavelmente (pipelines) e dos montantes retidos nos processos judiciais (cash in court)",
+          "Ferramentas informáticas personalizadas que gerem toda a carteira desde o boarding até às cobranças, gerindo acordos de pagamento, documentação legal, vendas e penhoras",
           "Gestão de notificações totalmente automatizada e controlada",
           "Alocação por Tipo de Empréstimo, Investidor e/ou Portfólio",
-          "Gestores de Ativos e Jurídicos especiais designados para pastas complexas"
+          "Alocação especializada de gestores (Asset e Legal Managers) de acordo com a complexidade das carteiras e clientes"
         ]
       },
       "focus": {
         "title": "FOCO",
         "items": [
-          "Orientado ao desempenho",
-          "Orientado ao investidor",
-          "Abordagem holística: empréstimo, devedores/clientes, ativos",
-          "Gestão proativa de processos",
-          "Controles e relatórios online",
-          "Soluções inovadoras, além da simples liquidação",
-          "Procedimentos simples, mas eficazes"
+          "Foco no desempenho",
+          "Atenção no Cliente e Investidor",
+          "Abordagem holística: empréstimos, devedores/clientes, ativos",
+          "Gestão proativa ao nível de procedimentos",
+          "Controlos e relatórios online",
+          "Soluções out of the box, para além da simples liquidação",
+          "Procedimentos simples mas eficazes"
         ]
       }
     },
-    "tagline": "Seus Ativos, Nossa Especialidade",
-    "contactUs": "Fale com nossa equipe de gestão de empréstimos",
+    "tagline": "Your Assets, Our Expertise",
+    "contactUs": "Fale com nossa equipa de gestão de empréstimos",
     "allServices": "Ver todos os nossos serviços"
   },
   "securitization": {
@@ -565,7 +565,7 @@
       "title": "Por que escolher a Zarco STC?",
       "description": "A Zarco STC oferece vantagens distintas no panorama da securitização:",
       "items": [
-        "Veículo independente exclusivamente dedicado à securitização com uma equipe totalmente dedicada",
+        "Veículo independente exclusivamente dedicado à securitização com uma equipa totalmente dedicada",
         "Garante que todos os processos, procedimentos e atividades de relatório relacionadas à gestão de securitização sejam entregues",
         "Totalmente detida pela Stellarvest, um Grupo orientado para o serviço",
         "Fornece garantia indiscutível de independência a cada investidor que securitiza um portfólio",
@@ -611,7 +611,7 @@
         "Potencial de recuperação aprimorado através de relatórios ao Banco de Portugal",
         "Acesso a informações financeiras cruciais do devedor",
         "Flexibilidade para trabalhar com seu prestador de serviços preferido",
-        "Equipe experiente dedicada exclusivamente à securitização",
+        "equipa experiente dedicada exclusivamente à securitização",
         "Integração perfeita com o ecossistema financeiro mais amplo"
       ]
     },
@@ -624,7 +624,7 @@
       "cashflow": "Fluxo de Caixa",
       "notes": "Notas"
     },
-    "contactUs": "Fale com nossa equipe de securitização",
+    "contactUs": "Fale com nossa equipa de securitização",
     "allServices": "Ver todos os nossos serviços",
     "tagline": "Sua Securitização, Nossa Expertise"
   },
@@ -716,13 +716,13 @@
       "email": "Envie o seu CV para recrutamento@stellarvest.pt",
       "exploreMore": "ou explore as nossas oportunidades em www.stellarvest.pt."
     },
-    "tagline": "Seus Ativos, Nossa Especialidade"
+    "tagline": "Your Assets, Our Expertise"
   },
   "footer": {
     "navigation": {
       "solutions": {
         "title": "Soluções",
-        "loansManagement": "Gestão de Empréstimos",
+        "loansManagement": "Gestão de Créditoss",
         "realEstateManagement": "Gestão de Ativos Imobiliários",
         "advisory": "Advisory",
         "securitization": "Veículo de Securitização"
