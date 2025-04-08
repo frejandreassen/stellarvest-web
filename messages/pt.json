@@ -15,20 +15,20 @@
   },
   "whatWeDo": {
     "title": "O que fazemos diferente",
-    "subtitle": "Um serviço de 360° que abrange todas as fases",
-    "description": "A StellarVest Asset Management é especialista na gestão de ativos complexos. Com uma abordagem estratégica e inovadora, destacamo-nos pela nossa capacidade de análise, desenvolvimento estratégico, vendas e pós-venda.",
+    "subtitle": "Um serviço 360° que abrange todas as fases",
+    "description":   "A StellarVest Asset Management é especialista na gestão de ativos complexos. Com uma abordagem estratégica e inovadora, destacamo-nos pela nossa capacidade de análise, desenvolvimento estratégico, venda e pós-venda de activos.",
     "features": {
       "realTime": {
         "name": "Altamente adaptado para fornecer",
-        "description": "Dados em tempo real para diferentes públicos (Investidores, Gov., FdR, UE, etc.)"
+        "description": "Dados em tempo real para diferentes destinatários (Investidores, entidades do estado, FdR, UE, etc.)"
       },
       "management": {
         "name": "Equipa de Gestão Experiente",
-        "description": "Grande experiência combinada em ativos problemáticos"
+        "description": "Com ampla experiência combinada em ativos complexos"
       },
       "servicer": {
         "name": "O único servicer em Portugal",
-        "description": "Com experiência em carve outs complexos e contratos de servicing (Estado PT)"
+        "description": "Com experiência em carve-outs complexos e contratos de servicing (Estado Português)"
       },
       "capacity": {
         "name": "Capacidade reconhecida",
@@ -40,21 +40,21 @@
       },
       "aum": {
         "name": "100% dos AUM's",
-        "description": "São propriedade de partes não relacionadas"
+        "description": "São propriedade das entidades em gestão"
       }
     }
   },
   "numbers": {
     "title": "O nossos números",
-    "description": "Desde 2018, nossa dedicação e abordagem eficiente nos permitiram construir um portfólio robusto avaliado em mais de €570M em Vendas de REO's e €181M. Para nós, a gestão de ativos não é apenas sobre empréstimos ou propriedades, é sobre entender as necessidades únicas de nossos clientes e exceder as expectativas.",
+    "description": "Desde 2018, a nossa dedicação e abordagem eficiente permitiram-nos construir um portefólio robusto, com mais de €580M em vendas de imóveis (REO’s) e €230M em cobranças (Collections). Para nós, a gestão de ativos não se resume apenas a empréstimos ou propriedades — trata-se de compreender as necessidades únicas dos nossos clientes e superar as suas expectativas.",
     "since2018": "Desde 2018",
     "reos": {
       "title": "Vendas de REOs",
-      "value": "€570M"
+      "value": "€580M"
     },
     "collections": {
       "title": "Cobranças",
-      "value": "€228M"
+      "value": "€230M"
     },
     "assetsMgt": {
       "title": "Gestão de Ativos",
