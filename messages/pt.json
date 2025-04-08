@@ -120,33 +120,33 @@
     }
   },
   "team": {
-    "title": "Conheça nossa liderança",
-    "subtitle": "A nossa experiente equipa combina décadas de expertise em gestão de ativos, imóveis e serviços financeiros para entregar resultados excepcionais aos nossos clientes.",
+    "title": "Conheça nossa equipa de gestão",
+    "subtitle": "A nossa experiente equipa combina décadas de conhecimento em gestão de ativos, imobiliário e serviços financeiros, para oferecer resultados excecionais aos nossos clientes.",
     "contactButton": "Fale com nossa equipa de gestão",
     "people": {
       "rubenSommer": {
         "name": "Ruben Sommer",
         "role": "CEO",
         "experience": "+ 30 anos de experiência",
-        "bio": "Experiência em várias instituições financeiras prestigiadas, incluindo Banif, ABN Amro Bank, Deutsche Bank Investimentos, BES Investimento, Domusvenda, Reactivv e Albatris. Possui graduação em Gestão Empresarial."
+        "bio": "Experiência em várias instituições financeiras prestigiadas, incluindo Banif, ABN Amro Bank, Deutsche Bank Investimentos, BES Investimento, Domusvenda, Reactivv e Albatris. Possui uma licenciatura em Gestão Empresarial."
       },
       "joaoRibeiro": {
         "name": "João Ribeiro",
         "role": "Real Estate Director",
         "experience": "+ 25 anos de experiência",
-        "bio": "Vasta experiência no setor imobiliário com empresas como Immo Mosqueteiros PT, DIA PT, CBRE, Euro-Funding Advisory Group, Carrefour PT e Parque Expo. Possui graduação em Arquitetura e Mestrado em Planejamento Urbano."
+        "bio": "Vasta experiência no setor imobiliário com empresas como Immo Mosqueteiros PT, DIA PT, CBRE, Euro-Funding Advisory Group, Carrefour PT e Parque Expo. Possui uma licenciatura em Arquitetura e Mestrado em Planejamento Urbano."
       },
       "pedroGuerreiro": {
         "name": "Pedro Guerreiro",
         "role": "CHRO & CFO",
         "experience": "+ 25 anos de experiência",
-        "bio": "Experiência em serviços financeiros no Banif, ABN Amro Bank, Deutsche Bank Investimentos, BES Investimento, entre outros. Múltiplas qualificações incluindo graduações em Gestão, Advocacia e pós-graduação em Gestão de RH e Estratégia Corporativa."
+        "bio": "Experiência em serviços financeiros no Banif, ABN Amro Bank, Deutsche Bank Investimentos, BES Investimento, entre outros. Múltiplas qualificações incluindo licenciatura em Gestão, Direito e pós-graduação em Gestão de RH e Estratégia Corporativa."
       }
     }
   },
   "clients": {
-    "title": "Confiado por líderes do setor",
-    "subtitle": "Trabalhamos com alguns dos nomes mais respeitados em serviços financeiros e imobiliários.",
+    "title": "De confiança para líderes do setor",
+    "subtitle": "Trabalhamos com alguns dos nomes mais respeitados nos setores dos serviços financeiros e do imobiliário.",
     "logos": {
       "apollo": "Logótipo Apollo",
       "fortress": "Logótipo Fortress",
