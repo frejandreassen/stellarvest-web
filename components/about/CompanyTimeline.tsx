@@ -24,7 +24,7 @@ export default function CompanyTimeline() {
     },
     {
       id: 'altamira',
-      year: '2018',
+      year: '2019',
       title: 'doValue Group acquires Altamira Asset Management',
       description: '',
       logo: '/about/dovalue-logo.png',
