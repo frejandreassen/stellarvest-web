@@ -70,7 +70,7 @@
   "services": {
     "title": "Nossos Serviços",
     "subtitle": "Oferecemos uma gama completa de serviços de gestão de ativos para atender às suas necessidades.",
-    "description": "Com nossa abordagem integrada, fornecemos soluções abrangentes de gestão de ativos que cobrem todos os aspetos das suas necessidades de investimento.",
+    "description": "Com a nossa abordagem integrada, fornecemos soluções abrangentes de gestão de ativos que cobrem todos os aspetos das suas necessidades de investimento.",
     "findOutMore": "Saiba mais",
     "viewAllServices": "Ver Todos os Serviços",
     "items": {
@@ -122,7 +122,7 @@
   "team": {
     "title": "Conheça nossa equipa de gestão",
     "subtitle": "A nossa experiente equipa combina décadas de conhecimento em gestão de ativos, imobiliário e serviços financeiros, para oferecer resultados excecionais aos nossos clientes.",
-    "contactButton": "Fale com nossa equipa de gestão",
+    "contactButton": "Fale com a nossa equipa de gestão",
     "people": {
       "rubenSommer": {
         "name": "Ruben Sommer",
@@ -220,7 +220,7 @@
     "subtitle": "Maximizando o Valor das Propriedades",
     "intro": "A StellarVest Asset Management oferece serviços especializados de gestão de ativos imobiliários focados na maximização do valor dos ativos através de uma abordagem integrada e eficiente. Os nossos serviços abrangentes vão desde a análise e design estratégico até ao desenvolvimento, gestão, vendas e pós-venda de ativos imobiliários, ajustados aos objetivos singulares de cada investidor.",
     "platformText": "O nosso ramo imobiliário está equipado para gerir todos os tipos de propriedades, com equipas internas especializadas e dedicadas à transformação e gestão de ativos imobiliários complexos com restrições desafiadoras.",
-    "quote": "Maximizando o valor dos ativos com nossa abordagem integrada de gestão imobiliária.",
+    "quote": "Maximizando o valor dos ativos com a nossa abordagem integrada de gestão imobiliária.",
     "whyStellarVest": {
       "title": "Por que a StellarVest?",
       "description": "A StellarVest possui uma plataforma imobiliária robusta capaz de gerir todos os tipos de propriedades. Nossas equipas internas especializadas se destacam na gestão de ativos, desenvolvimento e arrendamento de imóveis residenciais e comerciais. Temos um forte histórico na transformação e gestão de ativos imobiliários complexos e projetos, reconhecidos por nossa capacidade de lidar com restrições de licenciamento, desempenho e construção.",
@@ -327,7 +327,7 @@
     "servicesCapacity": {
       "title": "Nossos serviços e capacidade imobiliária – Atividade de comercialização granular",
       "tagline": "Your Assets, Our Expertise",
-      "contactUs": "Fale com nossa equipa imobiliária",
+      "contactUs": "Fale com a nossa equipa imobiliária",
       "process": {
         "step1": {
           "name": "Integração e Limpeza de Ativos",
@@ -424,7 +424,7 @@
       ]
     },
     "allServices": "Ver todos os nossos serviços",
-    "contactUs": "Fale com nossa equipa de gestão imobiliária"
+    "contactUs": "Fale com a nossa equipa de gestão imobiliária"
   },
   "advisory": {
     "title": "Advisory",
@@ -472,7 +472,7 @@
         }
       ]
     },
-    "contactUs": "Fale com nossa equipa de advisory"
+    "contactUs": "Fale com a nossa equipa de advisory"
   },
   "loansManagement": {
     "title": "Gestão de Créditos",
@@ -553,7 +553,7 @@
       }
     },
     "tagline": "Your Assets, Our Expertise",
-    "contactUs": "Fale com nossa equipa de gestão de empréstimos",
+    "contactUs": "Fale com a nossa equipa de gestão de empréstimos",
     "allServices": "Ver todos os nossos serviços"
   },
   "securitization": {
@@ -624,7 +624,7 @@
       "cashflow": "Fluxo de Caixa",
       "notes": "Notas"
     },
-    "contactUs": "Fale com nossa equipa de securitização",
+    "contactUs": "Fale com a nossa equipa de securitização",
     "allServices": "Ver todos os nossos serviços",
     "tagline": "Sua Securitização, Nossa Expertise"
   },
