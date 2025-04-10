@@ -140,7 +140,7 @@ export default function Advisory() {
                     </div>
                 </div>
 
-                {/* Team Section */}
+                {/* Team Section 
                 <div className="bg-gray-50 py-16 sm:py-24">
                     <div className="mx-auto max-w-7xl px-6 lg:px-8">
                         <div className="mx-auto max-w-2xl text-center">
@@ -169,9 +169,11 @@ export default function Advisory() {
                         </div>
                     </div>
                 </div>
-
-                {/* Contact Form */}
-                <ContactForm defaultTeam="advisory" />
+                */}
+                {/* Contact Form with advisory's Team pre-selected */}
+                <div id="contact-form">
+                    <ContactForm defaultTeam="advisory" />
+                </div>
             </main>
             <Footer />
         </div>
