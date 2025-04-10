@@ -128,7 +128,7 @@
         "name": "Ruben Sommer",
         "role": "CEO",
         "experience": "+ 30 anos de experiência",
-        "bio": "Experiência em várias instituições financeiras prestigiadas, incluindo Banif, ABN Amro Bank, Deutsche Bank Investimentos, BES Investimento, Domusvenda, Reactivv e Albatris. Possui uma licenciatura em Gestão Empresarial."
+        "bio": "Experiência em várias instituições financeiras prestigiadas, incluindo Banif, ABN Amro Bank, Deutsche Bank Investimentos, BES Investimento, Domusvenda, Recativ e Albatris. Possui uma licenciatura em Gestão de Empresas."
       },
       "joaoRibeiro": {
         "name": "João Ribeiro",
@@ -492,7 +492,7 @@
     "results": {
       "title": "Os nossos resultados",
       "recovered": "Recuperado (desde 2018)",
-      "recoveredAmount": "€23M",
+      "recoveredAmount": "€230M",
       "aum": "Ativos sob Gestão",
       "aumAmount": "€700M"
     },
