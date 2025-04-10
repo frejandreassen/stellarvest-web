@@ -259,7 +259,7 @@ export default function RealEstate() {
                     </div>
                 </div>
                 
-                {/* Team section (using style from Team.tsx) */}
+                {/* Team section (using style from Team.tsx) 
                 <div className="bg-primary/5 py-24 sm:py-32">
                     <div className="mx-auto max-w-7xl px-6 lg:px-8">
                         <div className="mx-auto max-w-2xl sm:text-center">
@@ -312,8 +312,8 @@ export default function RealEstate() {
                             </a>
                         </div>
                     </div>
-                </div>
-                
+                </div> 
+                */}
                 {/* Services link */}
                 <div className="bg-white py-8 sm:py-12">
                     <div className="mx-auto max-w-7xl px-6 lg:px-8">
