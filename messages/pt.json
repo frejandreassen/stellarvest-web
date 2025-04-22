@@ -20,27 +20,27 @@
     "features": {
       "realTime": {
         "name": "Altamente adaptado para fornecer",
-        "description": "Dados em tempo real para diferentes destinatários (Investidores, entidades do estado, FdR, UE, etc.)"
+        "description": "Dados em tempo real para diferentes destinatários (Investidores, entidades do estado, FdR, UE, etc.)."
       },
       "management": {
         "name": "Equipa de gestão experiente",
-        "description": "Com ampla experiência combinada em ativos complexos"
+        "description": "Com ampla experiência combinada em ativos complexos."
       },
       "servicer": {
         "name": "O único servicer em Portugal",
-        "description": "Com experiência em carve-outs complexos e contratos de servicing (Estado Português)"
+        "description": "Com experiência em carve-outs complexos e contratos de servicing (Estado Português)."
       },
       "capacity": {
         "name": "Capacidade reconhecida",
-        "description": "Para gerir ativos imobiliários complexos e casos muito especiais de NPLs Corporativos"
+        "description": "Para gerir ativos imobiliários complexos e casos muito especiais de NPLs Corporativos."
       },
       "platform": {
         "name": "Forte plataforma imobiliária",
-        "description": "Que gere todo tipo de REOs"
+        "description": "Que gere todo tipo de REOs."
       },
       "aum": {
         "name": "100% dos AUM's",
-        "description": "São propriedade de partes não relacionadas"
+        "description": "São propriedade de partes não relacionadas."
       }
     }
   },
@@ -77,18 +77,18 @@
       "loansManagement": {
         "name": "Gestão de créditos",
         "description": [
-          "Experiência em recuperação de crédito, servicing e outsourcing",
-          "Histórico comprovado em Dívida Corporativa Garantida",
-          "Estratégias personalizadas de recuperação de créditos",
-          "Abordagem abrangente de gestão de créditos"
+          "Experiência em recuperação de crédito, servicing e outsourcing.",
+          "Histórico comprovado em Dívida Corporativa Garantida.",
+          "Estratégias personalizadas de recuperação de créditos.",
+          "Abordagem abrangente de gestão de créditos."
         ]
       },
       "realEstateManagement": {
         "name": "Gestão de ativos imobiliários",
         "description": [
-          "Regularização técnica e comercialização de ativos singulares e granulares",
-          "Desenvolvimento e transformação de ativos singulares - carteiras e single names: terrenos, edifícios e imóveis inacabados",
-          "Gestão de Ativos singulares - carteiras e single names"
+          "Regularização técnica e comercialização de ativos singulares e granulares.",
+          "Desenvolvimento e transformação de ativos singulares - carteiras e single names: terrenos, edifícios e imóveis inacabados.",
+          "Gestão de Ativos singulares - carteiras e single names."
         ],
         "label": "Para acessar os imóveis que temos à venda, clique no",
         "link": "Link"
@@ -96,25 +96,25 @@
       "advisory": {
         "name": "Advisory",
         "description": [
-          "Due diligence de carteiras NPL, PL e REOs (lado comprador e vendedor)",
-          "Avaliações de ativos imobiliários",
-          "Criação de modelo financeiro/planos de negócios para recuperação de carteira"
+          "Due diligence de carteiras NPL, PL e REOs (lado comprador e vendedor).",
+          "Avaliações de ativos imobiliários.",
+          "Criação de modelo financeiro/planos de negócios para recuperação de carteira."
         ]
       },
       "corporateServices": {
         "name": "Servicing / Serviços Corporativos",
         "description": [
-          "Suporte administrativo às áreas de negócio",
-          "Administração de propriedades - Gestão de locações, condomínios e manutenção de imóveis",
-          "Regularização, gestão judicial de imóveis ocupados e contratação"
+          "Suporte administrativo às áreas de negócio.",
+          "Administração de propriedades - Gestão de locações, condomínios e manutenção de imóveis.",
+          "Regularização, gestão judicial de imóveis ocupados e contratação."
         ]
       },
       "securitization": {
         "name": "STC - Veículo de Securitização",
         "description": [
-          "Serviços completos de securitização",
-          "Configuração e gestão de securitizações",
-          "Maximização de valor para originadores e investidores"
+          "Serviços completos de securitização.",
+          "Configuração e gestão de securitizações.",
+          "Maximização de valor para originadores e investidores."
         ]
       }
     }
