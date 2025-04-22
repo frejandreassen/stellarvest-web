@@ -48,8 +48,8 @@ export default function Header() {
     { 
       name: services.raw('items.realEstateManagement.name'), 
       description: services.raw('items.realEstateManagement.description')[0], 
-      label: services.raw('items.realEstateManagement.label'), 
-      link: services.raw('items.realEstateManagement.link'), 
+      'label: services.raw('items.realEstateManagement.label')[0], 
+      'link: services.raw('items.realEstateManagement.link')[0], 
       href: '/real-estate', 
       icon: BuildingOffice2Icon 
     },
@@ -155,8 +155,8 @@ export default function Header() {
                       <a href={item.href} className="block font-semibold text-gray-900">
                         {item.name}
                         <span className="absolute inset-0" />
-                     {/* <p className="mt-1 text-gray-600">{item.description}</p>
-                      <p className="mt-6">
+                      <p className="mt-1 text-gray-600">{item.description}</p>
+                      {/*<p className="mt-6">
                           <a className="text-xs leading-6 text-gray-500 md:mt-0">{item.label}</a>
                           <a href={item.href} className="text-sm font-semibold leading-6 text-primary">{item.Link}</a>
                       </p>*/}
