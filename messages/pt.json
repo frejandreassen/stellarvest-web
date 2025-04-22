@@ -359,23 +359,23 @@
       "structure": {
         "title": "ESTRUTURA",
         "items": [
-          "Equipa Comercial com Gestores de Ativos trabalhando em parceria com uma ampla rede de mediadores",
-          "Equipas internas especializadas em regularização de ativos – técnica e judicial",
-          "Ferramentas de TI personalizadas gerindo todo o portfólio desde a admissão até cobranças, gerindo manutenção, chaves e fecho",
-          "Serviços internos de AML",
-          "Alocação por Tipo de Ativo e localização, Investidor e/ou Portfólio",
-          "Foco especial e histórico comprovado em vendas urgentes, ativos sem propriedade total e ocupados, vendas"
+          "Equipa Comercial com Gestores de Ativos trabalhando em parceria com uma ampla rede de mediadores.",
+          "Equipas internas especializadas em regularização de ativos – técnica e judicial.",
+          "Ferramentas de TI personalizadas gerindo todo o portfólio desde a admissão até cobranças, gerindo manutenção, chaves e fecho.",
+          "Serviços internos de AML.",
+          "Alocação por Tipo de Ativo e localização, Investidor e/ou Portfólio.",
+          "Foco especial e histórico comprovado em vendas urgentes, ativos sem propriedade total e ocupados, vendas."
         ]
       },
       "focus": {
         "title": "FOCO",
         "items": [
-          "Orientado pelo Melhor Valor do Ativo",
-          "Orientado pelo investidor",
-          "Orientado por negócios – a melhor abordagem comercial caso a caso",
-          "Ampla política de publicidade",
-          "Abordagens comerciais proativas e gestão",
-          "Campanhas regulares e proativas"
+          "Orientado pelo Melhor Valor do Ativo.",
+          "Orientado pelo investidor.",
+          "Orientado por negócios – a melhor abordagem comercial caso a caso.",
+          "Ampla política de publicidade.",
+          "Abordagens comerciais proativas e gestão.",
+          "Campanhas regulares e proativas."
         ]
       }
     },
@@ -436,29 +436,29 @@
       "title": "Os nossos Serviços",
       "description": "Oferecemos uma gama completa de serviços e soluções de underwriting, incluindo:",
       "services": [
-        "Coleta e análise de informações de propriedades",
-        "Coleta e análise de informações de mercado e submercado",
-        "Modelagem financeira",
-        "Um portfólio de modelos Excel prontos para uso",
-        "Criação de Relatórios de Resumo de Ativos (ASRs)",
-        "Realização de análises de tendências de receitas e despesas operacionais",
-        "Preparação de análises detalhadas de DCF",
-        "Análise de ativos em níveis individuais, de subportfólio ou de portfólio",
-        "Geração de relatórios detalhados ou resumidos no nível de ativo e portfólio"
+        "Coleta e análise de informações de propriedades.",
+        "Coleta e análise de informações de mercado e submercado.",
+        "Modelagem financeira.",
+        "Um portfólio de modelos Excel prontos para uso.",
+        "Criação de Relatórios de Resumo de Ativos (ASRs).",
+        "Realização de análises de tendências de receitas e despesas operacionais.",
+        "Preparação de análises detalhadas de DCF.",
+        "Análise de ativos em níveis individuais, de subportfólio ou de portfólio.",
+        "Geração de relatórios detalhados ou resumidos no nível de ativo e portfólio."
       ]
     },
     "tailoredApproach": {
       "title": "Abordagem personalizada",
       "description": "Na Stellarvest, adotamos uma abordagem altamente personalizada para underwriting. Começamos cada tarefa de underwriting revisando e avaliando os detalhes fundamentais, mas críticos, para garantir que o nosso trabalho se alinhe perfeitamente com as suas necessidades e objetivos específicos, incluindo:",
       "details": [
-        "Tipo de ativo",
-        "Classe de ativo",
-        "Tipo de transação",
-        "Objetivos do cliente",
-        "Posição do cliente na estrutura de capital",
-        "Disponibilidade de informações relevantes",
-        "Tamanho e escopo do projeto",
-        "Prazo"
+        "Tipo de ativo.",
+        "Classe de ativo.",
+        "Tipo de transação.",
+        "Objetivos do cliente.",
+        "Posição do cliente na estrutura de capital.",
+        "Disponibilidade de informações relevantes.",
+        "Tamanho e escopo do projeto.",
+        "Prazo."
       ]
     },
     "team": {
@@ -482,11 +482,11 @@
     "whyStellarVest": {
       "title": "Por que a StellarVest?",
       "items": [
-        "Histórico comprovado em Dívida Corporativa Garantida",
-        "Estratégias personalizadas de recuperação de créditos",
-        "Abordagem abrangente de gestão de empréstimos",
-        "Soluções focadas no cliente",
-        "Gestão integrada de ativos e jurídica"
+        "Histórico comprovado em Dívida Corporativa Garantida.",
+        "Estratégias personalizadas de recuperação de créditos.",
+        "Abordagem abrangente de gestão de empréstimos.",
+        "Soluções focadas no cliente.",
+        "Gestão integrada de ativos e jurídica."
       ]
     },
     "results": {
@@ -498,7 +498,7 @@
     },
     "approach": "A nossa abordagem enfatiza a recuperação de créditos de forma eficiente e estratégica, priorizando soluções focadas no cliente e aproveitando a nossa experiência em gestão integrada de ativos e jurídica. Entendemos que cada carteira de empréstimos tem requisitos únicos, e adaptamos os nossos serviços de acordo.",
     "servicesCapacity": {
-      "title": "Os nossos serviços e capacidade de gestão de créditos",
+      "title": "Os nossos serviços e capacidade na gestão de créditos",
       "process": {
         "step1": {
           "name": "Design e estratificação da estratégia",
@@ -530,25 +530,25 @@
       "structure": {
         "title": "ESTRUTURA",
         "items": [
-          "Equipas de Legal Managers e Asset Managers que trabalham em paralelo e simultâneo num esforço conjunto",
-          "Fluxos de trabalho de resolução amigável através da negociação ou recuperação legal, adotando os procedimentos judiciais mais adequados",
-          "Controlo e gestão eficazes dos montantes projetados receber amigavelmente (pipelines) e dos montantes retidos nos processos judiciais (cash in court)",
-          "Ferramentas informáticas personalizadas que gerem toda a carteira desde o boarding até às cobranças, gerindo acordos de pagamento, documentação legal, vendas e penhoras",
-          "Gestão de notificações totalmente automatizada e controlada",
-          "Alocação por Tipo de Empréstimo, Investidor e/ou Portfólio",
-          "Alocação especializada de gestores (Asset e Legal Managers) de acordo com a complexidade das carteiras e clientes"
+          "Equipas de Legal Managers e Asset Managers que trabalham em paralelo e simultâneo num esforço conjunto.",
+          "Fluxos de trabalho de resolução amigável através da negociação ou recuperação legal, adotando os procedimentos judiciais mais adequados.",
+          "Controlo e gestão eficazes dos montantes projetados receber amigavelmente (pipelines) e dos montantes retidos nos processos judiciais (cash in court).",
+          "Ferramentas informáticas personalizadas que gerem toda a carteira desde o boarding até às cobranças, gerindo acordos de pagamento, documentação legal, vendas e penhoras.",
+          "Gestão de notificações totalmente automatizada e controlada.",
+          "Alocação por Tipo de Empréstimo, Investidor e/ou Portfólio.",
+          "Alocação especializada de gestores (Asset e Legal Managers) de acordo com a complexidade das carteiras e clientes."
         ]
       },
       "focus": {
         "title": "FOCO",
         "items": [
-          "Foco no desempenho",
-          "Atenção no Cliente e Investidor",
-          "Abordagem holística: empréstimos, devedores/clientes, ativos",
-          "Gestão proativa ao nível de procedimentos",
-          "Controlos e relatórios online",
-          "Soluções out of the box, para além da simples liquidação",
-          "Procedimentos simples mas eficazes"
+          "Foco no desempenho.",
+          "Atenção no Cliente e Investidor.",
+          "Abordagem holística: empréstimos, devedores/clientes, ativos.",
+          "Gestão proativa ao nível de procedimentos.",
+          "Controlos e relatórios online.",
+          "Soluções out of the box, para além da simples liquidação.",
+          "Procedimentos simples mas eficazes."
         ]
       }
     },
@@ -565,13 +565,13 @@
       "title": "Porquê a Zarco STC?",
       "description": "A Zarco STC oferece vantagens distintas no panorama da securitização:",
       "items": [
-        "Veículo independente exclusivamente dedicado à securitização com uma equipa totalmente dedicada",
-        "Assegura que todos os processos, procedimentos e atividades de reporte relacionados com a gestão de securitização são realizados",
-        "Totalmente detida pela Stellarvest, uma empresa orientada para serviços",
-        "Oferece uma garantia indiscutível de independência a cada investidor que securitiza um portfólio",
-        "Assegura que todas as informações permanecem confidenciais e não são partilhadas com concorrentes",
-        "Segregação total de atividades de securitização e serviços",
-        "Trabalha com qualquer prestador de serviços escolhido pelo investidor, seja a Stellarvest ou não"
+        "Veículo independente exclusivamente dedicado à securitização com uma equipa totalmente dedicada.",
+        "Assegura que todos os processos, procedimentos e atividades de reporte relacionados com a gestão de securitização são realizados.",
+        "Totalmente detida pela Stellarvest, uma empresa orientada para serviços.",
+        "Oferece uma garantia indiscutível de independência a cada investidor que securitiza um portfólio.",
+        "Assegura que todas as informações permanecem confidenciais e não são partilhadas com concorrentes.",
+        "Segregação total de atividades de securitização e serviços.",
+        "Trabalha com qualquer prestador de serviços escolhido pelo investidor, seja a Stellarvest ou não."
       ]
     },
     "approach": {
@@ -579,8 +579,8 @@
       "description": "A nossa metodologia acrescenta valor através de uma estratégica de gestão de informação e relatórios relevantes:",
       "items": [
         "Relatórios ao Banco de Portugal - Reporta o estado de incumprimento dos seus devedores e fiadores ao Banco de Portugal (Banco Central da República Portuguesa) e esta informação é partilhada no sistema financeiro, influenciando a capacidade de endividamento desses devedores.",
-        "Potencial de negociação e recuperação - Promove a negociação com credores e do pagamento de créditos, aumentando o potencial de recuperação. Este relatório não é obrigatório para STC, mas a Zarco é um dos poucos veículos de securitização que realiza tal relatório, compreendendo o valor acrescentado para os seus Clientes e Investidores",
-        "Disponibiliza informações financeiras - Além disso, como fornecedor de informações financeiras, a Zarco reciprocamente recebe informações sobre os seus devedores sob gestão, o que é essencial para modelos e ferramentas de tomada de decisão"
+        "Potencial de negociação e recuperação - Promove a negociação com credores e do pagamento de créditos, aumentando o potencial de recuperação. Este relatório não é obrigatório para STC, mas a Zarco é um dos poucos veículos de securitização que realiza tal relatório, compreendendo o valor acrescentado para os seus Clientes e Investidores.",
+        "Disponibiliza informações financeiras - Além disso, como fornecedor de informações financeiras, a Zarco reciprocamente recebe informações sobre os seus devedores sob gestão, o que é essencial para modelos e ferramentas de tomada de decisão."
       ]
     },
     "process": {
@@ -588,19 +588,19 @@
       "description": "O nosso processo de securitização simplificado transfere eficientemente ativos de originadores para investidores:",
       "step1": {
         "title": "Seleção e preparação de ativos",
-        "description": "Identificação de ativos adequados para securitização"
+        "description": "Identificação de ativos adequados para securitização."
       },
       "step2": {
         "title": "Estruturação e documentação",
-        "description": "Criação do quadro legal e financeiro ideal"
+        "description": "Criação do quadro legal e financeiro ideal."
       },
       "step3": {
         "title": "Emissão e liquidação",
-        "description": "Transferência eficiente de ativos e títulos"
+        "description": "Transferência eficiente de ativos e títulos."
       },
       "step4": {
         "title": "Gestão contínua e relatórios",
-        "description": "Supervisão contínua e comunicação com investidores"
+        "description": "Supervisão contínua e comunicação com investidores."
       }
     },
     "benefits": {
@@ -705,11 +705,11 @@
       "areas": {
         "title": "Estamos sempre à procura dos melhores profissionais nestas áreas:",
         "items": [
-          "Gestão de Ativos & Investimentos",
-          "Análise Financeira & Gestão de Risco",
-          "Tecnologia & Análise de Dados",
-          "Marketing & Desenvolvimento de Negócios",
-          "Compliance & Assuntos Regulatórios"
+          "Gestão de Ativos & Investimentos.",
+          "Análise Financeira & Gestão de Risco.",
+          "Tecnologia & Análise de Dados.",
+          "Marketing & Desenvolvimento de Negócios.",
+          "Compliance & Assuntos Regulatórios."
         ]
       },
       "challenge": "Pronto para o Seu Próximo Desafio? Candidate-se agora e torne-se parte de uma equipa que está a redefinir o futuro da gestão de ativos!",
