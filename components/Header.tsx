@@ -48,8 +48,8 @@ export default function Header() {
     { 
       name: services.raw('items.realEstateManagement.name'), 
       description: services.raw('items.realEstateManagement.description')[0], 
-      label: services.raw('items.realEstateManagement.label')[0], 
-      link: services.raw('items.realEstateManagement.link')[0], 
+      label: services.raw('items.realEstateManagement.label'), 
+      link: services.raw('items.realEstateManagement.link'), 
       href: '/real-estate', 
       icon: BuildingOffice2Icon 
     },
