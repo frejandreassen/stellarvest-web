@@ -155,6 +155,7 @@ export default function Header() {
                         {item.name}
                         <span className="absolute inset-0" />
                       <p className="mt-1 text-gray-600">{item.description}</p>
+                      <p className="mt-1 text-gray-600">{item.link}</p>
                       /</a>
                     </div>
                   </div>
