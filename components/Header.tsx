@@ -47,7 +47,7 @@ export default function Header() {
     },
     { 
       name: services.raw('items.realEstateManagement.name'), 
-      description: services.raw('items.realEstateManagement.label')[0], 
+      description: services.raw('items.realEstateManagement.description')[0], 
       href: '/real-estate', 
       icon: BuildingOffice2Icon 
     },
@@ -154,7 +154,7 @@ export default function Header() {
                         {item.name}
                         <span className="absolute inset-0" />
                       <p className="mt-1 text-gray-600">{item.description}</p>
-                      /</a>
+                      </a>
                     </div>
                   </div>
                 ))}
