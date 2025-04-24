@@ -82,6 +82,10 @@
           "Tailored loan recovery strategies",
           "Comprehensive loan management approach"
         ]
+        ,
+        "label": "",
+        "href": "",
+        "link": ""
       },
       "realEstateManagement": {
         "name": "Real Estate Asset Management",
@@ -91,7 +95,8 @@
           "Asset Management of singular assets - portfolios and single names"
         ],
         "label": "To access the properties we have for sale, click on the",
-        "link": "Link"
+        "link": " Link",
+        "href": "https://realestate.stellarvest.pt/"
       },
       "advisory": {
         "name": "Advisory",
@@ -99,7 +104,10 @@
           "Due diligence of NPL, PL and REOs portfolios (buyer side and seller side)",
           "Real estate asset valuations",
           "Creation of financial model/business plans for portfolio recovery"
-        ]
+        ],
+        "label": "",
+        "href": "",
+        "link": ""
       },
       "corporateServices": {
         "name": "Servicing / Corporate Services",
@@ -107,7 +115,10 @@
           "Administrative support to business areas",
           "Property management - Management of leases, condominiums and property maintenance",
           "Regularization, judicial management of occupied properties and contracting"
-        ]
+        ],
+        "label": "",
+        "href": "",
+        "link": ""
       },
       "securitization": {
         "name": "STC - Securitization Vehicle",
@@ -115,7 +126,10 @@
           "Complete securitization services",
           "Configuration and management of securitizations",
           "Value maximization for originators and investors"
-        ]
+        ],
+        "label": "",
+        "href": "",
+        "link": ""
       }
     }
   },
