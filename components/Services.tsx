@@ -67,9 +67,6 @@ export default function Services() {
                     {t.raw(`items.${service.id}.description`).map((item: string, index: number) => (
                       <li key={index} className="text-sm text-gray-600">{item}</li>
                     ))}
-                     {t.raw(`items.${service.id}.label`).map((item: string, index: number) => (
-                      <li key={index} className="text-sm text-gray-600">{item}</li>
-                    ))}
                   </ul>
                   <p className="mt-6">
                     <Link
