@@ -81,7 +81,8 @@
           "Histórico comprovado em Dívida Corporativa Garantida.",
           "Estratégias personalizadas de recuperação de créditos.",
           "Abordagem abrangente de gestão de créditos."
-        ]
+        ],
+        "label": ""
       },
       "realEstateManagement": {
         "name": "Gestão de ativos imobiliários",
@@ -100,7 +101,8 @@
           "Due diligence de carteiras NPL, PL e REOs (lado comprador e vendedor).",
           "Avaliações de ativos imobiliários.",
           "Criação de modelo financeiro/planos de negócios para recuperação de carteira."
-        ]
+        ],
+        "label": ""
       },
       "corporateServices": {
         "name": "Servicing / Serviços Corporativos",
@@ -108,7 +110,8 @@
           "Suporte administrativo às áreas de negócio.",
           "Administração de propriedades - Gestão de locações, condomínios e manutenção de imóveis.",
           "Regularização, gestão judicial de imóveis ocupados e contratação."
-        ]
+        ],
+        "label": ""
       },
       "securitization": {
         "name": "STC - Veículo de Securitização",
@@ -116,7 +119,8 @@
           "Serviços completos de securitização.",
           "Configuração e gestão de securitizações.",
           "Maximização de valor para originadores e investidores."
-        ]
+        ],
+        "label": ""
       }
     }
   },
