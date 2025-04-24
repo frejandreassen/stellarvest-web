@@ -69,6 +69,9 @@ export default function Services() {
                     ))}
                   </ul>
                   <p className="mt-6">
+                    <a className="text-xs leading-6 text-gray-500 md:mt-0">
+                        {t(`items.${service.id}.label`)}
+                    </a>
                     <Link
                       href={service.href}
                       className="inline-flex items-center rounded-md bg-primary/10 px-3 py-2 text-sm font-semibold text-primary hover:bg-primary/20 transition-colors"
