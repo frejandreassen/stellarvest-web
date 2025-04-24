@@ -80,9 +80,9 @@ export default function ServicesPage() {
                       {t.raw(`items.${service.id}.description`).map((item: string, index: number) => (
                         <li key={index} className="text-base text-gray-600">{item}</li>
                       ))}
-                      <h3 className="space-y-3 pl-5 list-disc">
+                      <h2 className="space-y-3 pl-1 list-disc">
                         {t(`items.${service.id}.label`)}
-                      </h3>
+                      </h2>
                     </ul>
                     <div className="mt-8">
                       <Link
