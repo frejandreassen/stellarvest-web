@@ -74,7 +74,7 @@ export default function Services() {
                     </a>
                     <Link
                       href={t(`items.${service.id}.href`)}
-                      className="inline-flex items-center rounded-md bg-primary/10 px-3 py-2 text-sm font-semibold text-primary hover:bg-primary/20 transition-colors"
+                      className="text-sm font-semibold leading-6 text-primary"
                     >
                       {t(`items.${service.id}.link`)}
                     </Link>
