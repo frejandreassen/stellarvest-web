@@ -73,10 +73,10 @@ export default function Services() {
                         {t(`items.${service.id}.label`)}
                     </a>
                     <Link
-                      href={service.href}
+                      href={t(`items.${service.id}.href`)}
                       className="inline-flex items-center rounded-md bg-primary/10 px-3 py-2 text-sm font-semibold text-primary hover:bg-primary/20 transition-colors"
                     >
-                      {t('findOutMore')}
+                      {t(`items.${service.id}.link`)}
                     </Link>
                   </p>
                 </dd>

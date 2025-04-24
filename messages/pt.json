@@ -82,7 +82,9 @@
           "Estratégias personalizadas de recuperação de créditos.",
           "Abordagem abrangente de gestão de créditos."
         ],
-        "label": ""
+        "label": "",
+        "href": "",
+        "link": ""
       },
       "realEstateManagement": {
         "name": "Gestão de ativos imobiliários",
@@ -102,7 +104,9 @@
           "Avaliações de ativos imobiliários.",
           "Criação de modelo financeiro/planos de negócios para recuperação de carteira."
         ],
-        "label": ""
+        "label": "",
+        "href": "",
+        "link": ""
       },
       "corporateServices": {
         "name": "Servicing / Serviços Corporativos",
@@ -111,7 +115,9 @@
           "Administração de propriedades - Gestão de locações, condomínios e manutenção de imóveis.",
           "Regularização, gestão judicial de imóveis ocupados e contratação."
         ],
-        "label": ""
+        "label": "",
+        "href": "",
+        "link": ""
       },
       "securitization": {
         "name": "STC - Veículo de Securitização",
@@ -120,7 +126,9 @@
           "Configuração e gestão de securitizações.",
           "Maximização de valor para originadores e investidores."
         ],
-        "label": ""
+        "label": "",
+        "href": "",
+        "link": ""
       }
     }
   },
