@@ -64,7 +64,7 @@ export default function Services() {
                 </dt>
                 <dd className="mt-4 flex flex-auto flex-col text-base leading-7 text-gray-600">
                   <ul className="flex-auto list-disc space-y-3 pl-5">
-                    {t.raw(`items.${service.id}.description`).map((item: string, index: number) => (
+                    {t.raw(`items.${service.id}.label`).map((item: string, index: number) => (
                       <li key={index} className="text-sm text-gray-600">{item}</li>
                     ))}
                   </ul>
