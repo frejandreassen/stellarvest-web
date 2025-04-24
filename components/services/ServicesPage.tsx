@@ -81,11 +81,6 @@ export default function ServicesPage() {
                         <li key={index} className="text-base text-gray-600">{item}</li>
                       ))}
                     </ul>
-                    <ul className="space-y-3 pl-5 list-disc">
-                      {t.raw(`items.${service.id}.label`).map((item: string, index: number) => (
-                        <li key={index} className="text-base text-gray-600">{item}</li>
-                      ))}
-                    </ul>
                     <div className="mt-8">
                       <Link
                         href={service.href}
