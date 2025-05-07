@@ -451,7 +451,7 @@
       "title": "Os nossos Serviços",
       "description": "Oferecemos uma gama completa de serviços e soluções de underwriting, incluindo:",
       "services": [
-        "<b>Análise de portfólios:</b> revisão detalhada da composição do portfólio (tipo de crédito, garantias, perfil do devedor, maturidade, etc.).",
+        "<Text style={{fontWeight: "bold"}}>Análise de portfólios:</Text> revisão detalhada da composição do portfólio (tipo de crédito, garantias, perfil do devedor, maturidade, etc.).",
         "Due diligence financeira e documental: verificação e validação de dados contratuais, legais e financeiros associados aos créditos.",
         "Avaliação de garantias: análise e valorização dos ativos colaterais (imobiliários, pessoais, empresariais).",
         "Modelação financeira: projeção de fluxos de recuperação e definição de cenários de retorno com base em estratégias de workout.",
