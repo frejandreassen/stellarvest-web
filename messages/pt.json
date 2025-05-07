@@ -100,9 +100,11 @@
       "advisory": {
         "name": "Advisory",
         "description": [
-          "Due diligence de carteiras NPL, PL e REOs (lado comprador e vendedor).",
-          "Avaliações de ativos imobiliários.",
-          "Criação de modelo financeiro/planos de negócios para recuperação de carteira."
+          "Análise de carteiras crédito (PL, SPL e NPL) com e sem garantias e de ativos imobiliários.",
+          "Due Diligence documental, legal e financeira.",
+          "Avaliação de ativos imobiliários, financeiros e de empresas.",
+          "Consultoria e estruturação de processos de compra e venda de portfólios.",
+          "Modelação financeira."
         ],
         "label": "",
         "href": "",
@@ -441,37 +443,36 @@
   },
   "advisory": {
     "title": "Advisory",
-    "subtitle": "Underwriting Imobiliário",
-    "intro": "A equipa de consultoria da Stellarvest pode auxiliar em projetos de underwriting de qualquer tamanho, desde um único ativo pequeno até os maiores portfólios de múltiplos inquilinos e múltiplos ativos. Podemos ajudar em qualquer etapa do seu processo de underwriting, auxiliar em várias etapas ou supervisionar e executar todo o processo para você.",
-    "scaleText": "À medida que o seu portfólio ou necessidades crescem, podemos facilmente escalar e fornecer serviços, recursos e soluções adicionais de underwriting.",
+    "subtitle": "",
+    "intro": "A equipa de Advisory presta um apoio sólido e especializado ao longo de todo o processo de análise e decisão de investimento. Com uma abordagem rigorosa e adaptada às particularidades de cada ativo ou portfólio, garantimos uma avaliação técnica robusta e alinhada com os objetivos dos nossos clientes.",
+    "scaleText": "Estamos preparados para intervir em qualquer fase do processo, desde a análise preliminar até à execução completa do underwriting, assegurando sempre elevados padrões de qualidade, transparência e fiabilidade. Com capacidade para responder a projetos de diferentes dimensões e níveis de complexidade, acompanhamos o crescimento dos nossos clientes com soluções ajustadas, recursos especializados e um compromisso contínuo com a criação de valor sustentável.",
     "quote": "Serviços especializados de advisory para todas as suas necessidades de underwriting imobiliário.",
     "servicesSection": {
       "title": "Os nossos Serviços",
       "description": "Oferecemos uma gama completa de serviços e soluções de underwriting, incluindo:",
       "services": [
-        "Coleta e análise de informações de propriedades.",
-        "Coleta e análise de informações de mercado e submercado.",
-        "Modelagem financeira.",
-        "Um portfólio de modelos Excel prontos para uso.",
-        "Criação de Relatórios de Resumo de Ativos (ASRs).",
-        "Realização de análises de tendências de receitas e despesas operacionais.",
-        "Preparação de análises detalhadas de DCF.",
-        "Análise de ativos em níveis individuais, de subportfólio ou de portfólio.",
-        "Geração de relatórios detalhados ou resumidos no nível de ativo e portfólio."
+        "Análise de portfólios: revisão detalhada da composição do portfólio (tipo de crédito, garantias, perfil do devedor, maturidade, etc.).",
+        "Due diligence financeira e documental: verificação e validação de dados contratuais, legais e financeiros associados aos créditos.",
+        "Avaliação de garantias: análise e valorização dos ativos colaterais (imobiliários, pessoais, empresariais).",
+        "Modelação financeira: projeção de fluxos de recuperação e definição de cenários de retorno com base em estratégias de workout.",
+        "Segmentação e classificação de créditos: agrupamento por tipo de devedor, colateral, grau de litigância, entre outros critérios relevantes para a definição de estratégia.",
+        "Análise jurídica: revisão do enquadramento legal dos créditos, estágios processuais e riscos associados a litígios.",
+        "Recomendações estratégicas de aquisição: definição de estratégias de preço, bidding e structuring com base na análise dos dados.",
+        "Pricing: estimativa do valor de mercado com base em benchmarks, dados históricos e hipóteses ajustadas ao contexto.",
+        "Suporte em processos de venda ou aquisição: apoio técnico na preparação de documentação, data room e interação com potenciais investidores.",
+        "Monitorização de performance (após aquisição): apoio à implementação de KPIs de recuperação e ao acompanhamento da execução do plano de negócio."
       ]
     },
     "tailoredApproach": {
       "title": "Abordagem personalizada",
-      "description": "Na Stellarvest, adotamos uma abordagem altamente personalizada para underwriting. Começamos cada tarefa de underwriting revisando e avaliando os detalhes fundamentais, mas críticos, para garantir que o nosso trabalho se alinhe perfeitamente com as suas necessidades e objetivos específicos, incluindo:",
+      "description": "Na Stellarvest adotamos uma abordagem altamente personalizada para o underwriting de portfólios de NPL. Iniciamos cada projeto com uma análise aprofundada dos elementos fundamentais de cada crédito, assegurando o alinhamento total com os objetivos estratégicos do cliente.A nossa equipa combina experiência, rigor analítico e conhecimento de mercado, adaptando-se facilmente às exigências específicas de cada projeto.",
       "details": [
-        "Tipo de ativo.",
-        "Classe de ativo.",
-        "Tipo de transação.",
-        "Objetivos do cliente.",
-        "Posição do cliente na estrutura de capital.",
-        "Disponibilidade de informações relevantes.",
-        "Tamanho e escopo do projeto.",
-        "Prazo."
+        "Acompanhamento 24/7 em todas as fases do processo de investimento.",
+        "Asseguramos previsibilidade aos possíveis cenários de recuperação.",
+        "Tratamos cada crédito/imóvel/activo de forma individualizada.",
+        "Definimos estratégias de pricing em função do perfil de investimento.",
+        "Elaboramos relatórios técnicos para suporte em comités de investimento.",
+        "Prestamos apoio financeiro e legal em todas as fases do processo, com o objetivo de simplificar a complexidade associada à análise e transação de portfólios."
       ]
     },
     "team": {
