@@ -756,5 +756,17 @@
       }
     },
     "copyright": "© 2024 StellarVest Asset Management, Unipessoal, Lda. All rights reserved."
+  },
+  "LoginPage": {
+    "title": "Access Our Portals",
+    "subtitle": "Connect to our specialized platforms for Real Estate, Brokers, and Investors.",
+    "realEstateWebsite": "Real Estate Website",
+    "realEstateDescription": "Explore our property listings and real estate services.",
+    "brokersPortal": "Brokers Portal",
+    "brokersPortalDescription": "Dedicated portal for our network of brokers.",
+    "investorPortal": "Investor Portal",
+    "investorPortalDescription": "Access exclusive information and manage your investments.",
+    "accessPortal": "Access Portal",
+    "backToHome": "Back to Home"
   }
 }
