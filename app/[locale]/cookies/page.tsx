@@ -14,7 +14,7 @@ export default function Cookies() {
                         <h2 className="text-2xl font-semibold text-black">Política de privacidade</h2>
                         <h3 className="text-xl font-semibold text-black">Informação Legal</h3>
                         <p>
-                            A StellarVest Asset Management, Unipessoal Lda. (“StellarVest Asset Management”), com sede na Avenida da República 90, Piso 2, 1600-206 Lisboa, matriculada na Conservatória do Registo Comercial de Lisboa sob o NIPC 514323736 e titular da licença de mediação imobiliária n.º 14298, na qualidade de responsável pelo tratamento, utiliza cookies no website sob o domínio www.stellarvest.pt (doravante “Website”) com a finalidade de monitorizar os hábitos de navegação dos utilizadores do Website e bem assim para melhorar os seus serviços e mostrar publicidade relacionada com as preferências dos utilizadores, de acordo com o indicado na presente política.
+                            A StellarVest Asset Management, Unipessoal Lda. (“StellarVest Asset Management”), com sede na Avenida da República 90, 2 Esq, 1600-206 Lisboa, matriculada na Conservatória do Registo Comercial de Lisboa sob o NIPC 514323736 e titular da licença de mediação imobiliária n.º 14298, na qualidade de responsável pelo tratamento, utiliza cookies no website sob o domínio www.stellarvest.pt (doravante “Website”) com a finalidade de monitorizar os hábitos de navegação dos utilizadores do Website e bem assim para melhorar os seus serviços e mostrar publicidade relacionada com as preferências dos utilizadores, de acordo com o indicado na presente política.
                         </p>
                     </div>
 
@@ -116,7 +116,7 @@ export default function Cookies() {
                     <div className="my-8 space-y-6 text-gray-700">
                         <h2 className="text-2xl font-semibold text-black">4. Exercício dos direitos dos utilizadores e contactos</h2>
                         <p>
-                            O Utilizador poderá exercer os seus direitos de acesso, retificação, apagamento, oposição, limitação do tratamento, portabilidade e direito em relação às decisões automatizadas e definição de perfis, quando sejam aplicáveis, relativamente ao tratamento do qual é responsável a StellarVest Asset Management, através de e-mail dirigido a <a href="mailto:Compliance@stellarvest.pt" className="text-primary">Compliance@stellarvest.pt</a> ou por correio postal, ao cuidado do Departamento de Compliance para: Avenida da República 90, Piso 2, 1600-206 Lisboa, fazendo em ambos os casos prova da sua identidade.
+                            O Utilizador poderá exercer os seus direitos de acesso, retificação, apagamento, oposição, limitação do tratamento, portabilidade e direito em relação às decisões automatizadas e definição de perfis, quando sejam aplicáveis, relativamente ao tratamento do qual é responsável a StellarVest Asset Management, através de e-mail dirigido a <a href="mailto:Compliance@stellarvest.pt" className="text-primary">Compliance@stellarvest.pt</a> ou por correio postal, ao cuidado do Departamento de Compliance para: Avenida da República 90, 2 Esq, 1600-206 Lisboa, fazendo em ambos os casos prova da sua identidade.
                         </p>
                     </div>
 

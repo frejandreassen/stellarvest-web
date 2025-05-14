@@ -382,7 +382,7 @@ The website's navigation should maintain the following structure as per the requ
   - Consent checkbox for terms and conditions
   - CAPTCHA for spam prevention
 - Office location details:
-  - Lisbon office: Av. Da Republica 90, Piso 2 Esq. | 1600-206 Lisboa
+  - Lisbon office: Av. Da Republica 90, 2 Esq. | 1600-206 Lisboa
   - Additional office locations if applicable
 - Map integration showing office locations
 - General contact information (phone, email)

@@ -12,7 +12,7 @@ export default function Whistleblowing() {
 
                     <div className="my-8 space-y-6 text-gray-700">
                         <p>
-                            A informação contida neste website é propriedade da StellarVest Asset Management, Unipessoal Lda.” (“StellarVest Asset Management”), com sede na Avenida da República 90, Piso 2, 1600-206 Lisboa, matriculada na Conservatória do Registo Comercial de Lisboa sob o NIPC 514323736 e titular da licença de mediação imobiliária n.º 14298, e destina-se à divulgação da sua atividade.
+                            A informação contida neste website é propriedade da StellarVest Asset Management, Unipessoal Lda.” (“StellarVest Asset Management”), com sede na Avenida da República 90, 2 Esq, 1600-206 Lisboa, matriculada na Conservatória do Registo Comercial de Lisboa sob o NIPC 514323736 e titular da licença de mediação imobiliária n.º 14298, e destina-se à divulgação da sua atividade.
                         </p>
                     </div>
 
@@ -30,7 +30,7 @@ export default function Whistleblowing() {
                             A/C Departamento de Compliance
                         </p>
                         <p>
-                            Av. da República, 90, piso 2<br />
+                            Av. da República, 90, 2 Esq<br />
                             1600-206 Lisboa
                         </p>
                     </div>

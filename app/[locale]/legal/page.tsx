@@ -14,7 +14,7 @@ export default function Legal() {
                         <h2 className="text-2xl font-semibold text-black">Informação Legal</h2>
 
                         <p>
-                            A informação contida neste website é propriedade da StellarVest Asset Management, Unipessoal Lda.” (“StellarVest Asset Management”), com sede na Avenida da República 90, Piso 2, 1600-206 Lisboa, matriculada na Conservatória do Registo Comercial de Lisboa sob o NIPC 514323736 e titular da licença de mediação imobiliária n.º 14298, e destina-se à divulgação da sua atividade.
+                            A informação contida neste website é propriedade da StellarVest Asset Management, Unipessoal Lda.” (“StellarVest Asset Management”), com sede na Avenida da República 90, 2 Esq, 1600-206 Lisboa, matriculada na Conservatória do Registo Comercial de Lisboa sob o NIPC 514323736 e titular da licença de mediação imobiliária n.º 14298, e destina-se à divulgação da sua atividade.
                         </p>
 
                         <p>
