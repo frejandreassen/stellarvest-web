@@ -6,14 +6,17 @@ const people = [
   {
     id: 'rubenSommer',
     imageUrl: '/team/223 Ruben Sommer.png',
+    email: 'ruben.sommer@stellarvest.pt',
   },
   {
     id: 'joaoRibeiro',
     imageUrl: '/team/Joֶo Ribeiro.jpg',
+    email: 'joao.ribeiro@stellarvest.pt',
   },
   {
     id: 'pedroGuerreiro',
     imageUrl: '/team/Pedro Guerreiro.jpg',
+    email: 'pedro.guerreiro@stellarvest.pt',
   },
 ]
 
@@ -60,6 +63,22 @@ export default function Team() {
                 <p className="text-base leading-7 text-gray-600">
                   {t(`people.${person.id}.bio`)}
                 </p>
+                <div className="mt-4">
+                  <a
+                    href={`mailto:${person.email}`}
+                    className="text-sm font-semibold leading-6 text-primary hover:text-primary/80"
+                  >
+                    {person.email}
+                  </a>
+                </div>
+                <div className="mt-2">
+                  <a
+                    href={`mailto:${person.email}`}
+                    className="text-sm font-semibold leading-6 text-primary hover:text-primary/80"
+                  >
+                    {t('contactAction', { name: t(`people.${person.id}.name`) })}
+                  </a>
+                </div>
               </div>
             </li>
           ))}

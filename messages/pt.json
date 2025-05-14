@@ -138,6 +138,7 @@
     "title": "Conheça a nossa equipa de gestão",
     "subtitle": "A nossa experiente equipa combina décadas de conhecimento em gestão de ativos, imobiliário e serviços financeiros, para oferecer resultados excecionais aos nossos clientes.",
     "contactButton": "Fale com a nossa equipa de gestão",
+    "contactAction": "Falar com {name}",
     "people": {
       "rubenSommer": {
         "name": "Ruben Sommer",

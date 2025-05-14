@@ -137,6 +137,7 @@
     "title": "Meet our leadership",
     "subtitle": "Our experienced team combines decades of expertise in asset management, real estate, and financial services to deliver exceptional results for our clients.",
     "contactButton": "Talk to our management team",
+    "contactAction": "Talk to {name}",
     "people": {
       "rubenSommer": {
         "name": "Ruben Sommer",

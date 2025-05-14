@@ -1,5 +1,7 @@
 'use server'
 
+import nodemailer from 'nodemailer';
+
 export async function submitContact(formData: FormData) {
   const recaptchaResponse = formData.get('g-recaptcha-response')
 
@@ -21,19 +23,52 @@ export async function submitContact(formData: FormData) {
     }
 
     // Process the form data
-    const name = formData.get('first-name')
-    const surname = formData.get('last-name')
-    const email = formData.get('email')
-    const phone = formData.get('phone-number')
-    const team = formData.get('team')
-    const message = formData.get('message')
+    const name = formData.get('first-name') as string;
+    const surname = formData.get('last-name') as string;
+    const email = formData.get('email') as string;
+    const phone = formData.get('phone-number') as string;
+    const team = formData.get('team') as string;
+    const message = formData.get('message') as string;
 
-    // Here you would typically save to database or send email
-    console.log('Form data:', { name, surname, email, phone, team, message })
+    // Configure Nodemailer transporter
+    const transporter = nodemailer.createTransport({
+      service: 'gmail',
+      auth: {
+        user: process.env.GMAIL_EMAIL,
+        pass: process.env.GMAIL_APP_PASSWORD,
+      },
+    });
 
-    return { success: true, message: 'Form submitted successfully' };
+    // Determine recipient email
+    const recipientEmail = team === 'Loans' ? 'clientes@stellarvest.pt' : 'info@stellarvest.pt';
+
+    const mailOptions = {
+      from: process.env.GMAIL_EMAIL, // sender address
+      to: recipientEmail, // list of receivers
+      replyTo: email, // Reply to the form submitter's email
+      subject: `New Contact Form Submission - Team: ${team}`, // Subject line
+      html: `
+        <h1>New Contact Form Submission</h1>
+        <p><strong>Name:</strong> ${name} ${surname}</p>
+        <p><strong>Email:</strong> ${email}</p>
+        <p><strong>Phone:</strong> ${phone}</p>
+        <p><strong>Selected Team:</strong> ${team}</p>
+        <p><strong>Message:</strong></p>
+        <p>${message}</p>
+      `,
+    };
+
+    // Send email
+    await transporter.sendMail(mailOptions);
+    console.log('Email sent successfully');
+
+    return { success: true, message: 'Form submitted and email sent successfully' };
   } catch (error) {
-    console.error('Error:', error);
-    return { success: false, message: 'An error occurred while submitting the form' };
+    console.error('Error submitting form or sending email:', error);
+    // Check if the error is from reCAPTCHA or email sending
+    if (error instanceof Error && error.message.includes('reCAPTCHA')) {
+        return { success: false, message: error.message };
+    }
+    return { success: false, message: 'An error occurred while submitting the form or sending the email' };
   }
 }
