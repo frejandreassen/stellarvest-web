@@ -1,98 +1,106 @@
-import { CreditCardIcon, BuildingOffice2Icon, AcademicCapIcon, BriefcaseIcon, ShieldCheckIcon } from '@heroicons/react/24/outline'
+import React from 'react';
+import { useTranslations } from 'next-intl';
+import Link from 'next/link';
+import {
+  FileText,
+  Building2,
+  GraduationCap,
+  Wrench,
+  Shield
+} from 'lucide-react';
 
-const services = [
-  {
-    name: 'Gestão de Recuperação de crédito',
-    description: [
-      'Experiência em gestão e recuperação de todos os tipos de créditos: individuais e SME, com e sem garantia;',
-      'Estratégias amigáveis e judiciais com vista à recuperação;',
-      'Reestruturação de dívidas e outras soluções que melhor sirvam o cliente.'
-    ],
-    icon: CreditCardIcon,
-  },
-  {
-    name: 'Gestão de Ativos Imobiliários',
-    description: [
-      'Regularização técnica e comercialização de ativos singulares e granulares;',
-      'Desenvolvimento e transformação de ativos singulares – portfolios e single names: terrenos, edifícios e imóveis inacabados;',
-      'Asset Management de ativos singulares – portfolios e single names.'
-    ],
-    href: 'https://realestate.stellarvest.pt/',
-    icon: BuildingOffice2Icon,
-    label:'Para aceder aos imóveis que temos para comercialização, clique no ',
-    Link: 'Link'
-  },
-  {
-    name: 'Advisory',
-    description: [
-      'Due diligence de portfolios NPL, PL e de REOs (buyer side e seller side);',
-      'Avaliações de ativos imobiliários;',
-      'Criação de modelo financeiro/business plans com vista à recuperação de portfolios.'
-    ],
-    icon: AcademicCapIcon,
-  },
-  {
-    name: 'Servicing / Serviços Corporativos',
-    description: [
-      'Suporte administrativo às áreas de negócio;',
-      'Property management - Gestão de arrendamentos, condomínios e manutenção dos imóveis;',
-      'Regularização, gestão judicial de imóveis ocupados e contratação.'
-    ],
-    icon: BriefcaseIcon,
-  },
-  {
-    name: 'STC - Veículo de Securitização',
-    description: [
-      'Serviços completos de securitização;',
-      'Configuração e gestão de securitizações;',
-      'Maximização de valor para originadores e investidores.'
-    ],
-    icon: ShieldCheckIcon,
-  },
-]
+type ServiceItem = {
+  id: string;
+  icon: React.ElementType;
+  href: string;
+};
 
 export default function Services() {
+  const t = useTranslations('services');
+
+  const services: ServiceItem[] = [
+    {
+      id: 'loansManagement',
+      icon: FileText,
+      href: '/services/loans-management',
+    },
+    {
+      id: 'realEstateManagement',
+      icon: Building2,
+      href: '/services/real-estate',
+    },
+    {
+      id: 'advisory',
+      icon: GraduationCap,
+      href: '/services/advisory',
+    },
+    {
+      id: 'securitization',
+      icon: Shield,
+      href: '/services/securitization',
+    },
+  ];
+
   return (
     <div className="bg-white py-24 sm:py-32" id="services">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:mx-0">
           <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-            Nossos Serviços
+            {t('title')}
           </h2>
           <p className="mt-6 text-lg leading-8 text-gray-600">
-            Oferecemos uma gama completa de serviços de gestão de ativos para atender às suas necessidades.
+            {t('subtitle')}
           </p>
         </div>
         <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">
-          <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-3">
+          <dl className="grid max-w-xl grid-cols-1 gap-x-12 gap-y-16 lg:max-w-none lg:grid-cols-3">
             {services.map((service) => (
-              <div key={service.name} className="flex flex-col">
-                <dt className="text-base font-semibold leading-7 text-gray-900">
-                  <div className="mb-6 flex h-10 w-10 items-center justify-center rounded-lg bg-primary">
-                    <service.icon aria-hidden="true" className="h-6 w-6 text-white" />
+              <div key={service.id} className="flex flex-col h-full">
+                <dt className="flex items-center gap-x-3 text-base font-semibold leading-7 text-gray-900">
+                  <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-primary/10 shrink-0">
+                    <service.icon aria-hidden="true" className="h-7 w-7 text-primary" />
                   </div>
-                  {service.name}
+                  <span className="mt-1">{t(`items.${service.id}.name`)}</span>
                 </dt>
-                <dd className="mt-1 flex flex-auto flex-col text-base text-justify leading-7 text-gray-600">
-                  <ul className="list-disc pl-5 space-y-2">
-                    {service.description.map((item, index) => (
-                      <li key={index}>{item}</li>
+                <dd className="mt-4 flex flex-auto flex-col text-base leading-7 text-gray-600">
+                  <ul className="flex-auto list-disc space-y-3 pl-5">
+                    {t.raw(`items.${service.id}.description`).map((item: string, index: number) => (
+                      <li key={index} className="text-sm text-gray-600">{item}</li>
                     ))}
                   </ul>
                   <p className="mt-6">
                     <a className="text-xs leading-6 text-gray-500 md:mt-0">
-                    {service.label}
+                        {t(`items.${service.id}.label`)}
                     </a>
-                    <a href={service.href} className="text-sm font-semibold leading-6 text-primary">
-                     {service.Link}
-                    </a>
+                    <Link
+                      href={t(`items.${service.id}.href`)}
+                      className="text-sm font-semibold leading-6 text-primary"
+                    >
+                      {t(`items.${service.id}.link`)}
+                    </Link>
+                  </p>
+                  <p>
+                   <Link
+                      href={service.href}
+                      className="inline-flex items-center rounded-md bg-primary/10 px-3 py-2 text-sm font-semibold text-primary hover:bg-primary/20 transition-colors"
+                    >
+                      {t('findOutMore')}
+                    </Link>
                   </p>
                 </dd>
               </div>
             ))}
           </dl>
+          <div className="mt-16 flex justify-center">
+            <Link
+              href="/services"
+              className="inline-flex items-center rounded-md bg-primary px-4 py-3 text-sm font-semibold text-white hover:bg-primary/90 transition-colors"
+            >
+              {t('viewAllServices')}
+            </Link>
+          </div>
         </div>
       </div>
     </div>
-  )
+  );
 }

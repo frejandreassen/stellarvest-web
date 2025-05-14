@@ -1,0 +1,773 @@
+{
+  "navigation": {
+    "home": "Home",
+    "about": "About Us",
+    "services": "Services",
+    "contact": "Contact",
+    "login": "Login"
+  },
+  "hero": {
+    "specialist": "Specialist in complex asset management",
+    "welcome": "Welcome to StellarVest Asset Management",
+    "tagline": "Your Assets, Our Expertise",
+    "learnMore": "Learn More",
+    "contactUs": "Contact Us"
+  },
+  "whatWeDo": {
+    "title": "What we do differently",
+    "subtitle": "360° service that covers all phases",
+    "description": "StellarVest Asset Management specialises in the management of complex assets. With a strategic and innovative approach, we stand out for our capacity for analysis, strategic development, sales and after-sales.",
+    "features": {
+      "realTime": {
+        "name": "Highly adapted to provide",
+        "description": "Real-time data to different audiences (Investors, Gov., FdR, EU, etc.)"
+      },
+      "management": {
+        "name": "Experienced Management Team",
+        "description": "Combined large experience in the distressed assets"
+      },
+      "servicer": {
+        "name": "Only servicer in Portugal",
+        "description": "With experience in complex carve outs & servicing contracts (PT State)"
+      },
+      "capacity": {
+        "name": "Recognized capacity",
+        "description": "For managing complex real estate assets and very special cases of Corporate NPLs"
+      },
+      "platform": {
+        "name": "Strong real estate platform",
+        "description": "Which manages all type of REOs"
+      },
+      "aum": {
+        "name": "100% of the AUM's",
+        "description": "Are owned by non-related parties"
+      }
+    }
+  },
+  "numbers": {
+    "title": "Our Numbers",
+    "description": "Since 2018, our dedication and efficient approach have enabled us to build a robust portfolio valued at over €580M REO’s Sales and €230M in Collections. For us, asset management isn't just about loans or properties, it's about understanding our clients' unique needs and exceeding expectations.",
+    "since2018": "Since 2018",
+    "reos": {
+      "title": "REOs Sales",
+      "value": "€580M"
+    },
+    "collections": {
+      "title": "Collections",
+      "value": "€230M"
+    },
+    "assetsMgt": {
+      "title": "Assets Mgt",
+      "aum": "+€1,2B AUM",
+      "assets": "+6.000 Assets"
+    },
+    "maintenance": {
+      "title": "Building Maintenance",
+      "value": ">1100",
+      "subtitle": "CAPEX & OPEX MGT Interventions"
+    }
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "We offer a complete range of asset management services to meet your needs.",
+    "description": "With our integrated approach, we provide comprehensive asset management solutions that cover every aspect of your investment needs.",
+    "findOutMore": "Find out more",
+    "viewAllServices": "View All Services",
+    "items": {
+      "loansManagement": {
+        "name": "Loans Management",
+        "description": [
+          "Experience in credit recovery, servicing, and outsourcing",
+          "Proven track record in Corporate Secured Debt",
+          "Tailored loan recovery strategies",
+          "Comprehensive loan management approach"
+        ]
+        ,
+        "label": "",
+        "href": "",
+        "link": ""
+      },
+      "realEstateManagement": {
+        "name": "Real Estate Asset Management",
+        "description": [
+          "Technical regularization and commercialization of singular and granular assets",
+          "Development and transformation of singular assets - portfolios and single names: land, buildings and unfinished properties",
+          "Asset Management of singular assets - portfolios and single names"
+        ],
+        "label": "To access the properties we have for sale, click on the",
+        "link": " Link",
+        "href": "https://realestate.stellarvest.pt/"
+      },
+      "advisory": {
+        "name": "Advisory",
+        "description": [
+          "Due diligence of NPL, PL and REOs portfolios (buyer side and seller side)",
+          "Real estate asset valuations",
+          "Creation of financial model/business plans for portfolio recovery"
+        ],
+        "label": "",
+        "href": "",
+        "link": ""
+      },
+      "corporateServices": {
+        "name": "Servicing / Corporate Services",
+        "description": [
+          "Administrative support to business areas",
+          "Property management - Management of leases, condominiums and property maintenance",
+          "Regularization, judicial management of occupied properties and contracting"
+        ],
+        "label": "",
+        "href": "",
+        "link": ""
+      },
+      "securitization": {
+        "name": "STC - Securitization Vehicle",
+        "description": [
+          "Complete securitization services",
+          "Configuration and management of securitizations",
+          "Value maximization for originators and investors"
+        ],
+        "label": "",
+        "href": "",
+        "link": ""
+      }
+    }
+  },
+  "team": {
+    "title": "Meet our leadership",
+    "subtitle": "Our experienced team combines decades of expertise in asset management, real estate, and financial services to deliver exceptional results for our clients.",
+    "contactButton": "Talk to our management team",
+    "contactAction": "Talk to {name}",
+    "people": {
+      "rubenSommer": {
+        "name": "Ruben Sommer",
+        "role": "CEO",
+        "experience": "+ 30 years of experience",
+        "bio": "Experience in various prestigious financial institutions including Banif, ABN Amro Bank, Deutsche Bank Investimentos, BES Investimento, Domusvenda, Recactiv, and Albatris. Holds a Degree in Business Management."
+      },
+      "joaoRibeiro": {
+        "name": "João Ribeiro",
+        "role": "Real Estate Director",
+        "experience": "+ 25 years of experience",
+        "bio": "Extensive experience in real estate with companies like Immo Mosqueteiros PT, DIA PT, CBRE, Euro-Funding Advisory Group, Carrefour PT, and Parque Expo. Holds a Degree in Architecture and a Master in Urban Planning."
+      },
+      "pedroGuerreiro": {
+        "name": "Pedro Guerreiro",
+        "role": "CHRO & CFO",
+        "experience": "+ 25 years of experience",
+        "bio": "Background in financial services at Banif, ABN Amro Bank, Deutsche Bank Investimentos, BES Investimento, among others. Multiple qualifications including degrees in Management, Attorneyship, and postgraduate studies in HR Management and Corporate Strategy."
+      }
+    }
+  },
+  "clients": {
+    "title": "Trusted by industry leaders",
+    "subtitle": "We work with some of the most respected names in financial services and real estate.",
+    "logos": {
+      "apollo": "Apollo logo",
+      "fortress": "Fortress logo",
+      "santander": "Santander logo",
+      "lcmPartners": "LCM Partners logo",
+      "cgd": "Caixa Geral de Depósitos logo",
+      "profile": "Profile logo",
+      "oitante": "Oitante logo",
+      "davidsonKempner": "Davidson Kempner logo",
+      "aicep": "AICEPlogo"
+    }
+  },
+  "contactForm": {
+    "title": "Contact Us",
+    "subtitle": "Get in touch with our team",
+    "form": {
+      "firstName": "Name",
+      "lastName": "Surname",
+      "email": "Email",
+      "phone": "Phone number",
+      "teamSelect": {
+        "label": "Who do you want to talk to today?",
+        "placeholder": "Select a team",
+        "options": {
+          "management": "Management Team",
+          "loans": "Loan's Team",
+          "realEstate": "Real estate Team",
+          "advisory": "Advisory Team",
+          "legal": "Legal Team",
+          "administration": "Administration"
+        }
+      },
+      "description": "Description",
+      "terms": "I agree to the terms and conditions of the legal information",
+      "submit": "Submit",
+      "submitting": "Submitting..."
+    },
+    "messages": {
+      "success": "Thank you for your message. We will get back to you soon!",
+      "error": "There was an error submitting the form. Please try again.",
+      "recaptchaError": "Please complete the reCAPTCHA verification"
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "StellarVest is available for your questions, suggestions, compliments, and complaints.",
+    "contactUs": {
+      "title": "Contact Us",
+      "email": "info@stellarvest.pt",
+      "phone": "(+351) 216 079 074"
+    },
+    "hours": {
+      "title": "Opening Hours",
+      "weekdays": "Monday to Friday: 9:00 AM to 6:00 PM",
+      "weekends": "Saturday and Sunday: Closed"
+    },
+    "offices": {
+      "lisbon": {
+        "title": "Headquarters - Lisbon Office",
+        "address": "Av. da República 90, Floor 2 Left| 1600-206 Lisbon"
+      },
+      "porto": {
+        "title": "Porto Office",
+        "building": "CEP – Porto Business Center",
+        "address": "Rua Eng Ferreira Dias 161, Room E308 | 4100-247 Porto"
+      }
+    }
+  },
+  "realEstateManagement": {
+    "title": "Real Estate Asset Management",
+    "subtitle": "Maximizing Property Value",
+    "intro": "StellarVest Asset Management offers specialized real estate asset management services focused on maximizing asset value through an integrated and efficient approach. Our comprehensive services cover everything from analysis and strategic design to development, management, sales, and after-sales of real estate assets, tailored to each investor's specific objectives.",
+    "platformText": "Our real estate platform is equipped to manage all property types, with specialized internal teams dedicated to transforming and managing complex real estate assets with challenging constraints.",
+    "quote": "Maximizing asset value with our integrated approach to real estate management.",
+    "whyStellarVest": {
+      "title": "Why StellarVest?",
+      "description": "At StellarVest boasts a robust real estate platform capable of managing all types of properties. Our specialized internal teams excel in asset management, development, and leasing of both residential and commercial real estate (CRE). We have a strong track record in transforming and managing complex real estate assets and projects, recognized for our ability to handle licensing, performance, and construction restrictions.",
+      "items": [
+        "Robust real estate platform capable of managing all property types (residential, commercial, land, etc.)",
+        "Specialized internal teams for asset management, development, and leasing",
+        "Strong track record in transforming and managing complex real estate assets with challenging constraints",
+        "Experience with properties having licensing, performance, and construction restrictions",
+        "Nationwide coverage across Portugal"
+      ]
+    },
+    "results": {
+      "title": "Our results prove it",
+      "sales": "Real Estate Sales (since 2018)",
+      "salesAmount": "€580M",
+      "aum": "Assets Under Management (AUM)",
+      "aumAmount": "Over €1.2B",
+      "assets": "Number of Assets Managed",
+      "assetsAmount": "Over 6,000",
+      "rental": "Rental Management",
+      "rentalAmount": "€7M annually",
+      "leases": "with more than 120 leases",
+      "maintenance": "Building Maintenance",
+      "maintenanceAmount": "CAPEX & OPEX",
+      "maintenanceDesc": "with over 1,100 interventions"
+    },
+    "approach": {
+      "title": "Our Approach shows",
+      "description": "Our methodology is centered on delivering maximum value through a highly structured and client-focused process:",
+      "items": [
+        "Asset Best Value driven",
+        "Strong real estate platform which manages all type of Properties",
+        "Specialized internal teams – asset management, development & leasing of assets, both residential & CRE",
+        "Strong track record in transformation and management of real estate assets and projects - recognized capacity for managing complex real estate assets with licensing, performing and construction restrictions",
+        "Platform that provides customized real time data based on each client's requirement"
+      ]
+    },
+    "commercializationProcess": {
+      "title": "Our Commercialization Process",
+      "description": "Our end-to-end process ensures maximum value realization:",
+      "phases": [
+        {
+          "title": "Onboarding & Asset Clean Up",
+          "items": [
+            "Detailed asset intake process",
+            "Initial assessment methodology",
+            "Document regularization process",
+            "Technical condition assessment"
+          ]
+        },
+        {
+          "title": "Brokers Management",
+          "items": [
+            "Broker selection criteria",
+            "Performance ranking methodology",
+            "Broker rotation policy",
+            "Quality control mechanisms",
+            "KPI tracking systems"
+          ]
+        },
+        {
+          "title": "Leads Management",
+          "items": [
+            "Lead generation strategies",
+            "Qualification process",
+            "Tracking system",
+            "Conversion optimization techniques",
+            "Follow-up protocols"
+          ]
+        },
+        {
+          "title": "Real Estate Team Structure",
+          "items": [
+            "Team composition and expertise areas",
+            "Specialized call center support",
+            "Nationwide coverage capabilities",
+            "Geographical distribution"
+          ]
+        }
+      ]
+    },
+    "structure": {
+      "title": "Our Structure",
+      "items": [
+        "Commercial Team structure and broker network management",
+        "Specialized internal teams for technical and judicial asset clean-up",
+        "IT tools for portfolio management (boarding to collections, maintenance)",
+        "Anti-Money Laundering (AML) internal services",
+        "Asset allocation strategies by type, location, and investor",
+        "Special expertise in challenging property types (fire sales, partial ownership, occupied properties)"
+      ]
+    },
+    "focus": {
+      "title": "Our Focus",
+      "items": [
+        "Asset value optimization methodology",
+        "Investor-driven customization",
+        "Deal-driven commercial approach",
+        "Strategic advertising and market reach",
+        "Proactive commercial approach management",
+        "Regular campaign strategy"
+      ]
+    },
+    "servicesCapacity": {
+      "title": "Our Real Estate services and capacity – Granular commercialization activity",
+      "tagline": "Your Real Estate, Our Expertise",
+      "contactUs": "Talk to our real estate team",
+      "process": {
+        "step1": {
+          "name": "Onboarding & Asset Clean Up",
+          "description": "Asset assessment and preparation"
+        },
+        "step2": {
+          "name": "Brokers Management",
+          "description": "Network coordination and oversight"
+        },
+        "step3": {
+          "name": "Leads Management",
+          "description": "Opportunity tracking and conversion"
+        },
+        "step4": {
+          "name": "Real Estate Team",
+          "description": "Specialized expertise by asset type"
+        }
+      },
+      "services": [
+        "Specialized internal team",
+        "Nationwide external service providers",
+        "Ranking KPIs Broker Valuation",
+        "Rotation of Allocated Brokers",
+        "Own Property Management software",
+        "Leads Creation and Origination",
+        "Specialized Call Center Support",
+        "Specialized team: Size and Location"
+      ],
+      "structure": {
+        "title": "STRUCTURE",
+        "items": [
+          "Commercial Team with Asset Managers working in partnership with wider broker network",
+          "Specialized internal teams in asset clean up – technical and judicial",
+          "Customized IT tools managing the entire portfolio from boarding to collections, managing maintenance, keys and closing",
+          "AML internal services",
+          "Allocation by Asset Type and location, Investor and/or Portfolio",
+          "Special focus and track record on fire sales, assets without full ownership and occupied, sales"
+        ]
+      },
+      "focus": {
+        "title": "FOCUS",
+        "items": [
+          "Asset Best Value driven",
+          "Investor driven",
+          "Deal driven – the best commercial approach case by case",
+          "Wide advertising policy",
+          "Proactive commercial approaches and management",
+          "Regular and proactive campaigns"
+        ]
+      }
+    },
+    "services": {
+      "title": "Servicing & Property Management",
+      "description": "At StellarVest, we provide top-tier servicing solutions designed to optimize asset management and ensure seamless operations for our clients. Our expertise spans across property management and legal regularization, allowing investors and financial institutions to focus on strategic growth while we handle the complexities of asset servicing.",
+      "intro": "Our Servicing Expertise",
+      "propertyManagement": {
+        "title": "Property Management Services",
+        "description": "From rental and condominium management to property maintenance, we handle every aspect of real estate administration. Our proactive approach ensures tenant satisfaction, asset value preservation, and cost efficiency."
+      },
+      "legalManagement": {
+        "title": "Legal & Occupied Asset Management",
+        "description": "We specialize in the regularization and judicial management of occupied properties, providing strategic solutions that ensure compliance, risk mitigation, and optimized asset recovery. Additionally, we oversee the contracting process, ensuring transparency and legal security at every step."
+      },
+      "whyChoose": {
+        "title": "Why Choose StellarVest?",
+        "items": [
+          "Efficiency & Expertise – A team of professionals dedicated to maximizing operational effectiveness",
+          "End to End Solutions – A holistic approach covering the entire asset lifecycle",
+          "Risk & Compliance Management – Ensuring regulatory adherence and strategic asset protection",
+          "Client-Centric Approach – Customized servicing solutions that align with your business goals"
+        ]
+      },
+      "tagline": "Let's build the future of asset management together. Your Assets, Our Expertise."
+    },
+    "team": {
+      "title": "Our Real Estate Management Team",
+      "description": "Our experienced professionals bring decades of combined expertise in real estate asset management.",
+      "members": [
+        {
+          "name": "JOÃO RIBEIRO",
+          "position": "MANAGING DIRECTOR & GROUP HEAD",
+          "description": "Expert in real estate asset management with extensive experience in portfolio optimization and value creation strategies."
+        },
+        {
+          "name": "MÔNICA COHEN",
+          "position": "PORTFOLIO MANAGER",
+          "description": "Expert in real estate asset management with extensive experience in portfolio optimization and value creation strategies."
+        },
+        {
+          "name": "SARA LOPES",
+          "position": "PORTFOLIO MANAGER",
+          "description": "Expert in real estate asset management with extensive experience in portfolio optimization and value creation strategies."
+        }
+      ]
+    },
+    "allServices": "See all our services",
+    "contactUs": "Talk to our real estate team"
+  },
+  "advisory": {
+    "title": "Advisory",
+    "subtitle": "Real Estate Underwriting",
+    "intro": "Stellarvest consulting team can assist with any size underwriting project, from a small, single asset to the largest, multi-tenanted, multi-asset portfolios. We can help with any single step of your underwriting process, assist with several, or oversee and execute the entire process for you.",
+    "scaleText": "As your portfolio or needs grow, we can easily scale and provide additional underwriting services, resources and solutions.",
+    "quote": "Expert advisory services for all your real estate underwriting needs.",
+    "servicesSection": {
+      "title": "Our Services",
+      "description": "We offer a full suite of underwriting services and solutions, including:",
+      "services": [
+        "Gathering and analyzing property information",
+        "Collecting and analyzing general market and submarket information",
+        "Financial modeling",
+        "A portfolio of built, ready-to-use Excel models",
+        "Creating Asset Summary Reports (ASRs)",
+        "Conducting income and operating expense trend analyses",
+        "Preparing detailed DCF analyses",
+        "Analyzing assets at individual, sub-portfolio or portfolio levels",
+        "Generating detailed or summary reports at the asset and portfolio level"
+      ]
+    },
+    "tailoredApproach": {
+      "title": "Tailored Approach",
+      "description": "At Stellarvest, we take a highly tailored approach towards underwriting. We start every underwriting assignment by reviewing and assessing the fundamental but critical details to ensure our work aligns perfectly with your specific needs and objectives, including:",
+      "details": [
+        "Type of asset",
+        "Asset class",
+        "Type of transaction",
+        "Client's objectives",
+        "Client's position in the capital stack",
+        "Availability of relevant information",
+        "Size and scope of project",
+        "Time frame"
+      ]
+    },
+    "team": {
+      "title": "Our Advisory Team",
+      "subtitle": "Led by experts with deep knowledge of real estate markets and financial analysis",
+      "members": [
+        {
+          "name": "Rui Calado",
+          "position": "Advisory Director",
+          "description": "With extensive expertise in real estate financial analysis and advisory services, Rui leads our underwriting and advisory team with precision and insight."
+        }
+      ]
+    },
+    "contactUs": "Talk to our advisory team"
+  },
+  "loansManagement": {
+    "title": "Loans Management",
+    "subtitle": "Expert Loan Management Services",
+    "intro": "StellarVest Asset Management offers comprehensive loan management services, with extensive experience in credit recovery, servicing, and outsourcing. We handle all types of loans, from performing to sub-performing and non-performing.",
+    "quote": "Expert loan management services, with tailored strategies for maximizing recovery and ensuring client-focused solutions.",
+    "whyStellarVest": {
+      "title": "Why StellarVest?",
+      "items": [
+        "Proven track record in Corporate Secured Debt",
+        "Tailored loan recovery strategies",
+        "Comprehensive loan management approach",
+        "Client-focused solutions",
+        "Integrated asset and legal management"
+      ]
+    },
+    "results": {
+      "title": "Our Results",
+      "recovered": "Recovered (since 2018)",
+      "recoveredAmount": "€230M",
+      "aum": "Assets Under Management",
+      "aumAmount": "€700M"
+    },
+    "approach": "Our approach emphasizes efficient and strategic debt recovery, prioritizing client-focused solutions and leveraging our integrated asset and legal management expertise. We understand that each loan portfolio has unique requirements, and we tailor our services accordingly.",
+    "servicesCapacity": {
+      "title": "Our Loans Services & Capacity",
+      "process": {
+        "step1": {
+          "name": "Loans Stratification & Strategy Design",
+          "description": "Portfolio analysis & Segmentation"
+        },
+        "step2": {
+          "name": "Amicable Resolution",
+          "description": "Negotiation and Customer centricity"
+        },
+        "step3": {
+          "name": "Legal Management & Recovery",
+          "description": "Best judicial strategy and court intervention"
+        },
+        "step4": {
+          "name": "Corporate & Single Names",
+          "description": "Tailor-made solutions for max value added"
+        }
+      },
+      "services": [
+        "Portfolio analysis",
+        "Portfolio Management",
+        "Negotiation",
+        "Payment agreements",
+        "Judicial strategy",
+        "Court interventions",
+        "Special management",
+        "Tailor-made solutions"
+      ],
+      "structure": {
+        "title": "STRUCTURE",
+        "items": [
+          "Teams with Asset Managers and Legal Managers working in simultaneous and joint effort to enhance recovery",
+          "Smooth workflows of amicable resolution through negotiation or legal recovery through the most adequate judicial proceedings",
+          "Cash in Court accurate control and management",
+          "Customized IT tools managing the entire portfolio from boarding to collections, managing payment agreements, legal files, sales and repossessions",
+          "Fully automated and controlled notification's management",
+          "Allocation by Loan Type, Investor and/or Portfolio",
+          "Special Asset and Legal Managers assigned to complex folders"
+        ]
+      },
+      "focus": {
+        "title": "FOCUS",
+        "items": [
+          "Performance driven",
+          "Investor driven",
+          "Holistic approach: loan, debtors/customers, assets",
+          "Proactive proceedings management",
+          "Online controls and reporting",
+          "Out of the box solutions, beyond simple liquidation",
+          "Simple yet effective procedures"
+        ]
+      }
+    },
+    "tagline": "Your Assets, Our Expertise",
+    "contactUs": "Talk to our loan management team",
+    "allServices": "See all our services"
+  },
+  "about": {
+    "title": "About us",
+    "intro": "Stellarvest Asset Management was created with the aim of maximizing asset value by providing our clients with an integrated and efficient approach. Our experience and skills range from analysis and strategic thinking to asset development, sales and after-sales. We manage assets from A to Z, with a mindset focused on maximizing asset appreciation.",
+    "ourHistory": "Our History",
+    "timeline": {
+      "oitante": {
+        "title": "Acquisition of Oitante's servicing platform",
+        "description": "The company began when it acquired the servicing platform from Oitante.",
+        "logoAlt": "Altamira Logo"
+      },
+      "altamira": {
+        "title": "doValue Group acquires Altamira Asset Management",
+        "description": "The doValue Group expanded its operations by acquiring Altamira Asset Management.",
+        "logoAlt": "doValue Logo"
+      },
+      "doValueRebranding": {
+        "title": "Rebranding of Altamira Portugal to doValue Portugal",
+        "description": "As part of a global rebranding strategy, Altamira Portugal became doValue Portugal.",
+        "logoAlt": "doRealEstate Logo"
+      },
+      "zarco": {
+        "title": "Incorporation of the securitization vehicle ZARCO STC",
+        "description": "The company diversified its offerings with the creation of the ZARCO STC securitization vehicle.",
+        "logoAlt": "ZARCO Logo"
+      },
+      "albatris": {
+        "title": "Albatris acquires doValue Portugal",
+        "description": "Albatris expanded into the Portuguese market with the acquisition of doValue Portugal.",
+        "logoAlt": "Albatris Logo"
+      },
+      "stellarvest": {
+        "title": "Rebranding of doValue Portugal to StellarVest",
+        "description": "The company completed its transformation with rebranding to StellarVest, better reflecting its mission and vision.",
+        "logoAlt": "StellarVest Logo"
+      }
+    },
+    "missionVision": {
+      "title": "Mission and Vision",
+      "mission": {
+        "title": "Mission",
+        "text": "Our mission is to provide specialized asset management solutions, ensuring maximum return for our clients. We are committed to offering integrated and personalized services, covering all phases of asset management in a single partner."
+      },
+      "vision": {
+        "title": "Vision",
+        "text": "Our vision is to be recognized as the first choice in complex asset management, offering a comprehensive and innovative approach to maximize the potential value of our clients' assets."
+      }
+    },
+    "whoWeAre": {
+      "title": "Who We Are",
+      "text1": "StellarVest Asset Management was created with the goal of maximizing asset value, providing our clients with an integrated and efficient approach. Our experience and skills range from analysis and strategic thinking to asset development, sales, and after-sales.",
+      "text2": "We manage assets from A to Z, with a mindset focused on maximizing asset appreciation."
+    },
+    "approach": {
+      "title": "Our Approach",
+      "text1": "Using an approach of End to End process of NPL (Non-Performing Loan) and Real Estate Owned (REO) Management that provides a 360º service, with cross-functional coordination where finance, compliance, marketing, and legal teams play an essential role throughout the process, in order to ensure efficiency, risk management, and maximum value recovery.",
+      "text2": "Our approach consist of five main stages, with specific tasks aligned to different business functions: Loans (loan assessments, pre-ACU claims, collateral valuations), REO Conversion (regularization strategy, documental and technical regularization, sale strategy definition), Asset Clean-Up & REO Management (development, brokers selection, pricing definition, REO valuations, marketing, property management, compliance and financial monitoring), Publication & Sale (asset publication and promotion, pricing, commercial offers, proposal management, break-in and rentals management), and Closing (deeds and promissory management, post-sale document management)."
+    },
+    "whyChoose": {
+      "title": "Why choose StellarVest Asset Management?",
+      "text1": "Choosing StellarVest Asset Management means choosing a partner committed to the success and maximum value of your assets. Our personalized and integrated approach, combined with our values of commitment, integrity, innovation, partnership and responsibility, guarantee a service of excellence and trust.",
+      "text2": "We are ready to be your trusted partner in the management of complex assets, providing innovative and effective solutions to maximize the value of your investments."
+    },
+    "workWithUs": {
+      "title": "Work with us",
+      "intro": "Join Stellarvest – Shape the Future of Investment Management. At Stellarvest, we believe that success is driven by innovation, talent, and ambition. If you're looking for a dynamic environment where you can grow professionally and make a real impact in the asset management and investment industry, this is the place for you.",
+      "whyJoin": {
+        "title": "Why Join Us?",
+        "items": [
+          "Career Growth & Development – We invest in your potential through training, mentoring, and career advancement opportunities.",
+          "Innovation & Technology – Work with cutting-edge tools that are transforming the asset management sector.",
+          "Collaborative Culture – Be part of a team that values knowledge sharing and teamwork.",
+          "Real Impact – Contribute to high-impact projects in finance, real estate, and NPL management."
+        ]
+      },
+      "areas": {
+        "title": "We are always looking for the best people in these areas:",
+        "items": [
+          "Asset & Investment Management",
+          "Financial Analysis & Risk Management",
+          "Technology & Data Analytics",
+          "Marketing & Business Development",
+          "Compliance & Regulatory Affairs"
+        ]
+      },
+      "challenge": "Ready for Your Next Challenge? Apply now and become part of a team redefining the future of asset management!",
+      "email": "Send your CV to recrutamento@stellarvest.pt",
+      "exploreMore": "or explore our opportunities at www.stellarvest.pt."
+    },
+    "tagline": "Your Assets, Our Expertise"
+  },
+  "securitization": {
+    "title": "Securitization Vehicle",
+    "subtitle": "Zarco STC at StellarVest",
+    "intro": "Zarco STC, SA was established with the objective of creating added value for our Clients by providing a full range of securitization services, approved by the Portuguese Market Authority (CMVM) with well defined independent organizational structure in contrast with market practice.",
+    "quote": "Adding value through independent, specialized securitization services.",
+    "whyStellarVest": {
+      "title": "Why Zarco STC?",
+      "description": "Zarco STC offers distinct advantages in the securitization landscape:",
+      "items": [
+        "Independent vehicle exclusively devoted to securitization with a fully dedicated team",
+        "Ensures all processes, procedures and reporting activities related to securitization management are delivered",
+        "Fully owned by Stellarvest, a servicing driven Group",
+        "Provides undisputed guarantee of independency to every investor who securitizes a portfolio",
+        "Ensures all information remains confidential and not shared with competitors",
+        "Full segregation of securitization and servicing activities",
+        "Works with any servicer chosen by the investor, whether it is Stellarvest or not"
+      ]
+    },
+    "approach": {
+      "title": "Our Approach shows",
+      "description": "Our methodology creates additional value through comprehensive reporting and strategic information management:",
+      "items": [
+        "Reports to the Bank of Portugal - Reports its borrowers and guarantors default status to the Bank of Portugal Credit Bureau (\"Central de Responsabilidades\") and this information is shared in the financial system, influencing the indebtedness capacity of those debtors",
+        "Negotiation and recovery potential - This pressures them to engage in negotiation and proceed with payment, increasing recovery potential. This report is not mandatory for STC, but Zarco is one of the few servicing securitization vehicles who does such report, understanding the significant added value to its Clients and Investors",
+        "Provider of financial information - Besides this, as a provider of financial information, Zarco is entitled to also receive the same level of info on its debtors under management, which is crucial for decision making models and tools"
+      ]
+    },
+    "process": {
+      "title": "The Securitization Process",
+      "description": "Our streamlined securitization process efficiently transfers assets from originators to investors:",
+      "step1": {
+        "title": "Asset Selection & Preparation",
+        "description": "Identifying suitable assets for securitization"
+      },
+      "step2": {
+        "title": "Structuring & Documentation",
+        "description": "Creating the optimal legal and financial framework"
+      },
+      "step3": {
+        "title": "Issuance & Settlement",
+        "description": "Efficient transfer of assets and securities"
+      },
+      "step4": {
+        "title": "Ongoing Management & Reporting",
+        "description": "Continuous oversight and investor communication"
+      }
+    },
+    "benefits": {
+      "title": "Benefits of Working with Zarco STC",
+      "items": [
+        "Independence and confidentiality",
+        "Regulatory compliance and reporting expertise",
+        "Enhanced recovery potential through Bank of Portugal reporting",
+        "Access to crucial debtor financial information",
+        "Flexibility to work with your preferred servicer",
+        "Experienced team dedicated exclusively to securitization",
+        "Seamless integration with the broader financial ecosystem"
+      ]
+    },
+    "diagram": {
+      "title": "Securitization Flow",
+      "originators": "Originators (Banks, Financial Institutions)",
+      "zarco": "Zarco STC",
+      "investors": "Investors (Noteholders)",
+      "assets": "Loans/Assets",
+      "cashflow": "Cash Flow",
+      "notes": "Notes"
+    },
+    "contactUs": "Talk to our securitization team",
+    "allServices": "See all our services",
+    "tagline": "Your Securitization, Our Expertise"
+  },
+  "footer": {
+    "navigation": {
+      "solutions": {
+        "title": "Solutions",
+        "loansManagement": "Loans Management",
+        "realEstateManagement": "Real Estate Asset Management",
+        "advisory": "Advisory",
+        "securitization": "Securitization Vehicle"
+      },
+      "support": {
+        "title": "Support",
+        "legalInfo": "Legal Information",
+        "cookies": "Cookie Policy",
+        "privacy": "Privacy Policy",
+        "whistleblowing": "Whistleblowing"
+      },
+      "company": {
+        "title": "Company",
+        "about": "About Us",
+        "services": "Services",
+        "contact": "Contact"
+      }
+    },
+    "copyright": "© 2024 StellarVest Asset Management, Unipessoal, Lda. All rights reserved."
+  },
+  "LoginPage": {
+    "title": "Access Our Portals",
+    "subtitle": "Connect to our specialized platforms for Real Estate, Brokers, and Investors.",
+    "realEstateWebsite": "Real Estate Website",
+    "realEstateDescription": "Explore our property listings and real estate services.",
+    "brokersPortal": "Brokers Portal",
+    "brokersPortalDescription": "Dedicated portal for our network of brokers.",
+    "investorPortal": "Investor Portal",
+    "investorPortalDescription": "Access exclusive information and manage your investments.",
+    "accessPortal": "Access Portal",
+    "backToHome": "Back to Home"
+  }
+}
