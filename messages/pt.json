@@ -46,7 +46,7 @@
   },
   "numbers": {
     "title": "Os nossos números",
-    "description": "Desde 2018, a nossa dedicação e abordagem eficiente permitiram-nos construir um portefólio robusto, com mais de €580M em vendas de imóveis (REO’s) e €230M em cobranças (Collections). Para nós, a gestão de ativos não se resume apenas a empréstimos ou propriedades — trata-se de compreender as necessidades únicas dos nossos clientes e superar as suas expetativas.",
+    "description": "Desde 2018, a nossa dedicação e abordagem eficiente permitiram-nos construir um portefólio robusto, com mais de €580M em vendas de imóveis (REO’s) e €230M em cobranças (Collections). Para nós, a gestão de ativos não se resume apenas a créditos ou propriedades — trata-se de compreender as necessidades únicas dos nossos clientes e superar as suas expetativas.",
     "since2018": "Desde 2018",
     "reos": {
       "title": "Vendas de REOs",
@@ -499,7 +499,7 @@
       "items": [
         "Histórico comprovado em Dívida Corporativa Garantida.",
         "Estratégias personalizadas de recuperação de créditos.",
-        "Abordagem abrangente de gestão de empréstimos.",
+        "Abordagem abrangente de gestão de créditos.",
         "Soluções focadas no cliente.",
         "Gestão integrada de ativos e jurídica."
       ]
@@ -511,7 +511,7 @@
       "aum": "Ativos sob Gestão",
       "aumAmount": "€700M"
     },
-    "approach": "A nossa abordagem enfatiza a recuperação de créditos de forma eficiente e estratégica, priorizando soluções focadas no cliente e aproveitando a nossa experiência em gestão integrada de ativos e jurídica. Entendemos que cada carteira de empréstimos tem requisitos únicos, e adaptamos os nossos serviços de acordo.",
+    "approach": "A nossa abordagem enfatiza a recuperação de créditos de forma eficiente e estratégica, priorizando soluções focadas no cliente e aproveitando a nossa experiência em gestão integrada de ativos e jurídica. Entendemos que cada carteira de créditos tem requisitos únicos, e adaptamos os nossos serviços de acordo.",
     "servicesCapacity": {
       "title": "Os nossos serviços e capacidade na gestão de créditos",
       "process": {
@@ -559,7 +559,7 @@
         "items": [
           "Foco no desempenho.",
           "Atenção no Cliente e Investidor.",
-          "Abordagem holística: empréstimos, devedores/clientes, ativos.",
+          "Abordagem holística: créditos, devedores/clientes, ativos.",
           "Gestão proativa ao nível de procedimentos.",
           "Controlos e relatórios online.",
           "Soluções out of the box, para além da simples liquidação.",
@@ -568,7 +568,7 @@
       }
     },
     "tagline": "Your Assets, Our Expertise",
-    "contactUs": "Fale com a nossa equipa de gestão de empréstimos",
+    "contactUs": "Fale com a nossa equipa de gestão de créditos",
     "allServices": "Ver todos os nossos serviços"
   },
   "securitization": {
@@ -635,7 +635,7 @@
       "originators": "Originadores (Bancos, Instituições Financeiras)",
       "zarco": "Zarco STC",
       "investors": "Investidores (Detentores de Notas)",
-      "assets": "Empréstimos/Ativos",
+      "assets": "Créditos/Ativos",
       "cashflow": "Fluxo de Caixa",
       "notes": "Notas"
     },
@@ -698,7 +698,7 @@
     "approach": {
       "title": "A nossa abordagem",
       "text1": "Utilizamos uma abordagem de processo End to End de NPL (Non-Performing Loan) e Gestão de Ativos Imobiliários (REO) que proporciona um serviço 360º, com coordenação multifuncional onde as equipas de finanças, compliance, marketing e jurídica desempenham um papel essencial ao longo de todo o processo, de forma a garantir a eficiência, a gestão de risco e a máxima recuperação de valor.",
-      "text2": "Nossa abordagem consiste em cinco etapas principais, com tarefas específicas alinhadas a diferentes funções de negócio: Empréstimos (avaliações de empréstimos, reclamações pré-ACU, avaliações de garantias), Conversão REO (estratégia de regularização, regularização documental e técnica, definição de estratégia de venda), Limpeza de Ativos e Gestão REO (desenvolvimento, seleção de corretores, definição de preços, avaliações REO, marketing, gestão de propriedades, monitorização de compliance e financeira), Publicação e Venda (publicação e promoção de ativos, pricing, ofertas comerciais, gestão de propostas, gestão de break-in e arrendamentos), e Encerramento (gestão de escrituras e promessas, gestão de documentos pós-venda)."
+      "text2": "Nossa abordagem consiste em cinco etapas principais, com tarefas específicas alinhadas a diferentes funções de negócio: Créditos (avaliações de créditos, reclamações pré-ACU, avaliações de garantias), Conversão REO (estratégia de regularização, regularização documental e técnica, definição de estratégia de venda), Limpeza de Ativos e Gestão REO (desenvolvimento, seleção de corretores, definição de preços, avaliações REO, marketing, gestão de propriedades, monitorização de compliance e financeira), Publicação e Venda (publicação e promoção de ativos, pricing, ofertas comerciais, gestão de propostas, gestão de break-in e arrendamentos), e Encerramento (gestão de escrituras e promessas, gestão de documentos pós-venda)."
     },
     "whyChoose": {
       "title": "Porque escolher a StellarVest Asset Management?",
