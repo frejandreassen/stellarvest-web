@@ -45,8 +45,7 @@ export default function ContactForm({ defaultTeam = '' }: { defaultTeam?: string
     { id: 'loans', value: t('form.teamSelect.options.loans') },
     { id: 'realEstate', value: t('form.teamSelect.options.realEstate') },
     { id: 'advisory', value: t('form.teamSelect.options.advisory') },
-    { id: 'legal', value: t('form.teamSelect.options.legal') },
-    { id: 'administration', value: t('form.teamSelect.options.administration') }
+    { id: 'legal', value: t('form.teamSelect.options.legal') }
   ];
 
   useEffect(() => {

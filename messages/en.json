@@ -190,8 +190,7 @@
           "loans": "Loan's Team",
           "realEstate": "Real estate Team",
           "advisory": "Advisory Team",
-          "legal": "Legal Team",
-          "administration": "Administration"
+          "legal": "Legal Team"
         }
       },
       "description": "Description",
