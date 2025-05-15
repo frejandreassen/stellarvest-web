@@ -40,7 +40,14 @@ export async function submitContact(formData: FormData) {
     });
 
     // Determine recipient email
-    const recipientEmail = team === 'Loans' ? 'clientes@stellarvest.pt' : 'info@stellarvest.pt';
+    let recipientEmail;
+    if (team === 'loans') { // Changed 'Loans' to 'loans'
+      recipientEmail = 'clientes@stellarvest.pt';
+    } else if (team === 'legal') { // Changed 'Legal' to 'legal'
+      recipientEmail = 'legal@stellarvest.pt';
+    } else {
+      recipientEmail = 'info@stellarvest.pt';
+    }
 
     const mailOptions = {
       from: process.env.GMAIL_EMAIL, // sender address
