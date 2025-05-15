@@ -266,7 +266,7 @@ function WorkWithUs() {
         <div className="hidden lg:flex lg:items-center mt-12 lg:mt-0">
           <div className="relative w-full h-full">
             <img
-              src="/Grupo_pessoas.jpg"
+              src="/Tablet.jpg"
               alt="Professionals at a conference table"
               className="rounded-xl shadow-xl object-cover object-center w-full h-auto max-h-[600px]"
             />
