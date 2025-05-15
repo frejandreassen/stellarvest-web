@@ -6,17 +6,17 @@ const people = [
   {
     id: 'rubenSommer',
     imageUrl: '/team/223 Ruben Sommer.png',
-    email: '',
+    email: 'ruben.sommer@stellarvest.pt',
   },
   {
     id: 'joaoRibeiro',
     imageUrl: '/team/Joֶo Ribeiro.jpg',
-    email: '',
+    email: 'joao.ribeiro@stellarvest.pt',
   },
   {
     id: 'pedroGuerreiro',
     imageUrl: '/team/Pedro Guerreiro.jpg',
-    email: '',
+    email: 'pedro.guerreiro@stellarvest.pt',
   },
 ]
 
@@ -68,7 +68,7 @@ export default function Team() {
                     href={`mailto:${person.email}`}
                     className="text-sm font-semibold leading-6 text-primary hover:text-primary/80"
                   >
-                    {person.email}
+                  {/*   {person.email} */}
                   </a>
                 </div>
                 <div className="mt-2">
