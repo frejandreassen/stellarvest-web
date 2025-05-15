@@ -6,17 +6,17 @@ const people = [
   {
     id: 'rubenSommer',
     imageUrl: '/team/223 Ruben Sommer.png',
-    email: 'ruben.sommer',
+    email: '',
   },
   {
     id: 'joaoRibeiro',
     imageUrl: '/team/Joֶo Ribeiro.jpg',
-    email: 'joao.ribeiro@stellarvest.pt',
+    email: '',
   },
   {
     id: 'pedroGuerreiro',
     imageUrl: '/team/Pedro Guerreiro.jpg',
-    email: 'pedro.guerreiro@stellarvest.pt',
+    email: '',
   },
 ]
 
