@@ -20,12 +20,12 @@ export default function LoginPage() {
       imageUrl: '/business-corporate-colleagues-co-workers-job-conce-2023-11-27-04-51-00-utc.png', // Placeholder
       descriptionKey: 'brokersPortalDescription',
     },
-    {/*
+    {
       nameKey: 'investorPortal',
-      href: 'https://investor.stellarvest.pt/',
+      href: '',  // https://investor.stellarvest.pt/
       imageUrl: '/corporate-moderl-office-with-laptop-on-desk-2023-11-27-05-14-15-utc.png', // Placeholder
       descriptionKey: 'investorPortalDescription',
-    */},
+    },
   ];
 
   return (
