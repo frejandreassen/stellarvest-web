@@ -83,14 +83,14 @@ export default function Team() {
             </li>
           ))}
         </ul>
-        <div className="mt-16 flex justify-center">
+       {/* <div className="mt-16 flex justify-center">
           <Link
             href="#contact"
             className="rounded-md bg-primary px-6 py-3 text-sm font-semibold text-white shadow-sm hover:bg-primary/90 transition-colors"
           >
             {t('contactButton')}
           </Link>
-        </div>
+        </div>*/}
       </div>
     </div>
   )
