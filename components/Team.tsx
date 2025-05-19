@@ -5,17 +5,17 @@ import Link from 'next/link'
 const people = [
   {
     id: 'rubenSommer',
-    imageUrl: '/team/223 Ruben Sommer.png',
+    imageUrl: '/team/223 Ruben Sommer_BW.png',
     email: 'ruben.sommer@stellarvest.pt',
   },
   {
     id: 'joaoRibeiro',
-    imageUrl: '/team/Joֶo Ribeiro.jpg',
+    imageUrl: '/team/Joaֶo Ribeiro_BW.jpg',
     email: 'joao.ribeiro@stellarvest.pt',
   },
   {
     id: 'pedroGuerreiro',
-    imageUrl: '/team/Pedro Guerreiro.jpg',
+    imageUrl: '/team/Pedro Guerreiro_BW.jpg',
     email: 'pedro.guerreiro@stellarvest.pt',
   },
 ]

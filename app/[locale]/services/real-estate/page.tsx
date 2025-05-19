@@ -10,7 +10,7 @@ import { useTranslations } from 'next-intl';
 const teamMembers = [
   {
     id: 'joaoRibeiro',
-    imageUrl: '/team/Joֶo Ribeiro.jpg',
+    imageUrl: '/team/Joaֶo Ribeiro_BW.jpg',
   },
   {
     id: 'monicaCohen',
