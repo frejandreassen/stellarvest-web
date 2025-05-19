@@ -5,7 +5,7 @@ import Link from 'next/link'
 const people = [
   {
     id: 'rubenSommer',
-    imageUrl: '/team/223 Ruben Sommer_BW.png',
+    imageUrl: '/team/223 Ruben Sommer_BW.jpg',
     email: 'ruben.sommer@stellarvest.pt',
   },
   {
