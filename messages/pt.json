@@ -46,7 +46,7 @@
   },
   "numbers": {
     "title": "Os nossos números",
-    "description": "Desde 2018, a nossa dedicação e abordagem eficiente permitiram-nos construir um portefólio robusto, com mais de €580M em vendas de imóveis (REO’s) e €230M em cobranças (Collections). Para nós, a gestão de ativos não se resume apenas a créditos ou propriedades — trata-se de compreender as necessidades únicas dos nossos clientes e superar as suas expetativas.",
+    "description": "Desde 2018, a nossa dedicação e abordagem eficiente permitiram-nos construir um portfólio robusto, com mais de €580M em vendas de imóveis (REO’s) e €230M em cobranças (Collections). Para nós, a gestão de ativos não se resume apenas a créditos ou propriedades — trata-se de compreender as necessidades únicas dos nossos clientes e superar as suas expetativas.",
     "since2018": "Desde 2018",
     "reos": {
       "title": "Vendas de REOs",
@@ -446,10 +446,10 @@
     "subtitle": "",
     "intro": "A equipa de Advisory presta um apoio sólido e especializado ao longo de todo o processo de análise e decisão de investimento. Com uma abordagem rigorosa e adaptada às particularidades de cada ativo ou portfólio, garantimos uma avaliação técnica robusta e alinhada com os objetivos dos nossos clientes.",
     "scaleText": "Estamos preparados para intervir em qualquer fase do processo, desde a análise preliminar até à execução completa do underwriting, assegurando sempre elevados padrões de qualidade, transparência e fiabilidade. Com capacidade para responder a projetos de diferentes dimensões e níveis de complexidade, acompanhamos o crescimento dos nossos clientes com soluções ajustadas, recursos especializados e um compromisso contínuo com a criação de valor sustentável.",
-    "quote": "Serviços especializados de advisory para todas as suas necessidades de underwriting imobiliário.",
+    "quote": "Serviços especializados de advisory para todas as suas necessidades de <i>underwriting</i> imobiliário.",
     "servicesSection": {
       "title": "Os nossos Serviços",
-      "description": "Oferecemos uma gama completa de serviços e soluções de underwriting, incluindo:",
+      "description": "Oferecemos uma gama completa de serviços e soluções de <i>underwriting<i>, incluindo:",
       "services": [
         "Análise de portfólios: revisão detalhada da composição do portfólio (tipo de crédito, garantias, perfil do devedor, maturidade, etc.).",
         "Due diligence financeira e documental: verificação e validação de dados contratuais, legais e financeiros associados aos créditos.",
