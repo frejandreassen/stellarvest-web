@@ -445,8 +445,8 @@
     "title": "Advisory",
     "subtitle": "",
     "intro": "A equipa de Advisory presta um apoio sólido e especializado ao longo de todo o processo de análise e decisão de investimento. Com uma abordagem rigorosa e adaptada às particularidades de cada ativo ou portfólio, garantimos uma avaliação técnica robusta e alinhada com os objetivos dos nossos clientes.",
-    "scaleText": "Estamos preparados para intervir em qualquer fase do processo, desde a análise preliminar até à execução completa do underwriting, assegurando sempre elevados padrões de qualidade, transparência e fiabilidade. Com capacidade para responder a projetos de diferentes dimensões e níveis de complexidade, acompanhamos o crescimento dos nossos clientes com soluções ajustadas, recursos especializados e um compromisso contínuo com a criação de valor sustentável.",
-    "quote": "Serviços especializados de advisory para todas as suas necessidades de underwriting imobiliário.",
+    "scaleText": "Estamos preparados para intervir em qualquer fase do processo, desde a análise preliminar até à execução completa do <Text style={styles.italic}>underwriting</Text>, assegurando sempre elevados padrões de qualidade, transparência e fiabilidade. Com capacidade para responder a projetos de diferentes dimensões e níveis de complexidade, acompanhamos o crescimento dos nossos clientes com soluções ajustadas, recursos especializados e um compromisso contínuo com a criação de valor sustentável.",
+    "quote": "Serviços especializados de advisory para todas as suas necessidades de <Text style={styles.italic}>underwriting</Text> imobiliário.",
     "servicesSection": {
       "title": "Os nossos Serviços",
       "description": "Oferecemos uma gama completa de serviços e soluções de <Text style={styles.italic}>underwriting</Text>, incluindo:",
@@ -465,7 +465,7 @@
     },
     "tailoredApproach": {
       "title": "Abordagem personalizada",
-      "description": "Na Stellarvest adotamos uma abordagem altamente personalizada para o underwriting de portfólios de NPL. Iniciamos cada projeto com uma análise aprofundada dos elementos fundamentais de cada crédito, assegurando o alinhamento total com os objetivos estratégicos do cliente.A nossa equipa combina experiência, rigor analítico e conhecimento de mercado, adaptando-se facilmente às exigências específicas de cada projeto.",
+      "description": "Na Stellarvest adotamos uma abordagem altamente personalizada para o <Text style={styles.italic}>underwriting</Text> de portfólios de NPL. Iniciamos cada projeto com uma análise aprofundada dos elementos fundamentais de cada crédito, assegurando o alinhamento total com os objetivos estratégicos do cliente.A nossa equipa combina experiência, rigor analítico e conhecimento de mercado, adaptando-se facilmente às exigências específicas de cada projeto.",
       "details": [
         "Acompanhamento 24/7 em todas as fases do processo de investimento.",
         "Asseguramos previsibilidade aos possíveis cenários de recuperação.",
@@ -482,7 +482,7 @@
         {
           "name": "Rui Calado",
           "position": "Advisory Director",
-          "description": "Com ampla experiência em análise financeira imobiliária e serviços de consultoria, Rui lidera a nossa equipa de underwriting e advisory com precisão e perspicácia."
+          "description": "Com ampla experiência em análise financeira imobiliária e serviços de consultoria, Rui lidera a nossa equipa de <Text style={styles.italic}>underwriting</Text> e advisory com precisão e perspicácia."
         }
       ]
     },
