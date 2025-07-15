@@ -37,7 +37,7 @@ export default function Hero() {
         {/* Updated gradient overlay: white to black */}
         <div className="absolute inset-0 bg-gradient-to-b from-white via-black/40 to-black/50"></div>
       </div>
-      <div className="relative z-10 h-full">
+      <div className="relative z-30 h-full">
         <Header />
         <div className="relative px-6 lg:px-8 flex items-center justify-center h-full">
           <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
