@@ -9,11 +9,6 @@ const people = [
     email: 'ruben.sommer@stellarvest.pt',
   },
   {
-    id: 'joaoRibeiro',
-    imageUrl: '/team/Joaֶo Ribeiro_BW.jpg',
-    email: 'joao.ribeiro@stellarvest.pt',
-  },
-  {
     id: 'pedroGuerreiro',
     imageUrl: '/team/Pedro Guerreiro_BW.jpg',
     email: 'pedro.guerreiro@stellarvest.pt',
@@ -36,7 +31,7 @@ export default function Team() {
         </div>
         <ul
           role="list"
-          className="mx-auto mt-20 grid max-w-2xl grid-cols-1 gap-x-6 gap-y-20 sm:grid-cols-2 lg:max-w-4xl lg:gap-x-8 xl:max-w-none xl:grid-cols-3"
+          className="mx-auto mt-20 grid max-w-2xl grid-cols-1 gap-x-6 gap-y-20 sm:grid-cols-2 lg:max-w-4xl lg:gap-x-8 xl:max-w-none xl:grid-cols-2"
         >
           {people.map((person) => (
             <li key={person.id} className="flex flex-col gap-6">
