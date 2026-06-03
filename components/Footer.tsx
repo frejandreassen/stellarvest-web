@@ -22,6 +22,7 @@ export default function Footer() {
       { nameKey: 'about', href: '/#about' },
       { nameKey: 'services', href: '/#services' },
       { nameKey: 'contact', href: '/#contact' },
+      { nameKey: 'complaintsbook', href: 'https://www.livroreclamacoes.pt/Inicio/' },
     ],
   };
 
@@ -59,16 +60,18 @@ export default function Footer() {
                   {t('navigation.company.title')}
                 </h3>
                 <ul role="list" className="mt-6 space-y-4">
-                  {footerNavigation.company.map((item) => (
-                    <li key={item.nameKey}>
-                      <a 
-                        href={item.href} 
-                        className="text-sm leading-6 text-gray-600 hover:text-gray-900"
-                      >
-                        {t(`navigation.company.${item.nameKey}`)}
-                      </a>
-                    </li>
-                  ))}
+                {footerNavigation.company.map((item) => (
+                  <li key={item.nameKey}>
+                    <a
+                      href={item.href}
+                      target={item.href.startsWith('http') ? '_blank' : undefined}
+                      rel={item.href.startsWith('http') ? 'noopener noreferrer' : undefined}
+                      className="text-sm leading-6 text-gray-600 hover:text-gray-900"
+                    >
+                      {t(`navigation.company.${item.nameKey}`)}
+                    </a>
+                  </li>
+                ))}
                 </ul>
               </div>
             </div>

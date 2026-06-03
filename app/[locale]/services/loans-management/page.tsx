@@ -94,6 +94,9 @@ export default function LoansManagement() {
                                             <p className="mt-8">
                                                 {t('approach')}
                                             </p>
+                                            <p className="mt-8">
+                                                {t('bdpauthorizationnumber')}
+                                            </p>                                            
                                             <p className="mt-6 text-lg font-semibold text-gray-900">
                                                 {t('tagline')}
                                             </p>

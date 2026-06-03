@@ -221,7 +221,7 @@
     "offices": {
       "lisbon": {
         "title": "Sede - Escritório de Lisboa",
-        "address": "Av. Da Republica 90, Piso 2 Esq.  | 1600-206 Lisboa"
+        "address": "Campo Grande, 28, 3 D | 1700-093 Lisboa"
       },
       "porto": {
         "title": "Escritório do Porto",
@@ -511,6 +511,7 @@
       "aumAmount": "€700M"
     },
     "approach": "A nossa abordagem enfatiza a recuperação de créditos de forma eficiente e estratégica, priorizando soluções focadas no cliente e aproveitando a nossa experiência em gestão integrada de ativos e jurídica. Entendemos que cada carteira de créditos tem requisitos únicos, e adaptamos os nossos serviços de acordo.",
+    "bdpauthorizationnumber": "Entidade autorizada pelo Banco de Portugal com o número 60005.",    
     "servicesCapacity": {
       "title": "Os nossos serviços e capacidade na gestão de créditos",
       "process": {
@@ -752,10 +753,11 @@
         "title": "Empresa",
         "about": "Sobre Nós",
         "services": "Serviços",
-        "contact": "Contacto"
+        "contact": "Contacto",
+        "complaintsbook": "Livro de Reclamações"
       }
     },
-    "copyright": "© 2024 StellarVest Asset Management, Unipessoal, Lda. Todos os direitos reservados."
+    "copyright": "© 2026 StellarVest Asset Management, Unipessoal, Lda. Todos os direitos reservados."
   },
   "LoginPage": {
     "title": "Aceda aos Nossos Portais",

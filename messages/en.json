@@ -220,7 +220,7 @@
     "offices": {
       "lisbon": {
         "title": "Headquarters - Lisbon Office",
-        "address": "Av. da República 90, Floor 2 Left| 1600-206 Lisbon"
+        "address": "Campo Grande, 28, 3 D | 1700-093 Lisbon"
       },
       "porto": {
         "title": "Porto Office",
@@ -511,6 +511,7 @@
       "aumAmount": "€700M"
     },
     "approach": "Our approach emphasizes efficient and strategic debt recovery, prioritizing client-focused solutions and leveraging our integrated asset and legal management expertise. We understand that each loan portfolio has unique requirements, and we tailor our services accordingly.",
+    "bdpauthorizationnumber": "Entity authorized by the Bank of Portugal under number 60005.",
     "servicesCapacity": {
       "title": "Our Loans Services & Capacity",
       "process": {
@@ -752,10 +753,11 @@
         "title": "Company",
         "about": "About Us",
         "services": "Services",
-        "contact": "Contact"
+        "contact": "Contact",
+        "complaintsbook": "Complaints Book"
       }
     },
-    "copyright": "© 2024 StellarVest Asset Management, Unipessoal, Lda. All rights reserved."
+    "copyright": "© 2026 StellarVest Asset Management, Unipessoal, Lda. All rights reserved."
   },
   "LoginPage": {
     "title": "Access Our Portals",

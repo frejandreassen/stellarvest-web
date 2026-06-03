@@ -6,7 +6,7 @@ import MapComponent from './Map';
 export default function Contact() {
   const t = useTranslations('contact');
   
-  const lisbonLocation = { lat: 38.7470753410278, lng: -9.147653390171962 };
+  const lisbonLocation = { lat: 38.74984958092467, lng: -9.148106803289352 };
   const portoLocation = { lat: 41.17106201251337, lng: -8.642406436590408 };
 
   return (
